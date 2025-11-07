@@ -79,6 +79,10 @@ const Guide: DefaultTheme.SidebarItem[] = [
     text: 'FAQ',
     link: '/guide/faq',
   },
+  {
+    text: 'Mermaid Diagrams',
+    link: '/guide/mermaid-diagrams',
+  },
 ]
 
 const Deployment: DefaultTheme.SidebarItem[] = [
@@ -359,14 +363,38 @@ export default withPwa(defineConfig({
     },
     search: {
       provider: 'local',
-      /*
-      provider: 'algolia',
       options: {
-        appId: 'TTO9T0AE3F',
-        apiKey: '71bd3d3c7274205843267bb1ccb6b1a8',
-        indexName: 'vite-plugin-pwa',
+        miniSearch: {
+          searchOptions: {
+            fuzzy: 0.2,
+            prefix: true,
+            boost: {
+              title: 4,
+              text: 2,
+              titles: 1,
+            },
+          },
+        },
+        _render(src, env, md) {
+          // Exclude specific files from search to reduce index size
+          const excludePatterns = [
+            'MERMAID_IMPLEMENTATION',
+            'MERMAID_README',
+            'CONTRIBUTING',
+          ]
+          
+          if (env.relativePath && excludePatterns.some(pattern => env.relativePath.includes(pattern))) {
+            return ''
+          }
+          
+          // Exclude pages with search: false in frontmatter
+          if (env.frontmatter?.search === false) {
+            return ''
+          }
+          
+          return md.render(src, env)
+        },
       },
-       */
     },
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/uccDuWkScq' },

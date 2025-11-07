@@ -2,6 +2,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import PwaLayout from './PwaLayout.vue'
+import Mermaid from './Mermaid.vue'
 
 import './styles/main.css'
 import './styles/vars.css'
@@ -13,5 +14,9 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(PwaLayout)
+  },
+  enhanceApp({ app }) {
+    // Register Mermaid component globally
+    app.component('Mermaid', Mermaid)
   },
 } satisfies Theme

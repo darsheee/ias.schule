@@ -14,21 +14,6 @@
   },
   "bugs": "https://github.com/vite-pwa/docs/issues",
   "keywords": [
-    "react",
-    "pwa",
-    "vue",
-    "vitepress",
-    "preact",
-    "svelte",
-    "sveltekit",
-    "workbox",
-    "solidjs",
-    "vite",
-    "vite-plugin",
-    "astro",
-    "astro-integration",
-    "iles",
-    "nuxt",
     "nuxt module"
   ],
   "engines": {
@@ -37,7 +22,7 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "nr build && vitepress serve",
+    "serve": "nr build && vitepress serve",
     "https": "nr build && serve .vitepress/dist",
     "lint": "eslint .",
     "lint:fix": "nr lint --fix",

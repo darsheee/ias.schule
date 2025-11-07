@@ -1,6 +1,7 @@
 ---
 title: Vite, Rollup, PWA and Workbox Cookbook | Guide
 outline: deep
+search: false
 ---
 
 <script setup>
