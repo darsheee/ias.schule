@@ -56,11 +56,12 @@ onMounted(async () => {
 onUnmounted(() => mut?.disconnect())
 
 const renderChart = async () => {
-  const hasDarkClass = document.documentElement.classList.contains('dark')
   const mermaidConfig = {
     securityLevel: 'loose' as const,
     startOnLoad: false,
-    theme: hasDarkClass ? 'dark' as const : 'default' as const,
+    theme: 'forest' as const,
+    look: 'handDrawn' as const,
+    layout: 'elk' as const,
   }
   const svgCode = await render(props.id, code.value, mermaidConfig)
   // Force v-html to re-render on theme changes

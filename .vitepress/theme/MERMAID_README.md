@@ -6,7 +6,8 @@ This implementation adds Mermaid diagram support to your VitePress documentation
 
 ### 1. `Mermaid.vue`
 The Vue component that renders Mermaid diagrams. It includes:
-- Dark/light theme support
+- Forest theme with hand-drawn look
+- ELK layout engine for better diagram organization
 - Automatic re-rendering on theme changes
 - Support for all Mermaid diagram types
 
@@ -21,9 +22,12 @@ Registers the Mermaid component globally so it can be used in any markdown file.
 1. **Component Registration**: The `Mermaid` component is registered globally in `theme/index.ts`
 2. **Rendering**: When you use `<Mermaid>` in markdown, it:
    - Decodes the diagram syntax from the `graph` parameter
-   - Initializes Mermaid with the current theme (dark/light)
+   - Initializes Mermaid with global configuration:
+     - **Theme**: `forest` - Nature-inspired color scheme
+     - **Look**: `handDrawn` - Sketchy, hand-drawn appearance
+     - **Layout**: `elk` - Advanced layout algorithm for complex diagrams
    - Renders the diagram as SVG
-   - Monitors theme changes and re-renders automatically
+   - Re-renders on theme changes
 
 ## Usage in Markdown Files
 
@@ -76,24 +80,53 @@ All Mermaid diagram types are supported:
 
 ## Features
 
-✅ **Theme Aware**: Automatically switches between light and dark themes
+✅ **Hand-Drawn Style**: Sketchy, informal appearance using `handDrawn` look
+✅ **Forest Theme**: Nature-inspired color scheme
+✅ **ELK Layout**: Advanced layout algorithm for complex diagrams
 ✅ **Browser Compatible**: Works in all modern browsers (Firefox, Chrome, Safari, Edge)
 ✅ **Type Safe**: Full TypeScript support
 ✅ **Zero Config**: Works out of the box with your VitePress setup
 
-## Configuration
+## Global Configuration
 
-The Mermaid configuration is set in the `Mermaid.vue` component:
+All Mermaid diagrams use these global settings in `Mermaid.vue`:
 
 ```typescript
 const mermaidConfig = {
   securityLevel: 'loose',
   startOnLoad: false,
-  theme: hasDarkClass ? 'dark' : 'default',
+  theme: 'forest',        // Nature-inspired green color scheme
+  look: 'handDrawn',      // Sketchy, hand-drawn appearance
+  layout: 'elk',          // Advanced layout algorithm
 }
 ```
 
-You can customize this in the `renderChart` function in `Mermaid.vue`.
+### Configuration Options
+
+- **theme**: `'forest'` - Green, nature-inspired colors
+  - Alternatives: `'default'`, `'dark'`, `'neutral'`, `'base'`
+- **look**: `'handDrawn'` - Sketchy, informal style
+  - Alternatives: `'classic'` (default)
+- **layout**: `'elk'` - ELK (Eclipse Layout Kernel) for better diagram organization
+  - Better handling of complex graphs and flowcharts
+  - Improved node placement and edge routing
+
+### Customizing Configuration
+
+To change global settings, edit `renderChart` function in `.vitepress/theme/Mermaid.vue`:
+
+```typescript
+const renderChart = async () => {
+  const mermaidConfig = {
+    securityLevel: 'loose' as const,
+    startOnLoad: false,
+    theme: 'forest' as const,     // Change theme here
+    look: 'handDrawn' as const,   // Change look here
+    layout: 'elk' as const,       // Change layout here
+  }
+  // ...
+}
+```
 
 ## Troubleshooting
 
@@ -102,9 +135,15 @@ You can customize this in the `renderChart` function in `Mermaid.vue`.
 - Check that the `graph` parameter is properly URL-encoded
 - Open browser console to see any Mermaid syntax errors
 
-### Theme not switching
-- The component monitors `document.documentElement` for the `dark` class
-- Ensure your VitePress theme uses this class for dark mode
+### Hand-drawn look not showing
+- The `handDrawn` look requires Mermaid v10.5.0 or higher
+- Check that you have the latest Mermaid version installed
+- Some diagram types may not support hand-drawn rendering
+
+### Layout issues
+- ELK layout works best with flowcharts and graphs
+- For simpler diagrams, consider switching to default layout
+- Complex diagrams may take longer to render with ELK
 
 ## Dependencies
 
