@@ -2,7 +2,7 @@ import type { PwaOptions } from '@vite-pwa/vitepress'
 
 export const pwa: Partial<PwaOptions> = {
   outDir: '.vitepress/dist',
-  registerType: 'prompt',
+  registerType: 'autoUpdate',
   includeManifestIcons: false,
   manifest: {
     id: '/',

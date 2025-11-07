@@ -1,11 +1,18 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide } from 'vue'
+import { nextTick, onMounted, provide } from 'vue'
 import HomePage from './components/HomePage.vue'
-import ReloadPrompt from './components/ReloadPrompt.vue'
 
 const { isDark } = useData()
+
+// Register service worker with autoUpdate behavior
+onMounted(async () => {
+  if ('serviceWorker' in navigator) {
+    const { registerSW } = await import('virtual:pwa-register')
+    registerSW({ immediate: true })
+  }
+})
 
 function enableTransitions() {
   return 'startViewTransition' in document
@@ -47,9 +54,6 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   <DefaultTheme.Layout>
     <template #home-features-after>
       <HomePage />
-    </template>
-    <template #layout-bottom>
-      <ReloadPrompt />
     </template>
   </DefaultTheme.Layout>
 </template>

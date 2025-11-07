@@ -29,8 +29,12 @@
     "generate-pwa-icons": "pwa-assets-generator"
   },
   "dependencies": {
+    "@observablehq/plot": "^0.6.16",
     "@vueuse/core": "^13.9.0",
     "@vueuse/shared": "^13.9.0",
+    "d3": "^7.9.0",
+    "jiti": "^2.6.1",
+    "mermaid": "^11.12.1",
     "vue": "^3.5.22"
   },
   "devDependencies": {

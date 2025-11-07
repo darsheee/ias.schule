@@ -83,6 +83,18 @@ const Guide: DefaultTheme.SidebarItem[] = [
     text: 'Mermaid Diagrams',
     link: '/guide/mermaid-diagrams',
   },
+  {
+    text: 'D3 Charts',
+    link: '/guide/d3-charts',
+  },
+  {
+    text: 'Grouped Bar Charts',
+    link: '/guide/grouped-bar-charts',
+  },
+  {
+    text: 'Pie & Donut Charts',
+    link: '/guide/pie-charts',
+  },
 ]
 
 const Deployment: DefaultTheme.SidebarItem[] = [
