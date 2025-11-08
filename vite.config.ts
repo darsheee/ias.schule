@@ -55,6 +55,12 @@ export default defineConfig({
     // https://github.com/unocss/unocss
     Unocss({
       presets: [presetWind3(), presetAttributify()],
+      safelist: [
+        'select-none',
+        'select-text',
+        'select-all',
+        'select-auto',
+      ],
     }),
   ],
 })

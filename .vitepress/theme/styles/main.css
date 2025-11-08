@@ -1,3 +1,30 @@
+/*
+ * UnoCSS Utilities Available Globally:
+ * - select-none: Disable text selection
+ * - select-text: Enable text selection (default)
+ * - select-all: Select all on click
+ * - select-auto: Browser default behavior
+ * 
+ * Usage: Add class="select-none" to any element
+ */
+
+/* Global user-select: none for ALL content site-wide */
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Allow selection only for input fields (for functionality) */
+input,
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
 /* show/hide PWA icon in navbar */
 .dark [img-light],
 .dark .logo[light-logo] {
@@ -52,9 +79,12 @@ img.resizable-img {
   white-space: pre-wrap;
 }
 
+details > summary {
+  cursor: pointer;
+}
+
 details > summary:hover {
   cursor: pointer;
-  user-select: none;
 }
 
 .custom-block.tip code,
