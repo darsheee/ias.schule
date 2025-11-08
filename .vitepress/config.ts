@@ -187,7 +187,7 @@ const ogImage = `${ogUrl}og-image.png`
 export default withPwa(defineConfig({
   lang: 'en-US',
   title: 'IAS Schule',
-  description: 'Beautiful, Interactive Data Visualizations with Observable Plot & D3.js',
+  description: 'Complete UPSC Civil Services Preparation Platform - GS Papers, Essay, Prelims, Current Affairs',  
   ignoreDeadLinks: true,
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -197,14 +197,14 @@ export default withPwa(defineConfig({
     ['meta', { name: 'author', content: 'IAS Schule' }],
     ['meta', {
       name: 'keywords',
-      content: 'data visualization, Observable Plot, D3.js, charts, graphs, Vue, VitePress, bar charts, scatter plots, area charts, pie charts, diagrams',
+      content: 'UPSC, IAS, Civil Services, GS Paper 1, GS Paper 2, GS Paper 3, GS Paper 4, Essay, Prelims, CSAT, Current Affairs, Indian Polity, History, Geography, Economy',
     }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'IAS Schule - Data Visualization Library' }],
+    ['meta', { property: 'og:title', content: 'IAS Schule - UPSC Civil Services Preparation' }],
     ['meta', { property: 'og:image', content: ogImage }],
-    ['meta', { property: 'og:description', content: 'Beautiful, Interactive Data Visualizations with Observable Plot & D3.js' }],
+    ['meta', { property: 'og:description', content: 'Complete UPSC Civil Services Preparation Platform - GS Papers, Essay, Prelims, Current Affairs' }],
     ['meta', { property: 'og:url', content: ogUrl }],
-    ['meta', { name: 'twitter:description', content: 'Beautiful, Interactive Data Visualizations with Observable Plot & D3.js' }],
+    ['meta', { name: 'twitter:description', content: 'Complete UPSC Civil Services Preparation Platform - GS Papers, Essay, Prelims, Current Affairs' }],
     ['meta', { name: 'twitter:title', content: 'IAS Schule' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: ogImage }],
@@ -226,11 +226,7 @@ export default withPwa(defineConfig({
     root: { label: 'English' },
   },
   themeConfig: {
-    // logo: '/favicon.svg',
-    editLink: {
-      pattern: 'https://github.com/darsheee/ias.schule/edit/main/:path',
-      text: 'Suggest changes to this page',
-    },
+    siteTitle: 'IAS Schule',
     search: {
       provider: 'local',
       options: {
@@ -274,33 +270,33 @@ export default withPwa(defineConfig({
     },
     nav: [
       {
-        text: 'Visualizations',
-        link: '/guide/',
-        activeMatch: '^/guide/',
+        text: 'Home',
+        link: '/',
       },
       {
-        text: 'UPSC',
+        text: 'General Studies',
         items: [
           {
-            text: 'Overview',
-            link: '/upsc/',
-          },
-          {
-            text: 'General Studies I',
+            text: 'GS Paper I',
             link: '/upsc/gs1/',
           },
           {
-            text: 'General Studies II',
+            text: 'GS Paper II',
             link: '/upsc/gs2/',
           },
           {
-            text: 'General Studies III',
+            text: 'GS Paper III',
             link: '/upsc/gs3/',
           },
           {
-            text: 'General Studies IV',
+            text: 'GS Paper IV',
             link: '/upsc/gs4/',
           },
+        ],
+      },
+      {
+        text: 'Essay & Prelims',
+        items: [
           {
             text: 'Essay',
             link: '/upsc/essay/',
@@ -312,46 +308,8 @@ export default withPwa(defineConfig({
         ],
       },
       {
-        text: 'Charts',
-        items: [
-          {
-            text: 'D3 Charts',
-            link: '/guide/d3-charts',
-          },
-          {
-            text: 'Grouped Bar Charts',
-            link: '/guide/grouped-bar-charts',
-          },
-          {
-            text: 'Gradient Charts',
-            link: '/guide/gradient-charts',
-          },
-          {
-            text: 'Area Charts',
-            link: '/guide/area-charts',
-          },
-          {
-            text: 'Scatter Plots',
-            link: '/guide/scatter-plots',
-          },
-          {
-            text: 'Percentogram',
-            link: '/guide/percentogram',
-          },
-          {
-            text: 'Pie & Donut Charts',
-            link: '/guide/pie-charts',
-          },
-        ],
-      },
-      {
-        text: 'Diagrams',
-        items: [
-          {
-            text: 'Mermaid Diagrams',
-            link: '/guide/mermaid-diagrams',
-          },
-        ],
+        text: 'About',
+        link: '/upsc/',
       },
     ],
     sidebar: {

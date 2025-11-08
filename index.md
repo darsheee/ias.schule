@@ -8,9 +8,8 @@ hero:
   name: IAS Schule
   text: UPSC Civil Services
   tagline: |
-    Complete UPSC Preparation Platform
-    GS Papers • Essay • Prelims • Interactive Visualizations
-    Comprehensive Content • Smart Navigation
+    Complete UPSC Civil Services Preparation Platform
+    GS Papers • Essay • Prelims • Current Affairs
   image:
     light:
       src: /icon_light.svg
@@ -23,8 +22,8 @@ hero:
       text: Start UPSC Prep
       link: /upsc/
     - theme: alt
-      text: View Visualizations
-      link: /guide/
+      text: Browse Syllabus
+      link: /upsc/gs1/
 
 features:
   - icon: 📚
@@ -57,17 +56,15 @@ features:
     details: Paper I & II strategies, PYQs, test series, and comprehensive revision materials
     link: /upsc/prelims/
     linkText: Explore Prelims
-  - icon: 📊
-    title: Data Visualizations
-    details: Interactive charts, graphs, timelines, and mind maps for visual learning
-    link: /guide/
-    linkText: View Charts Library
-  - icon: 🗺️
-    title: Mind Maps & Timelines
-    details: Visual representation of complex topics for better retention and quick revision
-  - icon: 📈
-    title: Statistical Analysis
-    details: Data-driven insights with Observable Plot and D3.js visualizations
+  - icon: 🔍
+    title: Smart Search
+    details: Quick navigation through thousands of topics with powerful search functionality
+  - icon: 📝
+    title: Detailed Notes
+    details: Comprehensive topic-wise notes covering entire syllabus for Mains and Prelims
+  - icon: 📋
+    title: Previous Year Questions
+    details: Topic-wise PYQs with solutions for effective practice and revision
   - icon: 🎓
     title: Structured Content
     details: Syllabus-mapped organization with easy navigation and cross-referencing
