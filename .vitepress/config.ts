@@ -83,10 +83,43 @@ const UPSC: DefaultTheme.SidebarItem[] = [
     link: '/upsc/gs2/',
     collapsed: true,
     items: [
-      { text: 'Constitution', link: '/upsc/gs2/constitution/' },
-      { text: 'Polity', link: '/upsc/gs2/polity/' },
-      { text: 'Judiciary', link: '/upsc/gs2/judiciary/' },
-      { text: 'Constitutional Bodies', link: '/upsc/gs2/bodies/' },
+      { 
+        text: 'Constitution', 
+        link: '/upsc/gs2/constitution/',
+        collapsed: true,
+        items: [
+          { text: 'Fundamental Rights', link: '/upsc/gs2/constitution/fundamental-rights' },
+          { text: 'Directive Principles', link: '/upsc/gs2/constitution/dpsp' },
+          { text: 'Fundamental Duties', link: '/upsc/gs2/constitution/fundamental-duties' },
+        ]
+      },
+      { 
+        text: 'Polity', 
+        link: '/upsc/gs2/polity/',
+        collapsed: true,
+        items: [
+          { text: 'Parliament', link: '/upsc/gs2/polity/parliament' },
+          { text: 'Federalism', link: '/upsc/gs2/polity/federalism' },
+          { text: 'Local Government', link: '/upsc/gs2/polity/local-government' },
+          { text: 'Citizenship', link: '/upsc/gs2/polity/citizenship' },
+        ]
+      },
+      { 
+        text: 'Judiciary', 
+        link: '/upsc/gs2/judiciary/',
+        collapsed: true,
+        items: [
+          { text: 'Supreme Court', link: '/upsc/gs2/judiciary/supreme-court' },
+        ]
+      },
+      { 
+        text: 'Constitutional Bodies', 
+        link: '/upsc/gs2/bodies/',
+        collapsed: true,
+        items: [
+          { text: 'Election Commission', link: '/upsc/gs2/bodies/election-commission' },
+        ]
+      },
       { text: 'Governance', link: '/upsc/gs2/governance/' },
       { text: 'Government Policies', link: '/upsc/gs2/policies/' },
       { text: 'Welfare Schemes', link: '/upsc/gs2/schemes/' },
