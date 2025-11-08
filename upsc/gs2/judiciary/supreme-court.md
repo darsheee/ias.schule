@@ -9,25 +9,26 @@ title: Supreme Court of India | Judiciary
 
 ## 🏛️ Constitutional Provisions
 
-:::details **Articles 124-147**
-- **Article 124**: Establishment composition
-- **Judges**: 1 CJI, 33 other judges
-- **Appointment**: President appoints
+:::details **Articles 124-147 (Part V Ch IV)**
+- **Art 124**: Establishment of Supreme Court
+- **Art 124(1)**: 1 CJI + 33 other judges
+- **Art 124(2)**: President appoints
 - **Collegium System**: 1993 evolved
-- **Age Limit**: 65 years retirement
+- **Art 124(2)**: Age limit 65 years
 :::
 
-:::details **Qualifications**
+:::details **Qualifications (Art 124(3))**
 - **Citizenship**: Indian citizen
 - **High Court Judge**: 5 years or
-- **Advocate**: 10 years or
+- **Advocate High Court**: 10 years or
 - **Distinguished Jurist**: President opinion
 :::
 
-:::details **Removal**
-- **Impeachment**: Parliament can
+:::details **Removal (Art 124(4))**
+- **Art 124(4)**: Removal by President
+- **Address**: Both Houses Parliament
 - **Grounds**: Proven misbehavior, incapacity
-- **Special Majority**: Required
+- **Special Majority**: 2/3rd present + majority total
 - **Never Happened**: Yet
 :::
 
@@ -35,35 +36,42 @@ title: Supreme Court of India | Judiciary
 
 ## ⚖️ Jurisdiction
 
-:::details **Original Jurisdiction (Article 131)**
-- **Centre vs State**: Disputes
-- **State vs State**: Disputes
+:::details **Original Jurisdiction (Art 131)**
+- **Art 131**: Exclusive jurisdiction
+- **Centre vs State**: Disputes Art 131(a)
+- **State vs State**: Disputes Art 131(b)
 - **Interstate**: Water disputes excluded
 - **Exclusive**: Only SC hears
 :::
 
-:::details **Writ Jurisdiction (Article 32)**
+:::details **Writ Jurisdiction (Art 32)**
+- **Art 32**: Constitutional remedies
+- **Art 32(1)**: Right to move SC
+- **Art 32(2)**: Power to issue writs
 - **Habeas Corpus**: Produce body
 - **Mandamus**: Command performance
 - **Prohibition**: Stop proceedings
 - **Certiorari**: Quash order
 - **Quo Warranto**: By what authority
-- **"Heart and Soul"**: Dr. Ambedkar
+- **"Heart and Soul"**: Dr. Ambedkar called
 :::
 
 :::details **Appellate Jurisdiction**
-- **Constitutional Matters**: Article 132
-- **Civil Cases**: Article 133
-- **Criminal Cases**: Article 134
-- **Special Leave Petition**: Article 136
-- **Certificate**: High Court grants
+- **Constitutional Matters**: Art 132
+- **Civil Cases**: Art 133
+- **Criminal Cases**: Art 134
+- **Special Leave Petition**: Art 136
+  - Art 136: Discretionary power
+  - Any judgment, decree, order
+- **Certificate**: High Court grants Art 132-134
 :::
 
-:::details **Advisory Jurisdiction (Article 143)**
-- **President Reference**: Can seek opinion
+:::details **Advisory Jurisdiction (Art 143)**
+- **Art 143**: Advisory jurisdiction
+- **Art 143(1)**: President may refer
 - **Non-Binding**: Advice nature
 - **Public Importance**: Matters
-- **Recent**: Article 370, Ayodhya
+- **Recent**: Art 370 abrogation, Ayodhya
 :::
 
 ---
@@ -188,11 +196,15 @@ title: Supreme Court of India | Judiciary
 ## 🔑 Key Facts for Revision
 
 :::details **Important Articles**
-- **Article 124**: Establishment
-- **Article 32**: Writ jurisdiction
-- **Article 131**: Original jurisdiction
-- **Article 136**: SLP provision
-- **Article 143**: Advisory jurisdiction
+- **Art 124**: Establishment, composition
+- **Art 32**: Writ jurisdiction (FR enforcement)
+- **Art 131**: Original jurisdiction
+- **Art 132**: Constitutional appeals
+- **Art 136**: SLP provision
+- **Art 137**: Review of judgments
+- **Art 141**: Binding precedent
+- **Art 143**: Advisory jurisdiction
+- **Art 145**: Rules of Court
 :::
 
 :::details **Numbers**

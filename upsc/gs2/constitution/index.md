@@ -16,6 +16,8 @@ title: Indian Constitution | GS Paper II
 - **Chairman**: Dr. Rajendra Prasad
 - **Drafting Committee**: Dr. B.R. Ambedkar chairman
 - **Sessions**: 11 sessions total
+- **Adoption**: 26 November 1949
+- **Commencement**: 26 January 1950
 :::
 
 :::details **Criticism of Constituent Assembly**
@@ -38,7 +40,7 @@ title: Indian Constitution | GS Paper II
 
 ## 🏛️ Preamble
 
-:::details **Key Elements**
+:::details **Key Elements (Preamble)**
 - **Sovereign**: Independent authority
 - **Socialist**: Added 42nd Amendment 1976
 - **Secular**: Added 42nd Amendment 1976
@@ -75,20 +77,21 @@ title: Indian Constitution | GS Paper II
 - **Original**: 395 Articles, 8 Schedules
 - **Current**: 470+ Articles, 12 Schedules
 - **Detailed**: Comprehensive provisions
+- **Part-wise**: 22 Parts (originally)
 :::
 
 :::details **Fundamental Rights & Duties**
-- **Part III**: Fundamental Rights
+- **Part III (Art 12-35)**: Fundamental Rights
 - **Justiciable**: Court enforceable
-- **Part IVA**: Fundamental Duties
+- **Part IVA (Art 51A)**: Fundamental Duties
 - **Non-Justiciable**: Moral obligations
 :::
 
 :::details **Directive Principles**
-- **Part IV**: DPSP provisions
+- **Part IV (Art 36-51)**: DPSP provisions
 - **Non-Justiciable**: Not court enforceable
 - **State Obligations**: Policy guidelines
-- **Fundamental in Governance**: Article 37
+- **Fundamental in Governance**: Art 37
 :::
 
 ---
@@ -141,9 +144,11 @@ title: Indian Constitution | GS Paper II
 
 ## 📋 Constitutional Amendments
 
-:::details **Amendment Process (Article 368)**
+:::details **Amendment Process (Art 368)**
+- **Art 368(1)**: Parliament may amend
 - **Simple Majority**: Some provisions
-- **Special Majority**: 2/3rd present, absolute majority
+- **Special Majority**: 2/3rd present + majority total
+- **Art 368(2)**: Ratification by states
 - **Ratification**: Half states approval required
 - **No Time Limit**: Ratification process
 :::

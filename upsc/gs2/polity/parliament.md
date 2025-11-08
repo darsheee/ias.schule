@@ -9,31 +9,34 @@ title: Indian Parliament | Polity
 
 ## 🏛️ Parliament Structure
 
-:::details **Bicameral Legislature**
+:::details **Bicameral Legislature (Part V)**
+- **Art 79**: Parliament composition
 - **Lok Sabha**: Lower House directly elected
 - **Rajya Sabha**: Upper House indirectly elected
-- **President**: Part of Parliament
+- **President**: Part of Parliament Art 79
 - **Articles 79-122**: Constitutional provisions
 :::
 
-:::details **Lok Sabha**
+:::details **Lok Sabha (Art 81)**
+- **Art 81**: Composition of Lok Sabha
 - **Maximum Strength**: 552 members
   - 530: States
   - 20: Union Territories
-  - 2: Anglo-Indian (lapsed 2020)
-- **Term**: 5 years
-- **Dissolution**: Can be dissolved
-- **Age**: 25 years minimum
+  - 2: Anglo-Indian (lapsed 104th Amendment)
+- **Term**: 5 years Art 83(2)
+- **Dissolution**: Can be dissolved Art 85
+- **Age**: 25 years minimum Art 84(b)
 :::
 
-:::details **Rajya Sabha**
+:::details **Rajya Sabha (Art 80)**
+- **Art 80**: Composition of Rajya Sabha
 - **Maximum Strength**: 250 members
   - 238: States/UTs
-  - 12: Nominated experts
+  - 12: Nominated experts Art 80(3)
 - **Permanent**: Never dissolves
-- **Retirement**: 1/3rd every 2 years
-- **Term**: 6 years
-- **Age**: 30 years minimum
+- **Retirement**: 1/3rd every 2 years Art 83(1)
+- **Term**: 6 years Art 83(1)
+- **Age**: 30 years minimum Art 84(b)
 - **Transformed**: "Useless Stepney" to significant
 :::
 
@@ -50,10 +53,11 @@ title: Indian Parliament | Polity
 
 :::details **Financial Powers**
 - **Budget**: Lok Sabha approves
-- **Money Bill**: Only LS can introduce
-- **RS Role**: Can recommend only
-- **14 Days**: RS must return
-- **Appropriation Bill**: LS exclusive
+- **Money Bill**: Art 110 definition
+- **Art 109**: Money Bills LS only
+- **RS Role**: Recommendations only Art 109(3)
+- **14 Days**: RS must return Art 109(4)
+- **Appropriation Bill**: Art 114, LS exclusive
 :::
 
 :::details **Executive Control**
@@ -99,10 +103,11 @@ title: Indian Parliament | Polity
 :::
 
 :::details **Anti-Defection Law (10th Schedule)**
-- **1985**: 52nd Amendment
+- **52nd Amendment (1985)**: Added 10th Schedule
+- **Para 2**: Disqualification grounds
 - **Prevents**: Individual defections
 - **Ineffective**: Wholesale defections
-- **Speaker**: Deciding authority
+- **Para 6**: Speaker/Chairman deciding authority
 - **Criticism**: Delays judgment
 - **Floor Crossing**: Still happens
 :::
@@ -175,12 +180,16 @@ title: Indian Parliament | Polity
 ## 🔑 Key Facts for Revision
 
 :::details **Important Articles**
-- **Article 79**: Parliament constitution
-- **Article 80**: Rajya Sabha composition
-- **Article 81**: Lok Sabha composition
-- **Article 102**: Disqualifications
-- **Article 105**: Privileges
-- **Article 110**: Money bills definition
+- **Art 79**: Parliament constitution
+- **Art 80**: Rajya Sabha composition
+- **Art 81**: Lok Sabha composition
+- **Art 83**: Duration of Houses
+- **Art 84**: Qualifications for membership
+- **Art 102**: Disqualifications for membership
+- **Art 105**: Powers, privileges members
+- **Art 110**: Money bills definition
+- **Art 109**: Special procedure money bills
+- **10th Schedule**: Anti-defection
 :::
 
 :::details **Numbers**

@@ -10,12 +10,13 @@ title: Election Commission of India | Constitutional Bodies
 ## 📜 Constitutional Provisions
 
 :::details **Article 324**
-- **Powers**: Superintendence, direction, control
+- **Art 324**: Election Commission establishment
+- **Art 324(1)**: Superintendence, direction, control
 - **Elections**: Parliament, state legislatures
 - **Independence**: Autonomous body
 - **Composition**: CEC + 2 ECs
-- **Appointment**: President appoints
-- **Term**: 6 years or 65 age
+- **Art 324(2)**: President appoints
+- **Term**: 6 years or 65 age (by law)
 :::
 
 :::details **Composition Evolution**
@@ -27,9 +28,11 @@ title: Election Commission of India | Constitutional Bodies
 - **CEC Protection**: Cannot be removed alone
 :::
 
-:::details **Removal**
-- **CEC**: Same as SC judge
-- **ECs**: On CEC recommendation
+:::details **Removal (Art 324(5))**
+- **CEC**: Same as SC judge Art 124(4)
+  - Address by Parliament
+  - Proven misbehavior or incapacity
+- **ECs**: On CEC recommendation Art 324(5)
 - **Impeachment**: Parliament process
 - **Never Removed**: Yet
 :::
@@ -63,11 +66,14 @@ title: Election Commission of India | Constitutional Bodies
 :::
 
 :::details **Disqualification**
-- **Article 102**: MP disqualifications
-- **Article 191**: MLA disqualifications
-- **Office of Profit**: Cases
+- **Art 102**: MP disqualifications
+  - Art 102(1)(a): Allegiance to foreign state
+  - Art 102(1)(e): Office of profit
+- **Art 191**: MLA disqualifications
+- **Art 103**: Decision on disqualification
+- **Art 192**: Decision on disqualification MLAs
 - **Presidential Reference**: Advisory
-- **Defection**: 10th Schedule
+- **10th Schedule**: Defection grounds
 :::
 
 ---
@@ -178,22 +184,28 @@ title: Election Commission of India | Constitutional Bodies
 ## 🔑 Key Facts for Revision
 
 :::details **Important Articles**
-- **Article 324**: EC establishment
-- **Article 325**: Universal suffrage
-- **Article 326**: Adult franchise
-- **Article 102**: MP disqualification
-- **Article 191**: MLA disqualification
+- **Art 324**: EC establishment, powers
+- **Art 325**: No person ineligible (religion, race, caste, sex)
+- **Art 326**: Adult suffrage (18 years)
+- **Art 327**: Parliament power make laws
+- **Art 328**: State legislature power
+- **Art 329**: Bar to interference by courts
+- **Art 102**: MP disqualification
+- **Art 191**: MLA disqualification
+- **Art 103/192**: Decision on disqualification
 :::
 
 :::details **Numbers**
-- **1950**: Establishment
-- **1989**: Multi-member permanent
-- **6 Years**: Term
-- **65 Years**: Age limit
-- **43%**: MPs criminal cases
+- **1950**: Establishment 25 Jan
+- **1989**: Multi-member (CEC + 2 ECs)
+- **1993**: Made permanent
+- **6 Years**: Term (by law)
+- **65 Years**: Age limit (by law)
+- **43%**: MPs criminal cases 2019
 - **2013**: VVPAT introduced
-- **2018**: Electoral bonds
-- **2024**: Bonds struck down
+- **2018**: Electoral bonds scheme
+- **2024**: Bonds struck down SC
+- **18 Years**: Voting age Art 326
 :::
 
 :::details **Key Initiatives**

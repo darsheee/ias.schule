@@ -9,15 +9,15 @@ title: Citizenship | Indian Polity
 
 ## 📜 Constitutional Provisions
 
-:::details **Articles 5-11**
-- **Part II**: Citizenship
-- **Article 5**: Citizenship at commencement
-- **Article 6**: Rights of migrants
-- **Article 7**: Migrants to Pakistan
-- **Article 8**: Overseas Indians
-- **Article 9**: Foreign state citizenship
-- **Article 10**: Continuance citizenship
-- **Article 11**: Parliament regulates
+:::details **Articles 5-11 (Part II)**
+- **Part II**: Citizenship provisions
+- **Art 5**: Citizenship at commencement (26 Jan 1950)
+- **Art 6**: Rights of migrants from Pakistan
+- **Art 7**: Migrants to Pakistan provisions
+- **Art 8**: Overseas Indians of Indian origin
+- **Art 9**: Foreign state citizenship prohibition
+- **Art 10**: Continuance as citizen
+- **Art 11**: Parliament power to regulate
 :::
 
 :::details **Single Citizenship**
@@ -49,15 +49,17 @@ title: Citizenship | Indian Polity
 
 ## 🔍 Recent Issues
 
-:::details **CAA 2019**
+:::details **CAA 2019 (Citizenship Amendment Act)**
 - **December 2019**: Enacted
-- **Persecuted Minorities**: Fast-track
-- **Pakistan**: Bangladesh, Afghanistan
-- **Hindu**: Sikh, Buddhist, Jain, Parsi, Christian
+- **Amends**: Citizenship Act 1955
+- **Persecuted Minorities**: Fast-track citizenship
+- **Countries**: Pakistan, Bangladesh, Afghanistan
+- **Religions**: Hindu, Sikh, Buddhist, Jain, Parsi, Christian
 - **Muslims**: Excluded
-- **Cutoff**: 31 Dec 2014
+- **Cutoff**: Entered before 31 Dec 2014
 - **Constitutional Challenge**: Pending SC
 - **Protests**: Widespread nationwide
+- **Challenged**: Arts 14, 15, 21 violation alleged
 :::
 
 :::details **NRC Assam**
@@ -112,11 +114,12 @@ title: Citizenship | Indian Polity
 ## 🔑 Key Facts for Revision
 
 :::details **Important Provisions**
-- **Articles 5-11**: Citizenship
-- **Part II**: Constitutional provisions
-- **1955 Act**: Regulates citizenship
+- **Art 5-11 (Part II)**: Citizenship
+- **Art 11**: Parliament power regulate
+- **Citizenship Act 1955**: Main law
 - **CAA 2019**: Controversial amendment
 - **NRC**: Assam specific
+- **Art 326**: Universal adult franchise
 :::
 
 :::details **Numbers**

@@ -38,11 +38,12 @@ title: Indian Federalism | Centre-State Relations
 
 ## 📜 Distribution of Powers
 
-:::details **Seventh Schedule**
-- **Union List**: 97 subjects (originally)
-- **State List**: 66 subjects
-- **Concurrent List**: 47 subjects
-- **Residuary Powers**: Centre
+:::details **Seventh Schedule (Art 246)**
+- **Art 246**: Subject matter legislation
+- **List I - Union List**: 97 subjects (originally)
+- **List II - State List**: 66 subjects
+- **List III - Concurrent List**: 47 subjects
+- **Art 248**: Residuary Powers to Centre
 :::
 
 :::details **Union List**
@@ -61,34 +62,39 @@ title: Indian Federalism | Centre-State Relations
 - **Local Government**: PRIs, ULBs
 :::
 
-:::details **Concurrent List**
+:::details **Concurrent List (List III)**
 - **Education**: School higher
 - **Forests**: Environment
 - **Marriage**: Divorce
 - **Criminal Law**: Procedure
-- **Article 254**: Centre prevails conflict
+- **Art 254**: Centre prevails in conflict
+- **Art 254(2)**: State law with Presidential assent
 :::
 
 ---
 
 ## ⚖️ Strong Centre Features
 
-:::details **Emergency Provisions**
-- **Article 352**: National emergency
+:::details **Emergency Provisions (Part XVIII)**
+- **Art 352**: National emergency (Proclamation)
+  - Art 352(1): President satisfied
   - Centre assumes powers
   - States subordinate
-- **Article 356**: President's Rule
+- **Art 356**: President's Rule
+  - Art 356(1): State governance failure
   - State government dismissal
   - Misuse alleged
-- **Article 360**: Financial emergency
+- **Art 360**: Financial emergency
   - Never imposed
 :::
 
-:::details **Governor's Role**
-- **Appointed**: By President
+:::details **Governor's Role (Art 153-167)**
+- **Art 153**: Governor for state
+- **Art 155**: Appointed by President
+- **Art 156**: Term 5 years
 - **Central Agent**: Perceived
-- **Bill Assent**: Can withhold
-- **Discretionary**: Powers
+- **Art 200**: Bill assent can withhold
+- **Art 163**: Discretionary powers
 - **SC Guidelines**: Sarkaria, Punchhi
 :::
 
@@ -120,11 +126,12 @@ title: Indian Federalism | Centre-State Relations
 - **Council**: Voting patterns contentious
 :::
 
-:::details **Article 356 Misuse**
-- **Bommai Case (1994)**: Safeguards introduced
+:::details **Art 356 Misuse**
+- **S.R. Bommai (1994)**: Safeguards introduced
   - Floor test mandatory
-  - Judicial review permitted
+  - Judicial review permitted Art 356(1)
   - President satisfied reviewable
+  - Material before President examinable
 - **Still Used**: Frequently
 - **Political Tool**: Alleged
 :::
@@ -158,6 +165,7 @@ title: Indian Federalism | Centre-State Relations
 
 :::details **NITI Aayog (2015)**
 - **Replaced**: Planning Commission
+- **Not Constitutional**: Executive resolution
 - **PM Chairman**: Structure
 - **State CMs**: Governing Council
 - **Cooperative**: Approach promoted
@@ -172,12 +180,13 @@ title: Indian Federalism | Centre-State Relations
 - **States**: 2/3rd combined
 :::
 
-:::details **Inter-State Council**
-- **Article 263**: Provision
+:::details **Inter-State Council (Art 263)**
+- **Art 263**: President may establish
 - **PM Chair**: Constitution
 - **Coordination**: Mechanism
 - **Meetings**: Irregular
 - **Sarkaria Recommendation**: Regular meetings
+- **Established**: 1990
 :::
 
 :::details **Zonal Councils**
@@ -219,11 +228,14 @@ title: Indian Federalism | Centre-State Relations
 ## 🔑 Key Facts for Revision
 
 :::details **Important Articles**
-- **Article 1**: Federation of states
-- **Article 245-255**: Legislative relations
-- **Article 263**: Inter-State Council
-- **Article 352-360**: Emergency provisions
-- **Article 368**: Amendment procedure
+- **Art 1**: India Union of States
+- **Art 245-255**: Legislative relations
+- **Art 246**: Distribution of powers
+- **Art 248**: Residuary powers Union
+- **Art 254**: Centre prevails concurrent
+- **Art 263**: Inter-State Council
+- **Art 352-360**: Emergency provisions
+- **Art 368**: Amendment procedure
 :::
 
 :::details **Committees**

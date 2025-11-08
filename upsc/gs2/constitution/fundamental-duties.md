@@ -9,12 +9,12 @@ title: Fundamental Duties | Constitution
 
 ## 📜 Introduction
 
-:::details **Constitutional Provision**
-- **Article 51A**: Contains duties
-- **Part IVA**: Added 42nd Amendment
+:::details **Constitutional Provision (Part IVA)**
+- **Art 51A**: Contains duties
+- **Part IVA**: Added 42nd Amendment 1976
 - **Swaran Singh Committee**: Recommended 1976
-- **Originally**: 10 duties
-- **Currently**: 11 duties total
+- **Originally**: 10 duties (a) to (j)
+- **Currently**: 11 duties (a) to (k)
 - **USSR Influence**: Borrowed concept
 :::
 
@@ -29,77 +29,80 @@ title: Fundamental Duties | Constitution
 
 ## 📋 Eleven Fundamental Duties
 
-:::details **1. Respect Constitution**
+:::details **1. Respect Constitution [Art 51A(a)]**
 - **Abide**: Constitution ideals
 - **Respect**: Institutions
 - **National Flag**: Respect
 - **National Anthem**: Respect
 :::
 
-:::details **2. Follow National Movement Ideals**
+:::details **2. Follow National Movement Ideals [Art 51A(b)]**
 - **Freedom Struggle**: Inspire ideals
-- **Noble Ideals**: Cherish
-- **National Movement**: Follow
+- **Noble Ideals**: Cherish, follow
+- **National Movement**: Inspired
 :::
 
-:::details **3. Sovereignty, Unity, Integrity**
+:::details **3. Sovereignty, Unity, Integrity [Art 51A(c)]**
 - **Uphold**: Protect sovereignty
 - **Defend**: Country integrity
 - **Unity**: Preserve unity
 - **Territorial**: Integrity maintain
 :::
 
-:::details **4. Defend Country**
+:::details **4. Defend Country [Art 51A(d)]**
 - **National Service**: Render when called
 - **Defense**: Of country
 - **Emergency**: During situations
 :::
 
-:::details **5. Promote Harmony**
+:::details **5. Promote Harmony [Art 51A(e)]**
 - **Common Brotherhood**: All Indians
 - **Dignity**: Of women
 - **Composite Culture**: Transcend barriers
-- **Religious**: Linguistic, regional diversity
+- **Religious**: Linguistic, regional, sectional
 :::
 
-:::details **6. Preserve Composite Culture**
+:::details **6. Preserve Composite Culture [Art 51A(f)]**
 - **Rich Heritage**: Preserve
 - **Composite Culture**: Value
 - **Historical**: Importance
 - **Cultural**: Traditions
 :::
 
-:::details **7. Protect Environment**
-- **Natural Environment**: Forests, lakes, rivers
+:::details **7. Protect Environment [Art 51A(g)]**
+- **Natural Environment**: Forests, lakes, rivers, wildlife
 - **Wildlife**: Protect
 - **Compassion**: Living creatures
 - **Improve**: Environment
+- **Complementary**: Art 48A DPSP
 :::
 
-:::details **8. Develop Scientific Temper**
+:::details **8. Develop Scientific Temper [Art 51A(h)]**
 - **Scientific Temper**: Develop
-- **Humanism**: Spirit of inquiry
+- **Humanism**: Spirit
+- **Inquiry**: Spirit of inquiry
 - **Reform**: Spirit develop
 :::
 
-:::details **9. Safeguard Public Property**
+:::details **9. Safeguard Public Property [Art 51A(i)]**
 - **Public Property**: Safeguard
 - **Violence**: Abjure
 - **No Damage**: Public assets
 :::
 
-:::details **10. Strive for Excellence**
+:::details **10. Strive for Excellence [Art 51A(j)]**
 - **Individual**: Collective activity
 - **Excellence**: Strive towards
 - **Nation**: Rise to achievement
 - **Endeavour**: Higher levels
 :::
 
-:::details **11. Provide Education (Added 86th Amendment 2002)**
-- **Parents**: Guardian duty
+:::details **11. Provide Education [Art 51A(k) - 86th Amendment 2002]**
+- **Parents/Guardian**: Duty
 - **Opportunity**: Educational
 - **6-14 Years**: Age group
 - **Child**: Education provide
+- **Complementary**: Art 21A Right to Education
 :::
 
 ---
@@ -163,11 +166,11 @@ title: Fundamental Duties | Constitution
 ## 🔑 Key Facts for Revision
 
 :::details **Important Points**
-- **42nd Amendment**: Added 1976
-- **86th Amendment**: 11th duty 2002
-- **10 Duties**: Originally
-- **11 Duties**: Currently
-- **Article 51A**: Contains all duties
+- **42nd Amendment**: Added 1976 (a-j)
+- **86th Amendment**: 11th duty 2002 (k)
+- **10 Duties**: Originally (a-j)
+- **11 Duties**: Currently (a-k)
+- **Art 51A**: Contains all duties
 - **Part IVA**: Fundamental Duties
 :::
 
@@ -179,10 +182,10 @@ title: Fundamental Duties | Constitution
 :::
 
 :::details **Key Duties**
-- **Environment**: Protect (7th duty)
-- **Scientific Temper**: Develop (8th duty)
-- **Public Property**: Safeguard (9th duty)
-- **Education**: Provide 6-14 years (11th duty)
+- **Art 51A(g)**: Environment (7th duty)
+- **Art 51A(h)**: Scientific Temper (8th duty)
+- **Art 51A(i)**: Public Property (9th duty)
+- **Art 51A(k)**: Education 6-14 years (11th duty)
 :::
 
 ---

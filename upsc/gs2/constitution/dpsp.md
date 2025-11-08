@@ -9,10 +9,10 @@ title: Directive Principles of State Policy | Constitution
 
 ## 📋 Introduction
 
-:::details **Nature of DPSP**
+:::details **Nature of DPSP (Part IV)**
 - **Articles 36-51**: Constitutional provisions
-- **Non-Justiciable**: Not court enforceable
-- **Fundamental in Governance**: Article 37
+- **Art 36**: Definition of State
+- **Art 37**: Non-justiciable but fundamental
 - **Positive Obligations**: State duties
 - **Ireland Influence**: Borrowed concept
 :::
@@ -31,27 +31,28 @@ title: Directive Principles of State Policy | Constitution
 ## 🌾 Socialist Principles
 
 :::details **Economic Justice**
-- **Article 38**: Social order welfare
-  - Justice: Social, economic, political
-  - Income inequalities minimize
-- **Article 39**: Certain principles
-  - Adequate livelihood right
-  - Equal pay work
-  - Wealth concentration prevent
-  - Children protection
-  - Worker participation management
-- **Article 39A**: Free legal aid
-- **Article 41**: Work, education assistance
-- **Article 42**: Just, humane conditions
-- **Article 43**: Living wage ensure
+- **Art 38**: Social order welfare
+  - Art 38(1): Justice social, economic, political
+  - Art 38(2): Income inequalities minimize
+- **Art 39**: Certain policy principles
+  - Art 39(a): Adequate livelihood men, women
+  - Art 39(b): Ownership, control material resources
+  - Art 39(c): Economic system prevent concentration
+  - Art 39(d): Equal pay equal work
+  - Art 39(e): Workers health, strength protection
+  - Art 39(f): Children healthy development
+- **Art 39A**: Free legal aid
+- **Art 41**: Work, education, public assistance
+- **Art 42**: Just, humane work conditions
+- **Art 43**: Living wage, decent standard
 :::
 
-:::details **Article 39A - Free Legal Aid**
+:::details **Art 39A - Free Legal Aid**
 - **Added**: 42nd Amendment 1976
-- **Equal Justice**: Opportunities
-- **Free Legal Aid**: Poor people
+- **Equal Justice**: Opportunities ensure
+- **Free Legal Aid**: Economic disabilities
 - **Legal Services Authorities**: Act 1987
-- **Lok Adalats**: Alternative dispute
+- **Lok Adalats**: Alternative dispute resolution
 :::
 
 ---
@@ -59,30 +60,29 @@ title: Directive Principles of State Policy | Constitution
 ## 🕊️ Gandhian Principles
 
 :::details **Village Focus**
-- **Article 40**: Village panchayats organize
+- **Art 40**: Village panchayats organize
   - Local self-government units
   - Administrative powers grant
   - 73rd Amendment implementation
-- **Article 43**: Cottage industries
+- **Art 43**: Cottage industries
   - Village, cottage promote
   - Rural areas focus
   - Individual, cooperative efforts
 :::
 
 :::details **Other Gandhian DPSP**
-- **Article 43B**: Cooperative societies
-  - Added 97th Amendment
-  - Promote functioning
-- **Article 46**: SCs/STs welfare
-  - Educational, economic interests
-  - Social injustice protect
-- **Article 47**: Nutrition, living standard
-  - Public health improve
-  - Intoxicating drinks prohibition
-  - Harmful drugs consumption
-- **Article 48**: Agriculture, animal husbandry
-  - Modern, scientific methods
-  - Cow slaughter prohibition
+- **Art 43B**: Cooperative societies
+  - Added 97th Amendment 2011
+  - Promote voluntary formation, functioning
+- **Art 46**: SCs/STs welfare
+  - Educational, economic interests promote
+  - Social injustice, exploitation protect
+- **Art 47**: Nutrition, living standard
+  - Public health improve duty
+  - Intoxicating drinks, drugs prohibition
+- **Art 48**: Agriculture, animal husbandry
+  - Modern, scientific lines organize
+  - Cow, calf slaughter prohibition
 :::
 
 ---
@@ -90,26 +90,24 @@ title: Directive Principles of State Policy | Constitution
 ## 🌍 Liberal-Intellectual Principles
 
 :::details **International Relations**
-- **Article 51**: Peace promotion
-  - International law respect
-  - Treaty obligations honor
-  - Dispute settlement arbitration
-  - International peace security
+- **Art 51**: Peace promotion
+  - Art 51(a): International law, treaty respect
+  - Art 51(b): International disputes settlement
+  - Art 51(c): International peace, security
 :::
 
 :::details **Cultural Heritage**
-- **Article 49**: National monuments
-  - Protect every monument
+- **Art 49**: National monuments protection
   - Artistic, historic interest
-  - National importance
-- **Article 50**: Judiciary separation
-  - Executive from separate
-  - Public services
+  - National importance monuments
+- **Art 50**: Judiciary-Executive separation
+  - Public services separate
 :::
 
 :::details **Uniform Civil Code**
-- **Article 44**: Secure UCC
+- **Art 44**: Secure UCC
   - Throughout territory India
+  - For all citizens
   - Controversial provision
   - Personal laws debate
   - Shah Bano case (1985)
@@ -120,11 +118,11 @@ title: Directive Principles of State Policy | Constitution
 
 ## 🌲 Environmental DPSP
 
-:::details **Article 48A (Added 42nd Amendment)**
+:::details **Art 48A (Added 42nd Amendment 1976)**
 - **Environment Protection**: Forests, wildlife
-- **Safeguard**: Improve environment
+- **Safeguard, Improve**: Environment duty
 - **State Duty**: Protect nature
-- **Complementary**: Article 51A(g)
+- **Complementary**: Art 51A(g) Fundamental Duty
 :::
 
 ---
@@ -188,20 +186,20 @@ title: Directive Principles of State Policy | Constitution
 ## 🔑 Key Facts for Revision
 
 :::details **Important Articles**
-- **Article 38**: Social order justice
-- **Article 39**: Economic justice principles
-- **Article 39A**: Free legal aid
-- **Article 40**: Panchayati Raj
-- **Article 44**: Uniform Civil Code
-- **Article 48A**: Environment protection
-- **Article 51**: International peace
+- **Art 38**: Social order justice
+- **Art 39**: Economic justice principles (a-f)
+- **Art 39A**: Free legal aid (added 1976)
+- **Art 40**: Panchayati Raj
+- **Art 44**: Uniform Civil Code
+- **Art 48A**: Environment protection (added 1976)
+- **Art 51**: International peace
 :::
 
 :::details **Classifications**
-- **Socialist**: 38, 39, 39A, 41-43
-- **Gandhian**: 40, 43, 46-48
-- **Liberal**: 44, 45, 50, 51
-- **Environment**: 48A
+- **Socialist**: Art 38, 39, 39A, 41, 42, 43, 43A
+- **Gandhian**: Art 40, 43, 43B, 46, 47, 48
+- **Liberal**: Art 44, 45, 50, 51
+- **Environment**: Art 48A (added later)
 :::
 
 :::details **Important Cases**
