@@ -4,109 +4,128 @@ title: Getting Started | Guide
 
 # Getting Started
 
-Progressive Web Apps (PWAs) are web applications built and enhanced with modern APIs to deliver enhanced capabilities, reliability, and installability while reaching anyone, anywhere, on any device&mdash;all with a single codebase.
+Welcome to **IAS Schule** - a comprehensive data visualization library built with Observable Plot, D3.js, and modern web technologies. This documentation showcases a wide range of interactive, accessible, and beautiful charts for your data visualization needs.
 
-At a high level, a PWA consists of a [web application manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) to give the browser information about your app, and a service worker to manage the offline experience.
+## What is IAS Schule?
 
-If you are new to Progressive Web Apps, you might consider reading Google's ["Learn PWA"](https://web.dev/learn/pwa/) course before you begin.
+IAS Schule is a collection of reusable, modular chart components that make it easy to create stunning visualizations in your Vue.js or VitePress applications. All charts are:
 
-## Service Worker
+- **Interactive** - Hover tooltips, responsive interactions
+- **Accessible** - Color-blind friendly, screen reader support
+- **Responsive** - Adapts to any screen size
+- **Theme-aware** - Supports light and dark modes
+- **Composable** - Easy to integrate and customize
 
-Service workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available). They are intended, among other things, to enable the creation of effective offline experiences, intercept network requests and take appropriate action based on whether the network is available, and update assets residing on the server. They will also allow access to push notifications and background sync APIs.
+## Available Chart Types
 
-A service worker is an event-driven [worker](https://developer.mozilla.org/en-US/docs/Web/API/Worker) registered against an origin and a path. It takes the form of a JavaScript file that can control the web-page/site that it is associated with, intercepting and modifying navigation and resource requests, and caching resources in a very granular fashion to give you complete control over how your app behaves in certain situations (the most obvious one being when the network is not available).
+### Bar Charts
+- **[Grouped Bar Charts](/guide/grouped-bar-charts)** - Compare values across multiple groups
+- **[Stacked Bar Charts](/guide/grouped-bar-charts)** - Show total and composition
+- **[Faceted Bar Charts](/guide/grouped-bar-charts)** - Multiple charts side-by-side
+- **[Gradient Bar Charts](/guide/gradient-charts)** - Custom SVG gradient fills
+- **[Time-Series Bars](/guide/grouped-bar-charts)** - Florence Nightingale's Crimean War example
 
-You can find more information about service workers in [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
+### Distribution Charts
+- **[Area Charts](/guide/area-charts)** - Visualize trends over time
+- **[Stacked Area Charts](/guide/area-charts)** - Part-to-whole relationships
+- **[Percentogram](/guide/percentogram)** - Histogram binned by percentiles
 
-## Vite PWA
+### Relationship Charts
+- **[Scatter Plots](/guide/scatter-plots)** - Show correlations and patterns
+- **[Accessible Scatter Plots](/guide/scatter-plots)** - Color + shape encoding
+- **[Bubble Charts](/guide/scatter-plots)** - Size-encoded scatter plots
 
-Vite PWA will help you to turn your existing applications into PWAs with very little configuration. It comes preset with sensible defaults for common use cases.
+### Circular Charts
+- **[Pie Charts](/guide/pie-charts)** - Proportions and percentages
+- **[Donut Charts](/guide/pie-charts)** - Pie charts with center space
 
-The `vite-plugin-pwa` plugin can:
+### Diagrams
+- **[Mermaid Diagrams](/guide/mermaid-diagrams)** - Flowcharts, sequences, and more
 
-- Generate the [web appplication manifest][webmanifest] and add it to your entry point
-- Generate the service worker using the `strategies` option
-- Generate a script to register the service worker in the browser
+## Quick Start
 
-## Scaffolding Your First Vite PWA Project <Badge type="tip" text="New"/>
+### Using in VitePress
 
-<ScaffoldingPWAProject />
+All charts are built as Vue composables and components. Here's a simple example:
 
-## Installing vite-plugin-pwa
+```vue
+<script setup>
+import { useGroupedBarChart } from '../.vitepress/theme/composables/useGroupedBarChart'
 
-To install the `vite-plugin-pwa` plugin, just add it to your project as a `dev dependency`:
+const data = [
+  { region: 'North', product: 'Laptops', sales: 450 },
+  { region: 'North', product: 'Phones', sales: 320 },
+  { region: 'South', product: 'Laptops', sales: 380 },
+  { region: 'South', product: 'Phones', sales: 420 },
+]
 
-::: code-group
-  ```bash [pnpm]
-  pnpm add -D vite-plugin-pwa
-  ```
-  ```bash [yarn]
-  yarn add -D vite-plugin-pwa
-  ```
-  ```bash [npm]
-  npm install -D vite-plugin-pwa
-  ```
-:::
-
-## Configuring vite-plugin-pwa
-
-Edit your `vite.config.js / vite.config.ts` file and add the `vite-plugin-pwa`:
-
-```ts
-import { VitePWA } from 'vite-plugin-pwa'
-
-export default defineConfig({
-  plugins: [
-    VitePWA({ registerType: 'autoUpdate' })
-  ]
+const chart = useGroupedBarChart({
+  data,
+  groupBy: 'region',
+  xField: 'product',
+  yField: 'sales',
+  title: 'Product Sales by Region',
 })
+</script>
+
+<template>
+  <PlotChart :options="chart" />
+</template>
 ```
 
-With this minimal configuration of the `vite-plugin-pwa` plugin, your application is now able to generate the [Web App Manifest][webmanifest] and inject it at the entry point, generate the service worker and register it in the browser.
+### Technologies Used
 
-You can find the full list of the `vite-plugin-pwa` plugin configuration options in the following [client.d.ts](https://github.com/antfu/vite-plugin-pwa/blob/main/src/types.ts).
+- **[Observable Plot](https://observablehq.com/plot/)** - Declarative charting library
+- **[D3.js](https://d3js.org/)** - Low-level visualization primitives
+- **[Vue 3](https://vuejs.org/)** - Progressive JavaScript framework
+- **[VitePress](https://vitepress.dev/)** - Static site generator
+- **[UnoCSS](https://unocss.dev/)** - Instant on-demand atomic CSS
 
-::: warning
-If you are **NOT** using `vite-plugin-pwa` version `0.12.2+`, there is a bug handling `injectRegister` (the service worker generated will not include the code required to allow work with `autoUpdate` behavior).
+## Features
 
-If you're using a `vite-plugin-pwa` plugin version prior to `0.12.2`, you can fix the bug using this plugin configuration:
-```ts
-import { VitePWA } from 'vite-plugin-pwa'
+### 🎨 Beautiful by Default
+Every chart is designed with aesthetics in mind, using carefully chosen color schemes and layouts.
 
-export default defineConfig({
-  plugins: [
-    VitePWA({
-      registerType: 'autoUpdate',
-      workbox: {
-        clientsClaim: true,
-        skipWaiting: true
-      }
-    })
-  ]
-})
-```
-:::
+### ♿ Accessibility First
+- Symbol + color encoding for color-blind users
+- Proper ARIA labels
+- Keyboard navigation support
+- High contrast support
 
-If you want to check it in `dev`, add the `devOptions` option to the plugin configuration (you will have the [Web App Manifest][webmanifest] and the generated service worker):
-```ts
-import { VitePWA } from 'vite-plugin-pwa'
+### 📱 Responsive Design
+Charts automatically adapt to container size, from mobile to desktop.
 
-export default defineConfig({
-  plugins: [
-    VitePWA({
-      registerType: 'autoUpdate',
-      devOptions: {
-        enabled: true
-      }
-    })
-  ]
-})
-```
+### 🌙 Dark Mode Support
+All visualizations seamlessly support both light and dark themes.
 
-If you build your application, the [Web App Manifest][webmanifest] will be generated and configured on the application entry point, the service worker will be also generated and the script/module to register it in the browser added.
+### ⚡ Performance Optimized
+- Lazy loading
+- Efficient rendering
+- Tree-shakeable imports
 
-::: info
-`vite-plugin-pwa` plugin uses [workbox-build](https://developer.chrome.com/docs/workbox/modules/workbox-build) node library to build the service worker. For more information, visit the [Workbox documentation](https://developer.chrome.com/docs/workbox/).
-:::
+### 🧩 Composable Architecture
+Easy-to-use Vue composables make integration a breeze.
 
-[webmanifest]: https://developer.mozilla.org/en-US/docs/Web/Manifest
+## Example Use Cases
+
+- **Business Dashboards** - Sales, revenue, and KPI tracking
+- **Scientific Research** - Data distribution and correlation analysis
+- **Education** - Teaching statistics and data science
+- **Analytics** - Website traffic, user behavior analysis
+- **Finance** - Stock market, portfolio performance
+- **Healthcare** - Patient data, treatment outcomes
+
+## Next Steps
+
+1. **Explore the Charts** - Browse our [chart gallery](/guide/d3-charts)
+2. **Try Examples** - Each chart page includes live, editable examples
+3. **Read Documentation** - Detailed configuration options for each chart type
+4. **Customize** - Learn how to adapt charts to your needs
+
+## Need Help?
+
+- Check out specific chart documentation in the sidebar
+- All charts include complete configuration tables
+- Examples show common use cases and patterns
+
+Ready to create beautiful visualizations? Start with our [Grouped Bar Charts guide](/guide/grouped-bar-charts)!

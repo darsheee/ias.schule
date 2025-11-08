@@ -1,20 +1,25 @@
 {
-  "name": "vite-pwa-docs",
+  "name": "ias-schule",
   "type": "module",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.18.2",
-  "description": "Zero-config PWA for Vite Documentation",
-  "author": "antfu <anthonyfu117@hotmail.com>",
+  "description": "Beautiful, Interactive Data Visualizations with Observable Plot & D3.js",
+  "author": "IAS Schule",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/vite-pwa/docs#readme",
+  "homepage": "https://github.com/darsheee/ias.schule#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vite-pwa/docs.git"
+    "url": "git+https://github.com/darsheee/ias.schule.git"
   },
-  "bugs": "https://github.com/vite-pwa/docs/issues",
+  "bugs": "https://github.com/darsheee/ias.schule/issues",
   "keywords": [
-    "nuxt module"
+    "data visualization",
+    "Observable Plot",
+    "D3.js",
+    "charts",
+    "graphs",
+    "Vue",
+    "VitePress"
   ],
   "engines": {
     "node": ">=22.0.0"

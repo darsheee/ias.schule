@@ -2,72 +2,79 @@
 layout: home
 sidebar: false
 
-title: Vite PWA
+title: IAS Schule
 
 hero:
-  name: PWA
-  text: Vite Plugin
+  name: IAS Schule
+  text: UPSC Civil Services
   tagline: |
-    PWA integrations for Vite and the ecosystem
-    Zero-config and framework-agnostic
-    PWA Plugin for Vite
+    Complete UPSC Preparation Platform
+    GS Papers • Essay • Prelims • Interactive Visualizations
+    Comprehensive Content • Smart Navigation
   image:
     light:
       src: /icon_light.svg
-      alt: Vite PWA Logo
+      alt: IAS Schule Logo
     dark:
       src: /icon_dark.svg
-      alt: Vite PWA Logo
+      alt: IAS Schule Logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/
+      text: Start UPSC Prep
+      link: /upsc/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vite-pwa/
+      text: View Visualizations
+      link: /guide/
 
 features:
-  - icon: 👌
-    title: Zero-Config
-    details: Sensible built-in default configs for common use cases
-  - icon: 🔩
-    title: Extensible
-    details: Expose the full ability to customize the behavior of the plugin
-  - icon: 🔌
-    title: Offline Support
-    details: Generate Service Worker with Offline support (via Workbox)
-  - icon: ⚡
-    title: Fully tree shakable
-    details: Auto inject Web App Manifest
-  - icon: 💬
-    title: Prompt for new content
-    details: Built-in support for Vanilla JavaScript, Vue 3, React, Svelte, SolidJS and Preact
-    link: /guide/prompt-for-update
-    linkText: Prompt for new content refreshing
-  - icon: ⚙️
-    title: Stale-while-revalidate
-    details: Automatic reload when new content is available
-  - icon: ✨
-    title: Static assets handling
-    details: Configure static assets for offline support
-  - icon: 🐞
-    title: Development Support
-    details: Debug your custom service worker logic as you develop your application
-    link: /guide/development
-    linkText: Development
-  - icon: 🛠️
-    title: Versatile
-    details: 'Integration with meta frameworks: îles, SvelteKit, VitePress, Astro, Nuxt 3, and Remix'
-    link: /frameworks/
-    linkText: Frameworks
-  - icon: 💥
-    title: PWA Assets Generator
-    details: Generate all the PWA assets from a single command and a single source image
-    link: /assets-generator/
-    linkText: Getting Started
-  - icon: 🚀
-    title: PWA Assets Integration
-    details: Serve, generate and inject PWA Assets on the fly in your application
-    link: /assets-generator/integrations
-    linkText: PWA Assets Integrations
+  - icon: 📚
+    title: General Studies Paper I
+    details: Indian Heritage, Culture, History, Geography & Society - Complete coverage with visual timelines and mind maps
+    link: /upsc/gs1/
+    linkText: Explore GS Paper I
+  - icon: 🏛️
+    title: General Studies Paper II
+    details: Governance, Constitution, Polity, Social Justice & International Relations - Structured content with flowcharts
+    link: /upsc/gs2/
+    linkText: Explore GS Paper II
+  - icon: 💰
+    title: General Studies Paper III
+    details: Technology, Economy, Environment, Security & Disaster Management - Data-driven analysis with charts
+    link: /upsc/gs3/
+    linkText: Explore GS Paper III
+  - icon: ⚖️
+    title: General Studies Paper IV
+    details: Ethics, Integrity & Aptitude - Case studies, moral thinkers, and values in governance
+    link: /upsc/gs4/
+    linkText: Explore GS Paper IV
+  - icon: ✍️
+    title: Essay Paper
+    details: Master essay writing with structured approach, model essays, and topic-wise strategies
+    link: /upsc/essay/
+    linkText: Explore Essay Writing
+  - icon: 🎯
+    title: Prelims Preparation
+    details: Paper I & II strategies, PYQs, test series, and comprehensive revision materials
+    link: /upsc/prelims/
+    linkText: Explore Prelims
+  - icon: 📊
+    title: Data Visualizations
+    details: Interactive charts, graphs, timelines, and mind maps for visual learning
+    link: /guide/
+    linkText: View Charts Library
+  - icon: 🗺️
+    title: Mind Maps & Timelines
+    details: Visual representation of complex topics for better retention and quick revision
+  - icon: 📈
+    title: Statistical Analysis
+    details: Data-driven insights with Observable Plot and D3.js visualizations
+  - icon: 🎓
+    title: Structured Content
+    details: Syllabus-mapped organization with easy navigation and cross-referencing
+  - icon: 🔄
+    title: Regular Updates
+    details: Content updated with latest current affairs, schemes, and government initiatives
+  - icon: 📱
+    title: Responsive Design
+    details: Access on any device - desktop, tablet, or mobile with seamless experience
 ---
