@@ -212,6 +212,69 @@ title: Indian Parliament | Polity
 
 ---
 
+## 📉 Parliamentary Functioning & Productivity
+
+:::details **Declining Productivity Crisis**
+- **2022 Winter Session**: LS worked only 24% of scheduled time
+- **Frequent Disruptions**: Question Hour and Zero Hour affected
+- **Adjournments**: Bills passed without adequate debate
+- **Lost Hours**: Thousands of hours lost to disruptions annually
+- **Financial Impact**: Crores wasted in unproductive sessions
+:::
+
+:::details **Question Hour Erosion**
+- **Oral Questions**: Ministers avoiding direct answers
+- **Supplementary Questions**: Limited opportunities
+- **Zero Hour**: Important issues raised but no debate
+- **Half Hour Discussion**: Rarely utilized
+- **Calling Attention**: Effective tool underused
+:::
+
+:::details **Legislative Process Issues**
+- **Hasty Passage**: Bills passed without committee scrutiny
+- **Guillotine**: Demands voted without discussion
+- **Voice Vote**: Lack of division on important bills
+- **Opposition Walkout**: Bills passed in depleted House
+- **Lack of Pre-Legislative Consultation**: Stakeholder inputs missing
+:::
+
+:::details **Committee System Challenges**
+- **Inadequate Resources**: Limited staff and expertise
+- **Time Constraints**: Short deadlines for reports
+- **Government Response**: Recommendations often ignored
+- **Expert Participation**: Limited domain specialists
+- **Implementation Tracking**: No follow-up mechanism
+:::
+
+:::details **Representation Issues**
+- **Criminalization**: 43% MPs with criminal cases
+- **Women Representation**: Only 14.4% in 17th Lok Sabha
+- **Youth Participation**: Limited young representatives
+- **Diversity**: Inadequate representation of marginalized sections
+- **Party Dominance**: Individual MP autonomy reduced
+:::
+
+:::details **Parliamentary Privileges**
+- **Freedom of Speech Art 105**: Protection in Parliament
+- **Immunity from Legal Action**: For parliamentary proceedings
+- **Power to Punish**: Contempt of Parliament
+- **Need for Codification**: Unclear boundaries and misuse concerns
+- **Balance**: Between privilege and accountability
+:::
+
+:::details **Way Forward - Reforms Needed**
+- **Increase Sitting Days**: More than current 60-70 days
+- **Enforce Discipline**: Strict code of conduct
+- **Strengthen Committees**: More resources and powers
+- **Time Management**: Structured debate allocation
+- **Regional Languages**: Greater use in proceedings
+- **Training Programs**: For parliamentarians on issues
+- **Anti-Defection Amendment**: Prevent wholesale defections
+- **Women's Reservation**: 33% quota implementation
+:::
+
+---
+
 ::: tip Revision Strategy
 Remember LS vs RS differences clearly! Focus on Anti-Defection Law (10th Schedule) provisions and loopholes. Master the committee system, especially PAC. Note the criminalization statistics. Connect Money Bill with Article 110 definition. Remember the transformation of Rajya Sabha from "useless Stepney" to significant organ!
 :::

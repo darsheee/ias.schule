@@ -252,6 +252,104 @@ title: Indian Federalism | Centre-State Relations
 
 ---
 
+## 👤 Governor's Role & Discretionary Powers
+
+:::details **Constitutional Provisions**
+- **Art 153**: Governor is head of state executive
+- **Art 155**: Appointed by President for 5 years
+- **Art 156**: Serves at President's pleasure
+- **Art 163**: Council of Ministers to aid and advise
+- **Art 200**: Power to reserve bills for President
+- **Art 356**: Report for President's Rule imposition
+:::
+
+:::details **Discretionary Powers**
+- **Government Formation**: Inviting party to form government
+- **Ministry Dismissal**: When it loses majority
+- **Bills Reservation**: For President's consideration Art 200
+- **Report to President**: For Art 356 imposition
+- **Assent to Bills**: Withholding or returning for reconsideration
+:::
+
+:::details **Key Issues & Controversies**
+- **Arbitrary Use**: Article 356 misuse
+- **Bill Delays**: Sitting on bills passed by legislatures
+- **Government Formation**: Biased in coalition scenarios
+- **Acting as Agent**: Centre's representative vs constitutional head
+- **Judicial Intervention**: Growing SC scrutiny of Governor's actions
+:::
+
+:::details **Supreme Court Guidelines**
+- **1971**: Council must always exist to advise Governor
+- **1974**: Governor's satisfaction = Ministers' satisfaction
+- **Bommai (1994)**: Judicial review of Art 356 use
+- **Nabam Rebia (2016)**: Speaker's independence from Governor
+- **Recent**: Live telecast recommendations for transparency
+:::
+
+:::details **Way Forward**
+- **Clear Guidelines**: For discretionary powers exercise
+- **Time-Bound Disposal**: Bills sent for President's assent
+- **Transparent Process**: Live telecast of assembly proceedings
+- **Fixed Tenure**: Like Election Commission
+- **Accountability**: Reasons for actions made public
+:::
+
+---
+
+## 💧 Inter-State Disputes & Resolution
+
+:::details **Water Disputes**
+- **Inter-State Water Disputes Act 1956**: Tribunal mechanism
+- **Cauvery Dispute**: Karnataka vs Tamil Nadu (ongoing since 1974)
+- **Krishna River**: Karnataka, Maharashtra, Andhra Pradesh, Telangana
+- **Mahanadi**: Odisha vs Chhattisgarh
+- **Average Time**: 9-10 years for tribunal award
+- **Implementation**: Challenges even after awards
+:::
+
+:::details **Key Statistics**
+- **Interstate Water**: Only 2-3% of utilized water resources
+- **Pending Tribunals**: Multiple tribunals active
+- **Compliance Rate**: Low implementation of awards
+- **Climate Impact**: Changing water availability patterns
+- **Data Gap**: Lack of real-time water flow monitoring
+:::
+
+:::details **Border Disputes**
+- **Maharashtra-Karnataka**: Belgaum/Belagavi issue
+- **Assam-Meghalaya**: Multiple sectors dispute
+- **Punjab-Haryana**: Chandigarh and river waters
+- **Odisha-Andhra Pradesh**: Kotia villages
+:::
+
+:::details **New State Demands**
+- **Vidarbha**: From Maharashtra
+- **Gorkhaland**: From West Bengal
+- **Bodoland**: Autonomy demands in Assam
+- **Art 3**: Parliament power to reorganize states
+- **Consensus**: Need for stakeholder consultation
+:::
+
+:::details **Resolution Mechanisms**
+- **Inter-State Council Art 263**: Coordination body
+- **Zonal Councils**: Regional cooperation forums
+- **Supreme Court Art 131**: Original jurisdiction
+- **River Boards Act 1956**: Interstate water management
+- **Tribunals**: Case-specific dispute resolution
+:::
+
+:::details **Way Forward**
+- **Single Permanent Tribunal**: For all water disputes
+- **Time-Bound Resolution**: 1-2 years maximum
+- **Data-Driven Decisions**: Real-time monitoring systems
+- **Climate Considerations**: Adaptation in water sharing
+- **Water as Concurrent**: Mihir Shah Committee recommendation
+- **Strengthen Inter-State Council**: Regular meetings and implementation
+:::
+
+---
+
 ::: tip Revision Strategy
 Remember "Quasi-Federal" nature! Master the three lists distribution. Focus on Article 356 and Bommai case safeguards. Note NITI Aayog vs Planning Commission. Connect GST issues with federalism. Remember Sarkaria and Punchhi Commissions recommendations!
 :::

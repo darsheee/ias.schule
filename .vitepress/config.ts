@@ -61,6 +61,12 @@ const UPSC: DefaultTheme.SidebarItem[] = [
         link: '/upsc/gs1/modern-history/',
         collapsed: true,
         items: [
+          { text: 'Complete Timeline (1599-1947)', link: '/upsc/gs1/modern-history/british-india-timeline' },
+          { text: 'British Entry (1599-1765)', link: '/upsc/gs1/modern-history/british-entry' },
+          { text: 'Rise of British India (1766-1818)', link: '/upsc/gs1/modern-history/rise-of-british-india' },
+          { text: 'Indian Mutiny & Crown Rule (1857-1876)', link: '/upsc/gs1/modern-history/indian-mutiny-crown-rule' },
+          { text: 'Imperial India (1877-1905)', link: '/upsc/gs1/modern-history/imperial-india' },
+          { text: 'Reform & Reaction (1905-1920)', link: '/upsc/gs1/modern-history/reform-and-reaction' },
           { text: 'Fall of Mughals', link: '/upsc/gs1/modern-history/fall-of-mughals' },
           { text: 'Advent of Europeans', link: '/upsc/gs1/modern-history/advent-of-europeans' },
           { text: 'Company Rule', link: '/upsc/gs1/modern-history/company-rule' },
@@ -91,6 +97,7 @@ const UPSC: DefaultTheme.SidebarItem[] = [
           { text: 'Fundamental Rights', link: '/upsc/gs2/constitution/fundamental-rights' },
           { text: 'Directive Principles', link: '/upsc/gs2/constitution/dpsp' },
           { text: 'Fundamental Duties', link: '/upsc/gs2/constitution/fundamental-duties' },
+          { text: 'Minorities & Religious Freedom', link: '/upsc/gs2/constitution/minorities' },
         ]
       },
       { 
@@ -102,6 +109,7 @@ const UPSC: DefaultTheme.SidebarItem[] = [
           { text: 'Federalism', link: '/upsc/gs2/polity/federalism' },
           { text: 'Local Government', link: '/upsc/gs2/polity/local-government' },
           { text: 'Citizenship', link: '/upsc/gs2/polity/citizenship' },
+          { text: 'Pressure Groups & Civil Society', link: '/upsc/gs2/polity/pressure-groups' },
         ]
       },
       { 
@@ -120,10 +128,27 @@ const UPSC: DefaultTheme.SidebarItem[] = [
           { text: 'Election Commission', link: '/upsc/gs2/bodies/election-commission' },
         ]
       },
-      { text: 'Governance', link: '/upsc/gs2/governance/' },
+      { 
+        text: 'Governance', 
+        link: '/upsc/gs2/governance/',
+        collapsed: true,
+        items: [
+          { text: 'Digital Governance', link: '/upsc/gs2/governance/digital-governance' },
+        ]
+      },
       { text: 'Government Policies', link: '/upsc/gs2/policies/' },
       { text: 'Welfare Schemes', link: '/upsc/gs2/schemes/' },
-      { text: 'International Relations', link: '/upsc/gs2/ir/' },
+      { 
+        text: 'International Relations', 
+        link: '/upsc/gs2/ir/',
+        collapsed: true,
+        items: [
+          { text: 'Neighbourhood Relations', link: '/upsc/gs2/ir/neighbourhood' },
+          { text: 'Regional Organizations', link: '/upsc/gs2/ir/regional-organizations' },
+          { text: 'Major Bilateral Relations', link: '/upsc/gs2/ir/bilateral-relations' },
+          { text: 'International Institutions', link: '/upsc/gs2/ir/international-institutions' },
+        ]
+      },
     ],
   },
   {
@@ -138,7 +163,15 @@ const UPSC: DefaultTheme.SidebarItem[] = [
       { text: 'IT & Emerging Tech', link: '/upsc/gs3/it/' },
       { text: 'Environment', link: '/upsc/gs3/environment/' },
       { text: 'Disaster Management', link: '/upsc/gs3/disaster/' },
-      { text: 'Internal Security', link: '/upsc/gs3/security/' },
+      { 
+        text: 'Internal Security', 
+        link: '/upsc/gs3/internal-security/',
+        collapsed: true,
+        items: [
+          { text: 'Terrorism', link: '/upsc/gs3/internal-security/terrorism' },
+          { text: 'Cyber Security', link: '/upsc/gs3/internal-security/cyber-security' },
+        ]
+      },
     ],
   },
   {

@@ -180,6 +180,109 @@ title: Indian Judiciary | GS Paper II
 
 ---
 
+## 🚨 Judicial Reforms & Way Forward
+
+:::details **Pendency Crisis - Scale & Impact**
+- **4.7 Crore+**: Cases pending across all courts
+- **Supreme Court**: 70,000+ cases pending
+- **High Courts**: 60 lakh+ cases pending
+- **District Courts**: 4 crore+ cases pending
+- **Average Disposal Time**: 6-7 years in High Courts
+- **Undertrial Population**: 42% from SC/ST communities
+- **Justice Delayed**: Justice denied principle
+:::
+
+:::details **Judicial Vacancy Crisis**
+- **High Courts**: 42% vacancies
+- **District Courts**: 25% vacancies
+- **Sanctioned Strength**: Not maintained
+- **Appointment Delays**: MoP pending finalization
+- **Collegium Delays**: Recommendations pending years
+- **Impact**: Increased pendency and delays
+:::
+
+:::details **Digital Initiatives & E-Courts**
+- **E-Courts Mission Mode Project**: Phase I & II
+  - Computerization of all courts
+  - Case information systems
+  - E-filing and digital payments
+- **National Judicial Data Grid (NJDG)**:
+  - Real-time case statistics
+  - Tracking and monitoring
+  - Policy decision support
+- **Virtual Courts**: For traffic challan cases
+- **Video Conferencing**: Hearings during pandemic
+- **LIMBS**: Legal Information Management System
+:::
+
+:::details **E-Filing & Case Management**
+- **Online Filing**: 24x7 availability
+- **Digital Signatures**: Secure authentication
+- **SMS Alerts**: Case status updates
+- **Mobile Apps**: NJDG mobile, eCourts Services
+- **Payment Gateways**: Online court fee payment
+- **Cause Lists**: Online publication
+:::
+
+:::details **Judicial Appointments Reform**
+- **Collegium vs NJAC**: Ongoing debate
+- **Memorandum of Procedure (MoP)**: Pending finalization
+- **Transparency Issues**: Criteria unclear
+- **Diversity Concerns**: Low women/SC-ST representation
+- **Performance Evaluation**: No formal mechanism
+- **Way Forward**: Independent judicial appointments commission
+:::
+
+:::details **Alternative Dispute Resolution (ADR)**
+- **Lok Adalats**: Settled 1 crore+ cases annually
+- **Mediation Centers**: Attached to courts
+- **Arbitration**: Commercial disputes
+- **Fast-Track Courts**: Special categories
+- **Gram Nyayalayas**: Village-level justice
+- **Success Rate**: High settlement rates in Lok Adalats
+:::
+
+:::details **Judicial Accountability**
+- **In-House Procedure**: Complaints against judges
+- **Impeachment**: Never used successfully
+- **Asset Declaration**: Annual statements required
+- **RTI Exemption**: Judicial independence concern
+- **Contempt Power**: Balance with accountability
+- **Need**: Independent oversight body
+:::
+
+:::details **Technology Challenges**
+- **Digital Divide**: Lawyers/litigants lack access
+- **Infrastructure**: Poor internet in rural courts
+- **Training**: Judges and staff need capacity building
+- **Security**: Data protection and privacy concerns
+- **Resistance**: Traditional methods preference
+- **Solutions**: Convergence with CSCs, training programs
+:::
+
+:::details **Representation Issues**
+- **Women Judges**: Only 11.5% in High Courts
+- **SC/ST Judges**: Inadequate representation
+- **Regional Imbalance**: Northern states dominant
+- **Linguistic Diversity**: Limited in higher judiciary
+- **Way Forward**: Affirmative action in appointments
+:::
+
+:::details **Comprehensive Reform Roadmap**
+- **Increase Judicial Strength**: Fill all vacancies
+- **Fast-Track Disposal**: Time-bound resolution
+- **Digitalization**: Complete e-courts implementation
+- **ADR Expansion**: Promote mediation and arbitration
+- **Judicial Accountability**: Independent body
+- **Law Commission Reforms**: Pending recommendations
+- **Legal Aid**: Strengthening for marginalized
+- **Convergence**: CSCs for e-filing and services
+- **Training**: Regular capacity development programs
+- **Infrastructure**: Modern court complexes
+:::
+
+---
+
 ## 📚 Related Topics
 
 - [Supreme Court](/upsc/gs2/judiciary/supreme-court)
@@ -190,5 +293,5 @@ title: Indian Judiciary | GS Paper II
 ---
 
 ::: tip Revision Strategy
-Focus on judicial independence safeguards! Remember the collegium system evolution through three judges cases. Master the writ jurisdiction differences between Articles 32 and 226. Connect judicial activism with specific PILs. Note all challenges: pendency, representation, accessibility!
+Focus on judicial independence safeguards! Remember the collegium system evolution through three judges cases. Master the writ jurisdiction differences between Articles 32 and 226. Connect judicial activism with specific PILs. Note all challenges: pendency, representation, accessibility! Remember the 4.7 crore pendency figure and digital initiatives!
 :::

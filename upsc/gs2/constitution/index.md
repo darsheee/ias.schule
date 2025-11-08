@@ -153,17 +153,92 @@ title: Indian Constitution | GS Paper II
 - **No Time Limit**: Ratification process
 :::
 
-:::details **Important Amendments**
-- **1st Amendment (1951)**: Land reforms, speech restrictions
-- **7th Amendment (1956)**: States reorganization
-- **24th Amendment (1971)**: Parliament can amend FRs
-- **42nd Amendment (1976)**: Mini Constitution
-- **44th Amendment (1978)**: Restored balance
-- **73rd/74th (1992)**: Panchayati Raj, municipalities
-- **86th Amendment (2002)**: Right to Education
-- **99th Amendment (2014)**: NJAC (struck down)
-- **101st Amendment (2016)**: GST implementation
-- **103rd Amendment (2019)**: EWS reservation
+:::details **Important Amendments - Detailed**
+- **1st Amendment (1951)**: 
+  - Added Ninth Schedule for land reforms
+  - Reasonable restrictions on freedom of speech Art 19(2)
+  - Validation of zamindari abolition laws
+- **7th Amendment (1956)**: States reorganization on linguistic basis
+- **24th Amendment (1971)**: 
+  - Parliament can amend Fundamental Rights
+  - President must give assent to constitutional amendments
+- **42nd Amendment (1976)**: "Mini Constitution"
+  - Added Socialist, Secular, Integrity to Preamble
+  - 10 Fundamental Duties added
+  - Curtailed judicial review powers
+  - Extended Parliament and Assembly terms
+- **44th Amendment (1978)**: 
+  - Restored judicial powers curtailed in 42nd
+  - Right to property no longer fundamental right (made legal right)
+  - Safeguards against misuse of Emergency
+- **52nd Amendment (1985)**: 
+  - 10th Schedule added
+  - Anti-Defection Law provisions
+- **73rd & 74th (1992)**: 
+  - Constitutional status to Panchayati Raj Institutions
+  - Urban Local Bodies constitutional recognition
+  - 11th and 12th Schedules added
+- **86th Amendment (2002)**: 
+  - Right to Education Art 21A as fundamental right
+  - Duty to provide education Art 51A(k)
+- **97th Amendment (2011)**: Cooperative societies right
+- **99th Amendment (2014)**: NJAC for judicial appointments (struck down 2015)
+- **101st Amendment (2016)**: GST implementation, Article 246A added
+- **102nd Amendment (2018)**: Constitutional status to NCBC
+- **103rd Amendment (2019)**: 10% EWS reservation
+- **104th Amendment (2020)**: Extended SC/ST reservation in Parliament
+- **105th Amendment (2021)**: Restored states' power to identify OBCs
+:::
+
+:::details **Basic Structure Doctrine - Evolution**
+- **Kesavananda Bharati (1973)**:
+  - Basic structure cannot be amended
+  - Elements: Supremacy of Constitution, rule of law, judicial review
+  - Republican and democratic form
+  - Federal character, secularism
+- **Indira Gandhi vs Raj Narain (1975)**:
+  - Free and fair elections part of basic structure
+- **Minerva Mills (1980)**:
+  - Limited amending power Art 368
+  - Balance between FRs and DPSP
+- **Waman Rao (1981)**:
+  - Post-Kesavananda Ninth Schedule laws subject to basic structure
+- **I.R. Coelho (2007)**:
+  - All laws including Ninth Schedule reviewable
+  - Comprehensive list of basic structure elements
+:::
+
+:::details **Recent Basic Structure Applications**
+- **NJAC Case (2015)**:
+  - 99th Amendment struck down
+  - Judicial independence part of basic structure
+- **Aadhaar Case (2018)**:
+  - Upheld with conditions
+  - Privacy concerns addressed
+- **Demonetization (2018)**:
+  - Upheld, no basic structure violation
+- **Article 370 Abrogation (2019)**:
+  - Constitutional validity under examination
+- **Electoral Bonds (2024)**:
+  - Struck down for transparency violation
+:::
+
+:::details **Criticism of Basic Structure Doctrine**
+- **No Textual Basis**: Not mentioned in Constitution
+- **Judicial Overreach**: Unelected judges limiting elected Parliament
+- **Subjective Application**: What constitutes basic structure unclear
+- **Democratic Concern**: People's will through Parliament restricted
+- **Amendment Difficulty**: Reforms stalled due to basic structure bar
+- **Balance Needed**: Between flexibility and rigidity
+:::
+
+:::details **Way Forward on Amendments**
+- **Clearer Definition**: List basic structure elements in Constitution
+- **Parliamentary Scrutiny**: Detailed examination before amendments
+- **Public Consultation**: Stakeholder inputs on major changes
+- **Balance**: Between protecting core values and enabling reforms
+- **Transparency**: Amendment process more open to public
+- **Consensus Building**: Political parties agreement on major changes
 :::
 
 ---

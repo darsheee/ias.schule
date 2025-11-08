@@ -211,6 +211,88 @@ title: Directive Principles of State Policy | Constitution
 
 ---
 
+## ⚖️ Uniform Civil Code (UCC) - Article 44 Debate
+
+:::details **Constitutional Basis**
+- **Art 44**: "State shall endeavour to secure UCC"
+- **DPSP**: Non-justiciable but fundamental in governance
+- **Constituent Assembly Debates**: Hotly contested provision
+- **Current Status**: Personal laws based on religion
+- **Exception**: Goa has common family law (Portuguese Civil Code)
+:::
+
+:::details **Personal Laws Coverage**
+- **Marriage**: Different rules for different religions
+- **Divorce**: Varying grounds and procedures
+- **Inheritance**: Different succession laws
+- **Adoption**: Separate legal frameworks
+- **Maintenance**: Different provisions
+- **Guardianship**: Religion-based laws
+:::
+
+:::details **Arguments For UCC**
+- **Gender Justice**: Uniform rights for women across religions
+- **National Integration**: Common identity and unity
+- **Legal Simplification**: One law easier to administer
+- **Fundamental Rights**: Over religious practices when discriminatory
+- **Secularism**: State neutrality in personal matters
+- **Modernization**: Align with contemporary values
+:::
+
+:::details **Arguments Against UCC**
+- **Religious Freedom**: Art 25-28 protection
+- **Cultural Diversity**: India's pluralistic character
+- **Political Sensitivity**: Community backlash risks
+- **Implementation Challenges**: Practical difficulties
+- **Minority Rights**: Fear of majoritarianism
+- **Consent Required**: Cannot be imposed unilaterally
+:::
+
+:::details **Supreme Court Position**
+- **Shah Bano Case (1985)**: Recommended UCC implementation
+- **Sarla Mudgal (1995)**: Reiterated need for UCC
+- **John Vallamattom (2003)**: Called for comprehensive reform
+- **Shayara Bano (2017)**: Triple talaq struck down
+- **Recent**: Continuous push for codification
+:::
+
+:::details **Goa Model**
+- **Portuguese Civil Code**: Applicable to all religions
+- **Uniform Laws**: Marriage, divorce, succession
+- **Hindu Customary Law**: Limited exceptions
+- **Success Story**: Functioning for decades
+- **Replicability**: Lessons for national UCC
+:::
+
+:::details **Global Practices**
+- **Most Countries**: Have uniform civil codes
+- **France, Germany**: Secular civil codes
+- **Turkey**: Abolished religious laws 1926
+- **Tunisia**: Progressive Muslim-majority country with UCC
+- **Comparative Study**: Useful for Indian context
+:::
+
+:::details **Recent Developments**
+- **Uttarakhand**: First state to form UCC committee
+- **Law Commission**: 21st report on UCC (2018)
+- **Triple Talaq Law**: Criminal offense (2019)
+- **Public Debate**: Growing discourse and polarization
+- **Political Agenda**: Featured in manifestos
+:::
+
+:::details **Way Forward - Phased Implementation**
+- **Public Consultation**: All communities involved
+- **Gender-Just Provisions**: Priority across all personal laws
+- **Gradual Introduction**: Stage-wise implementation
+- **Safeguards**: Religious practices not affecting rights
+- **Consensus Building**: National dialogue essential
+- **Pilot Projects**: State-level experimentation
+- **Education**: Awareness about benefits
+- **Optional Initially**: Voluntary adoption phase
+:::
+
+---
+
 ::: tip Revision Strategy
-Remember the three classifications: Socialist, Gandhian, Liberal! Focus on Article 39, 40, 44 significance. Understand FRs vs DPSP conflict evolution through cases. Note the Minerva Mills balance doctrine. Connect DPSP with actual schemes and policies!
+Remember the three classifications: Socialist, Gandhian, Liberal! Focus on Article 39, 40, 44 significance. Understand FRs vs DPSP conflict evolution through cases. Note the Minerva Mills balance doctrine. Connect DPSP with actual schemes and policies! Master UCC debate - both sides equally for balanced answer!
 :::

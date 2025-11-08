@@ -218,6 +218,50 @@ title: Election Commission of India | Constitutional Bodies
 
 ---
 
+## 🔧 Electoral Reforms & Way Forward
+
+:::details **VVPAT & EVM Verification**
+- **Current Status**: Only 1 VVPAT verified per assembly segment
+- **SC Directions**: Increase verification from one to five random EVMs
+- **Security Concerns**: Hacking fears, transparency demands
+- **Manual Verification**: If winning margin less than 10%
+- **Totalizer Machines**: Improve voting secrecy at booth level
+:::
+
+:::details **Media & Campaign Regulation**
+- **Free Air Time**: Opposition parties on TV channels
+- **Social Media**: Regulate political advertising platforms
+- **Paid News**: Ethical concerns and monitoring
+- **Model Code**: Needs statutory backing
+- **Expenditure Limits**: Better enforcement required
+:::
+
+:::details **Decriminalization of Politics**
+- **Current Challenge**: 43% MPs in 2019 had criminal cases
+- **SC Directives**: Mandatory disclosure of criminal records
+- **Legal Barriers**: Stronger disqualification provisions needed
+- **Fast-Track Courts**: Expedite political leader cases
+- **Voter Awareness**: Right to information on candidates
+:::
+
+:::details **Internal Party Democracy**
+- **Organizational Elections**: Regular and transparent
+- **Candidate Selection**: Democratic processes
+- **Financial Transparency**: Audited accounts
+- **Inner-Party Dissent**: Protection mechanisms
+- **Women Representation**: Quotas in party positions
+:::
+
+:::details **Other Key Reforms**
+- **State Funding**: Reduce money power in elections
+- **Right to Recall**: Electoral accountability
+- **NRI Voting**: Postal ballot expansion
+- **Simultaneous Elections**: One Nation One Election debate
+- **Aadhaar-EPIC Linking**: Electoral roll purification
+:::
+
+---
+
 ::: tip Revision Strategy
 Focus on Article 324 powers! Remember EVM-VVPAT controversy and SC directions. Master Model Code of Conduct and its non-statutory nature. Note Electoral Bonds scheme and SC striking it down. Connect criminalization with pending reforms. Remember SVEEP and digital initiatives!
 :::
