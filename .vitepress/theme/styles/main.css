@@ -25,6 +25,36 @@ textarea {
   -ms-user-select: text;
 }
 
+/* Break Reader Mode detection and rendering */
+body::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Prevent content extraction by Reader Mode */
+.vp-doc article,
+.vp-doc .content,
+main {
+  /* Reader mode looks for semantic HTML - make it a "div soup" */
+  all: initial;
+  display: block;
+  font-family: var(--vp-font-family-base);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--vp-c-text-1);
+}
+
+/* Force re-application of VitePress styles after breaking semantics */
+.vp-doc * {
+  font-family: inherit;
+  line-height: inherit;
+}
+
 /* show/hide PWA icon in navbar */
 .dark [img-light],
 .dark .logo[light-logo] {

@@ -237,6 +237,23 @@ export default withPwa(defineConfig({
       name: 'keywords',
       content: 'UPSC, IAS, Civil Services, GS Paper 1, GS Paper 2, GS Paper 3, GS Paper 4, Essay, Prelims, CSAT, Current Affairs, Indian Polity, History, Geography, Economy',
     }],
+    // Disable Reader Mode / Reading View
+    ['meta', { name: 'robots', content: 'max-snippet:-1, max-image-preview:none, max-video-preview:-1' }],
+    ['meta', { name: 'format-detection', content: 'telephone=no, date=no, email=no, address=no' }],
+    ['meta', { property: 'article:content_tier', content: 'locked' }],
+    // Schema.org WebApplication (not Article) to prevent reader mode detection
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebApplication',
+      'name': 'IAS Schule',
+      'applicationCategory': 'EducationalApplication',
+      'browserRequirements': 'Requires JavaScript. Requires HTML5.',
+      'offers': {
+        '@type': 'Offer',
+        'price': '0',
+        'priceCurrency': 'USD'
+      }
+    })],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'IAS Schule - UPSC Civil Services Preparation' }],
     ['meta', { property: 'og:image', content: ogImage }],

@@ -17,12 +17,48 @@ export default {
   Layout() {
     return h(PwaLayout)
   },
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
     // Register Mermaid component globally
     app.component('Mermaid', Mermaid)
     // Register PlotChart component globally
     app.component('PlotChart', PlotChart)
     // Register PieChart component globally
     app.component('PieChart', PieChart)
+
+    // Disable Reader Mode - client-side protection
+    if (typeof window !== 'undefined') {
+      // Detect Reader Mode attempts
+      const detectReaderMode = () => {
+        // Check if page is displayed in simplified/reader view
+        const isReaderMode = 
+          window.innerWidth < 800 && 
+          !document.querySelector('.VPNav') &&
+          !document.querySelector('.VPSidebar')
+        
+        if (isReaderMode) {
+          // Redirect to normal view or show message
+          window.location.reload()
+        }
+      }
+
+      // Monitor for Reader Mode activation
+      router.onAfterRouteChange = () => {
+        setTimeout(detectReaderMode, 100)
+      }
+
+      // Disable context menu to prevent "Open in Reader View" option
+      document.addEventListener('contextmenu', (e) => {
+        e.preventDefault()
+        return false
+      }, { passive: false })
+
+      // Disable keyboard shortcuts for Reader Mode (F9 in some browsers)
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'F9' || (e.ctrlKey && e.shiftKey && e.key === 'R')) {
+          e.preventDefault()
+          return false
+        }
+      }, { passive: false })
+    }
   },
 } satisfies Theme
