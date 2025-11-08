@@ -7,6 +7,13 @@ Reusable, modular chart functions for creating data visualizations across your V
 - **Grouped Bar Charts** - Compare values across multiple groups
 - **Stacked Bar Charts** - Show total and composition
 - **Faceted Charts** - Multiple small charts side-by-side
+- **Gradient Bar Charts** - Bar charts with custom SVG gradient fills
+- **Area Charts** - Visualize trends and stacked data over time
+- **Stacked Area Charts** - Show part-to-whole relationships over time
+- **Scatter Plots** - Show relationships between two variables
+- **Accessible Scatter Plots** - Color + shape encoding for accessibility
+- **Bubble Charts** - Scatter plots with size encoding
+- **Percentogram** - Histogram binned by percentiles (Andrew Gelman)
 - **Pie Charts** - Visualize proportions and parts of a whole
 - **Donut Charts** - Pie charts with center space
 

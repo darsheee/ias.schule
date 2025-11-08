@@ -23,6 +23,22 @@ const Guide: DefaultTheme.SidebarItem[] = [
     link: '/guide/grouped-bar-charts',
   },
   {
+    text: 'Gradient Charts',
+    link: '/guide/gradient-charts',
+  },
+  {
+    text: 'Area Charts',
+    link: '/guide/area-charts',
+  },
+  {
+    text: 'Scatter Plots',
+    link: '/guide/scatter-plots',
+  },
+  {
+    text: 'Percentogram',
+    link: '/guide/percentogram',
+  },
+  {
     text: 'Pie & Donut Charts',
     link: '/guide/pie-charts',
   },
@@ -148,6 +164,22 @@ export default withPwa(defineConfig({
           {
             text: 'Grouped Bar Charts',
             link: '/guide/grouped-bar-charts',
+          },
+          {
+            text: 'Gradient Charts',
+            link: '/guide/gradient-charts',
+          },
+          {
+            text: 'Area Charts',
+            link: '/guide/area-charts',
+          },
+          {
+            text: 'Scatter Plots',
+            link: '/guide/scatter-plots',
+          },
+          {
+            text: 'Percentogram',
+            link: '/guide/percentogram',
           },
           {
             text: 'Pie & Donut Charts',

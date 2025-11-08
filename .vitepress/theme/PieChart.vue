@@ -14,6 +14,7 @@ const props = defineProps<{
   width?: number
   height?: number
   innerRadius?: number // 0 for pie, >0 for donut
+  padAngle?: number // Spacing between slices in radians
   colors?: string[]
   showLabels?: boolean
   showValues?: boolean
@@ -39,6 +40,7 @@ const renderChart = async () => {
     // Chart dimensions
     const width = props.width || 500
     const height = props.height || Math.min(width, 500)
+    const radius = Math.min(width, height) / 2
     const innerRadius = props.innerRadius ?? 0 // 0 = pie, >0 = donut
 
     // Create color scale
@@ -50,8 +52,9 @@ const renderChart = async () => {
           .domain(props.data.map(d => d.name))
           .range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), props.data.length).reverse())
 
-    // Create pie layout
+    // Create pie layout with optional padding
     const pie = d3.pie<{ name: string; value: number }>()
+      .padAngle(props.padAngle ?? (innerRadius > 0 ? 1 / radius : 0))
       .sort(null)
       .value(d => d.value)
 

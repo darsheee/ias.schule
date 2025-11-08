@@ -74,6 +74,14 @@ const budgetDonutChart = useDonutChart({
   width: 600,
   colors: pieChartColorSchemes.earth,
 })
+
+// Donut with custom padding (Observable example)
+const customDonutChart = useDonutChart({
+  data: marketShareData,
+  width: 600,
+  padAngle: 0.02, // Custom padding between slices
+  colors: pieChartColorSchemes.sunset,
+})
 </script>
 
 ## Basic Pie Chart
@@ -97,6 +105,24 @@ Revenue distribution by product (donut chart for better center space):
     container-class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
   />
 </div>
+
+## Donut Chart with Padding
+
+Observable-style donut chart with spacing between slices:
+
+<div class="w-full max-w-3xl mx-auto my-8">
+  <PieChart 
+    v-bind="customDonutChart"
+    container-class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
+  />
+</div>
+
+::: tip Observable Example
+This donut chart matches the [Observable D3 donut chart example](https://observablehq.com/@d3/donut-chart/2) with:
+- **Inner radius**: 67% of outer radius
+- **Pad angle**: Automatic spacing between slices (customizable)
+- **Labels**: Centered on each slice
+:::
 
 ## Pie Chart Without Values
 
@@ -159,6 +185,7 @@ const data = [
 const chartConfig = useDonutChart({
   data,
   width: 500,
+  padAngle: 0.02, // Optional: spacing between slices
 })
 </script>
 
@@ -190,6 +217,7 @@ const chartConfig = usePieChart({
 | `width` | `number` | `500` | Chart width in pixels |
 | `height` | `number` | `min(width, 500)` | Chart height |
 | `innerRadius` | `number` | `0` | Inner radius (0=pie, >0=donut) |
+| `padAngle` | `number` | Auto | Spacing between slices (radians) |
 | `colors` | `string[]` | `default scheme` | Color array |
 | `showLabels` | `boolean` | `true` | Show category labels |
 | `showValues` | `boolean` | `true` | Show values on chart |

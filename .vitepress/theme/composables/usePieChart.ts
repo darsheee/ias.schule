@@ -11,6 +11,7 @@ export interface PieChartConfig {
   width?: number
   height?: number
   innerRadius?: number // 0 for pie chart, >0 for donut chart
+  padAngle?: number // Spacing between slices in radians
   colors?: string[]
   showLabels?: boolean
   showValues?: boolean
@@ -28,6 +29,7 @@ export function usePieChart(config: PieChartConfig): ComputedRef<PieChartConfig>
       width = 500,
       height,
       innerRadius = 0, // 0 = pie chart, >0 = donut chart
+      padAngle,
       colors,
       showLabels = true,
       showValues = true,
@@ -38,6 +40,7 @@ export function usePieChart(config: PieChartConfig): ComputedRef<PieChartConfig>
       width,
       height: height || Math.min(width, 500),
       innerRadius,
+      padAngle,
       colors,
       showLabels,
       showValues,
@@ -56,19 +59,21 @@ export function useDonutChart(config: Omit<PieChartConfig, 'innerRadius'>): Comp
       data,
       width = 500,
       height,
+      padAngle,
       colors,
       showLabels = true,
       showValues = true,
     } = config
 
     const calculatedHeight = height || Math.min(width, 500)
-    const radius = Math.min(width, calculatedHeight) / 2 - 1
+    const radius = Math.min(width, calculatedHeight) / 2
 
     return {
       data,
       width,
       height: calculatedHeight,
-      innerRadius: radius * 0.6, // Donut hole is 60% of radius
+      innerRadius: radius * 0.67, // Donut hole is 67% of radius (matching Observable example)
+      padAngle: padAngle ?? 1 / radius, // Auto-calculate padding if not provided
       colors,
       showLabels,
       showValues,

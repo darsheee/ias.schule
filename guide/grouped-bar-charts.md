@@ -3,7 +3,7 @@
 Reusable, composable grouped bar chart components for comparing multiple data series.
 
 <script setup>
-import { useGroupedBarChart, useFacetedGroupedBarChart, useStackedBarChart } from '../.vitepress/theme/composables/useGroupedBarChart'
+import { useGroupedBarChart, useFacetedGroupedBarChart, useFacetedBarChart, useStackedBarChart, useTimeSeriesStackedBarChart } from '../.vitepress/theme/composables/useGroupedBarChart'
 
 // Sample data: Sales by product and region
 const salesByRegionData = [
@@ -57,6 +57,46 @@ const revenueData = [
   { quarter: 'Q4', department: 'Marketing', revenue: 180 },
 ]
 
+// Sample data: Crimean War casualties (Florence Nightingale's data)
+const crimeaData = [
+  { date: new Date('1854-04-01'), cause: 'Disease', deaths: 1 },
+  { date: new Date('1854-04-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-04-01'), cause: 'Other', deaths: 5 },
+  { date: new Date('1854-05-01'), cause: 'Disease', deaths: 12 },
+  { date: new Date('1854-05-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-05-01'), cause: 'Other', deaths: 9 },
+  { date: new Date('1854-06-01'), cause: 'Disease', deaths: 11 },
+  { date: new Date('1854-06-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-06-01'), cause: 'Other', deaths: 6 },
+  { date: new Date('1854-07-01'), cause: 'Disease', deaths: 359 },
+  { date: new Date('1854-07-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-07-01'), cause: 'Other', deaths: 23 },
+  { date: new Date('1854-08-01'), cause: 'Disease', deaths: 828 },
+  { date: new Date('1854-08-01'), cause: 'Wounds', deaths: 1 },
+  { date: new Date('1854-08-01'), cause: 'Other', deaths: 30 },
+  { date: new Date('1854-09-01'), cause: 'Disease', deaths: 788 },
+  { date: new Date('1854-09-01'), cause: 'Wounds', deaths: 81 },
+  { date: new Date('1854-09-01'), cause: 'Other', deaths: 70 },
+  { date: new Date('1854-10-01'), cause: 'Disease', deaths: 503 },
+  { date: new Date('1854-10-01'), cause: 'Wounds', deaths: 132 },
+  { date: new Date('1854-10-01'), cause: 'Other', deaths: 128 },
+  { date: new Date('1854-11-01'), cause: 'Disease', deaths: 844 },
+  { date: new Date('1854-11-01'), cause: 'Wounds', deaths: 287 },
+  { date: new Date('1854-11-01'), cause: 'Other', deaths: 106 },
+  { date: new Date('1854-12-01'), cause: 'Disease', deaths: 1725 },
+  { date: new Date('1854-12-01'), cause: 'Wounds', deaths: 114 },
+  { date: new Date('1854-12-01'), cause: 'Other', deaths: 131 },
+  { date: new Date('1855-01-01'), cause: 'Disease', deaths: 2761 },
+  { date: new Date('1855-01-01'), cause: 'Wounds', deaths: 83 },
+  { date: new Date('1855-01-01'), cause: 'Other', deaths: 324 },
+  { date: new Date('1855-02-01'), cause: 'Disease', deaths: 2120 },
+  { date: new Date('1855-02-01'), cause: 'Wounds', deaths: 42 },
+  { date: new Date('1855-02-01'), cause: 'Other', deaths: 361 },
+  { date: new Date('1855-03-01'), cause: 'Disease', deaths: 1205 },
+  { date: new Date('1855-03-01'), cause: 'Wounds', deaths: 32 },
+  { date: new Date('1855-03-01'), cause: 'Other', deaths: 172 },
+]
+
 // Create chart options using composables
 const salesChart = useGroupedBarChart({
   data: salesByRegionData,
@@ -101,6 +141,32 @@ const revenueGroupedChart = useGroupedBarChart({
   yLabel: 'Revenue ($K)',
   colors: ['#6366f1', '#ec4899', '#f59e0b'],
 })
+
+// Observable-style faceted bar chart (sorted by total population)
+const populationFacetedChart = useFacetedBarChart({
+  data: populationData,
+  facetBy: 'state',
+  xField: 'ageGroup',
+  yField: 'population',
+  title: 'Population by State and Age (Sorted by Total)',
+  yLabel: 'Population',
+  colorScheme: 'spectral',
+  sortFacets: true,
+  hideXAxis: false,
+})
+
+// Crimean War casualties chart (Florence Nightingale's data)
+const crimeaChart = useTimeSeriesStackedBarChart({
+  data: crimeaData,
+  dateField: 'date',
+  categoryField: 'cause',
+  yField: 'deaths',
+  interval: 'month',
+  title: 'Crimean War Casualties by Cause',
+  yLabel: 'Deaths',
+  hideXLabel: true,
+  colors: ['#dc2626', '#f59e0b', '#64748b'], // Red for Disease, Orange for Wounds, Gray for Other
+})
 </script>
 
 ## Grouped Bar Chart - Basic Example
@@ -124,6 +190,46 @@ Show population distribution by age group for multiple states:
     container-class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
   />
 </div>
+
+## Observable-Style Faceted Chart (Sorted)
+
+Facets sorted by total population, with spectral color scheme and SI notation:
+
+<div class="w-full max-w-6xl mx-auto my-8">
+  <PlotChart 
+    :options="populationFacetedChart"
+    container-class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
+  />
+</div>
+
+::: tip Observable Plot Example
+This matches the [Observable Plot grouped bar chart example](https://observablehq.com/@observablehq/plot-grouped-bar-chart). Features:
+- **Facets sorted by sum** - States ordered by total population
+- **Color encoding** - Age groups colored using spectral scheme
+- **SI notation** - Y-axis values formatted as 1k, 10k, etc.
+- **Color legend** - Shows age group categories
+:::
+
+## Historical Example: Crimean War Casualties
+
+Florence Nightingale's famous data visualization showing deaths predominantly from disease:
+
+<div class="w-full max-w-6xl mx-auto my-8">
+  <PlotChart 
+    :options="crimeaChart"
+    container-class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
+  />
+</div>
+
+::: tip Florence Nightingale's Data
+This matches the [Observable Plot Crimean War example](https://observablehq.com/@observablehq/plot-crimean-war-bary). Features:
+- **Time-series stacked bars** - Monthly data from 1854-1855
+- **Interval scale** - X-axis quantized by month
+- **Custom tick format** - Shows month abbreviations (J, F, M, etc.)
+- **Historical insight** - Reveals disease (red) caused far more deaths than wounds (orange)
+
+Florence Nightingale used this data to advocate for improved sanitary conditions in military hospitals.
+:::
 
 ## Stacked vs Grouped Comparison
 
@@ -174,6 +280,70 @@ const chartOptions = useGroupedBarChart({
 </template>
 ```
 
+### Observable-Style Faceted Chart
+
+```vue
+<script setup>
+import { useFacetedBarChart } from '../.vitepress/theme/composables/useGroupedBarChart'
+
+const populationData = [
+  { state: 'CA', age: '0-17', population: 9000 },
+  { state: 'CA', age: '18-34', population: 11000 },
+  { state: 'TX', age: '0-17', population: 8000 },
+  { state: 'TX', age: '18-34', population: 9500 },
+  // ...
+]
+
+const chartOptions = useFacetedBarChart({
+  data: populationData,
+  facetBy: 'state',        // Create a facet for each state
+  xField: 'age',           // X-axis within each facet
+  yField: 'population',    // Y-axis values
+  colorScheme: 'spectral', // Observable color scheme
+  sortFacets: true,        // Sort facets by total population
+  yLabel: 'Population',
+})
+</script>
+
+<template>
+  <PlotChart :options="chartOptions" />
+</template>
+```
+
+### Time-Series Stacked Bar Chart
+
+```vue
+<script setup>
+import { useTimeSeriesStackedBarChart } from '../.vitepress/theme/composables/useGroupedBarChart'
+
+const monthlyCasualties = [
+  { date: new Date('1854-04-01'), cause: 'Disease', deaths: 1 },
+  { date: new Date('1854-04-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-04-01'), cause: 'Other', deaths: 5 },
+  { date: new Date('1854-05-01'), cause: 'Disease', deaths: 12 },
+  { date: new Date('1854-05-01'), cause: 'Wounds', deaths: 0 },
+  { date: new Date('1854-05-01'), cause: 'Other', deaths: 9 },
+  // ...
+]
+
+const chartOptions = useTimeSeriesStackedBarChart({
+  data: monthlyCasualties,
+  dateField: 'date',         // Field containing Date objects
+  categoryField: 'cause',    // Field to stack by
+  yField: 'deaths',          // Y-axis values
+  interval: 'month',         // Quantize by month
+  title: 'Monthly Casualties',
+  yLabel: 'Deaths',
+  hideXLabel: true,          // Hide x-axis label
+  colors: ['#dc2626', '#f59e0b', '#64748b'],
+})
+</script>
+
+<template>
+  <PlotChart :options="chartOptions" />
+</template>
+```
+
 ## Configuration Options
 
 | Option | Type | Required | Description |
@@ -196,5 +366,51 @@ Bars side-by-side for each group.
 ### `useFacetedGroupedBarChart`
 Multiple small charts (facets) for each group.
 
+### `useFacetedBarChart` (Observable-style)
+Faceted bar charts with:
+- Bars colored by x-field category
+- Facets sorted by sum of values
+- SI notation for y-axis (1k, 10k, etc.)
+- Observable Plot color schemes
+- Optional hidden x-axis
+
+**Options:**
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `facetBy` | `string` | Required | Field to facet by |
+| `xField` | `string` | Required | X-axis field |
+| `yField` | `string` | Required | Y-axis field |
+| `colorScheme` | `string` | `'spectral'` | Observable color scheme |
+| `sortFacets` | `boolean` | `true` | Sort facets by sum |
+| `hideXAxis` | `boolean` | `false` | Hide x-axis labels |
+| `colors` | `string[]` | Optional | Override color scheme |
+
 ### `useStackedBarChart`
 Bars stacked on top of each other.
+
+### `useTimeSeriesStackedBarChart`
+Time-series stacked bar charts with interval scale support. Perfect for monthly/yearly data like Florence Nightingale's Crimean War casualties.
+
+**Features:**
+- Date-based x-axis with interval quantization
+- Custom tick formatting (e.g., month abbreviations)
+- Automatic stacking by category
+- Optional hidden x-axis label
+
+**Options:**
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `dateField` | `string` | Required | Field containing Date objects |
+| `categoryField` | `string` | Required | Field to stack by |
+| `yField` | `string` | Required | Y-axis values |
+| `interval` | `string` | `'month'` | Time interval: day, week, month, quarter, year |
+| `tickFormat` | `function` | Month abbreviation | Custom tick formatter |
+| `hideXLabel` | `boolean` | `false` | Hide x-axis label |
+| `colors` | `string[]` | Default | Color array |
+
+**Example intervals:**
+- `'day'` - Daily data
+- `'week'` - Weekly aggregation
+- `'month'` - Monthly data (default)
+- `'quarter'` - Quarterly data
+- `'year'` - Yearly data
