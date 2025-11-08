@@ -13,22 +13,25 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ### Background
 
-**Lord Curzon** (Viceroy 1899-1905) - controversial, autocratic administrator
+:::details **Lord Curzon Context**
+Viceroy 1899-1905 - controversial, autocratic administrator
+:::
 
-**Justification Given**:
+:::details **Justification Given**
 - Bengal Presidency too large to administer
 - Population: 78 million (1901)
 - Administrative efficiency needed
+:::
 
-**Real Motives**:
+:::details **Real Motives**
 - **Divide and Rule**: Separate Hindu-Muslim communities
 - Weaken Bengal nationalism center
 - Counter growing nationalist movement
+:::
 
 ### The Partition
 
-**16 Oct 1905** - **PARTITION IMPLEMENTED**
-
+:::details **16 Oct 1905 - PARTITION IMPLEMENTED**
 **Division**:
 1. **East Bengal & Assam** (Capital: Dacca)
    - Area: 106,540 sq miles
@@ -40,22 +43,27 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
    - Population: 54 million
    - Hindu majority
    - Bengali-speaking area reduced
+:::
 
 ### Indian Response - Massive Protests
 
-**7 Aug 1905** - **Boycott resolution** passed at Calcutta Town Hall
+:::details **7 Aug 1905 - Boycott Resolution**
+Boycott resolution passed at Calcutta Town Hall
+:::
 
-**16 Oct 1905** - **Partition Day observed**:
+:::details **16 Oct 1905 - Partition Day Observed**
 - **Arandhan** (no cooking) observed
 - Barefoot processions through Calcutta
 - Raksha Bandhan: Hindus-Muslims tied rakhis symbolizing unity
 - Rabindranath Tagore composed **"Amar Sonar Bangla"** (now Bangladesh national anthem)
+:::
 
-**Swadeshi Movement launched**:
+:::details **Swadeshi Movement Launched**
 - Boycott British goods
 - Promote Indian goods
 - National education
 - Mass mobilization
+:::
 
 ---
 
@@ -63,40 +71,45 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ### Key Features
 
-**Economic Boycott**:
+:::details **Economic Boycott**
 - British goods (especially textiles) boycotted
 - Bonfire of foreign clothes
 - Swadeshi stores established
 - Indian industries promoted
+:::
 
-**Swadeshi Enterprise**:
+:::details **Swadeshi Enterprise**
 - **1906**: Bengal Chemicals, Tata Iron & Steel Company foundations
 - Textile mills, soap factories, match factories
 - **National Council of Education** (1906)
 - **Bengal Technical Institute** established
+:::
 
-**Political Methods**:
+:::details **Political Methods**
 - Public meetings, processions
 - Student strikes
 - Picketing of shops selling foreign goods
+:::
 
-**Leaders**:
+:::details **Leaders**
 - **Surendranath Banerjee**: Moderate approach
 - **Bipin Chandra Pal**: Fiery orator
 - **Bal Gangadhar Tilak**: "Swaraj is my birthright"
 - **Lala Lajpat Rai**: Punjab leader
 - **Aurobindo Ghosh**: Philosophy of nationalism
+:::
 
 ### Impact
 
-**Positive**:
+:::details **Positive Impact**
 - Mass political awakening
 - Women's participation
 - Hindu-Muslim unity initially
 - Industrial development stimulus
 - Cultural renaissance
+:::
 
-**British Response**:
+:::details **British Response**
 - **Repression**: Lathi-charges, arrests
 - **1908**: Tilak sentenced to 6 years (sedition)
 - **1907**: Deportation of Lala Lajpat Rai and Ajit Singh
@@ -106,30 +119,36 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ## 🕌 Muslim League Formation (1906)
 
-**30 Dec 1906** - **ALL INDIA MUSLIM LEAGUE FOUNDED** at Dacca
+:::details **30 Dec 1906 - ALL INDIA MUSLIM LEAGUE FOUNDED**
+Founded at Dacca
+:::
 
-**Leaders**:
+:::details **Leaders**
 - **Nawab Salimullah** (host)
 - **Aga Khan III** (first president)
 - **Nawab Mohsin-ul-Mulk**
 - **Nawab Viqar-ul-Mulk**
+:::
 
-**Objectives**:
+:::details **Objectives**
 - Protect Muslim political rights
 - Secure separate representation
 - Support British government
 - Foster loyalty among Muslims
+:::
 
-**Significance**:
+:::details **Significance**
 - First communal political organization
 - Precursor to Pakistan movement
 - Formalized communal politics
+:::
 
-**British Encouragement**:
+:::details **British Encouragement**
 - Supported to counter Congress
 - **1 Oct 1906**: Simla Deputation met Minto
   - Muslim delegation sought separate electorates
   - Minto sympathetic response
+:::
 
 ---
 
@@ -137,27 +156,30 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ### Moderates vs Extremists
 
-**Moderates** (Old Guard):
+:::details **Moderates (Old Guard)**
 - Leaders: Gopal Krishna Gokhale, Dadabhai Naoroji, Pherozeshah Mehta
 - Methods: Petitions, prayers, constitutional agitation
 - Goal: Dominion status within British Empire
 - Faith in British justice
+:::
 
-**Extremists** (New Party):
+:::details **Extremists (New Party)**
 - Leaders: Bal Gangadhar Tilak, Lala Lajpat Rai, Bipin Chandra Pal (Lal-Bal-Pal)
 - Methods: Boycott, Swadeshi, mass mobilization
 - Goal: Complete self-rule (Swaraj)
 - No faith in British goodwill
+:::
 
 ### The Split
 
-**1906 Calcutta Session**:
+:::details **1906 Calcutta Session**
 - Dadabhai Naoroji as President
 - Declared **"Swaraj"** as goal
 - Temporary unity maintained
 - Adopted Swadeshi, Boycott, National Education, Swaraj (4-fold program)
+:::
 
-**27 Dec 1907 - SURAT SESSION**:
+:::details **27 Dec 1907 - SURAT SESSION**
 - **Issue**: Election of President
   - Extremists wanted Lala Lajpat Rai
   - Moderates insisted on Rash Behari Ghosh
@@ -165,12 +187,14 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 - **Result**: **Congress split**
   - Moderates retained control
   - Extremists walked out
+:::
 
-**Aftermath**:
+:::details **Aftermath**
 - Weakened Congress (1908-1914)
 - British exploited division
 - **1908**: Tilak imprisoned (Surat split confirmed extremist fears)
 - **1914**: Annie Besant, Tilak worked for reunion
+:::
 
 ---
 
@@ -178,138 +202,167 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ### Bengal
 
-**Anushilan Samiti** (Calcutta):
+:::details **Anushilan Samiti (Calcutta)**
 - Founded by Barindra Ghosh (Aurobindo's brother)
 - **1908**: Alipore Bomb Case
   - **30 Apr**: Khudiram Bose, Prafulla Chaki threw bomb at Muzaffarpur (wrong target)
   - Khudiram caught, hanged (18 years old)
   - Aurobindo Ghosh arrested, later acquitted
+:::
 
-**Yugantar** (revolutionary paper)
+:::details **Yugantar**
+Revolutionary paper
+:::
 
-**Dhaka Anushilan Samiti**:
-- More radical wing
+:::details **Dhaka Anushilan Samiti**
+More radical wing
+:::
 
-**Notable Incidents**:
+:::details **Notable Incidents - Bengal**
 - **1909**: **Madanlal Dhingra shot Curzon Wyllie** in London
   - Hanged in Aug 1909
 - **1912**: **Delhi Conspiracy** - bomb thrown at Viceroy Hardinge's procession
   - Rash Behari Bose mastermind
 - **23 Dec 1912**: Lord Hardinge wounded at Chandni Chowk, Delhi
+:::
 
 ### Punjab
 
-**Ghadar Party** (1913):
+:::details **Ghadar Party (1913)**
 - Founded by **Lala Hardayal** in San Francisco
 - Newspaper: Ghadar (meaning "Revolution")
 - Aim: Overthrow British by armed rebellion
 - Many Punjabi emigrants involved
 - **1915**: Ghadar conspiracy failed (informers betrayed)
+:::
 
 ### Maharashtra
 
-**Chapekar Brothers** (1897): Killed Plague Commissioner Rand
+:::details **Chapekar Brothers (1897)**
+Killed Plague Commissioner Rand
+:::
 
-**Savarkar Brothers**:
+:::details **Savarkar Brothers**
 - **V.D. Savarkar**: "The Indian War of Independence, 1857" (1909)
 - Transported to Andaman Cellular Jail
+:::
 
-**Abhinav Bharat Society**
+:::details **Abhinav Bharat Society**
+Revolutionary organization in Maharashtra
+:::
 
 ### Others
 
-**Bengal**:
+:::details **Other Bengal Activities**
 - **1908**: Prafulla Chaki, Khudiram Bose
 - **1930s**: Chittagong Armory Raid (Surya Sen)
+:::
 
-**Significance**:
+:::details **Significance of Revolutionary Terrorism**
 - Kept revolutionary spirit alive
 - Attracted youth
 - British forced to make concessions
 - But isolated from mass base
+:::
 
 ---
 
 ## 📜 Morley-Minto Reforms (1909)
 
-**Indian Councils Act, 1909**
+:::details **Indian Councils Act, 1909**
+Major constitutional reform act
+:::
 
-**Reformers**:
+:::details **Reformers**
 - **Lord Morley**: Secretary of State for India (Liberal)
 - **Lord Minto**: Viceroy (1905-1910)
+:::
 
-**Objectives**:
+:::details **Objectives**
 - Placate moderate opinion
 - Counter extremism
 - Limited constitutional reforms
+:::
 
 ### Provisions
 
-**1. Expanded Councils**:
+:::details **1. Expanded Councils**
 - **Imperial Legislative Council**: 60 members (previously 16)
 - **Provincial Councils**: Enlarged significantly
   - Bengal: 50 members
   - Madras, Bombay: 40-50 members
+:::
 
-**2. Elected Members**:
+:::details **2. Elected Members**
 - **Indirect elections** introduced
 - Majority of members: Non-official (elected/nominated)
 - But **official majority** maintained in Imperial Council
+:::
 
-**3. Separate Electorates**:
+:::details **3. Separate Electorates**
 - **Muslims given separate electorates**
 - Muslims to elect Muslim representatives
 - **Weightage**: Muslims over-represented
 - **Communalism institutionalized**
+:::
 
-**4. Indian Member in Viceroy's Executive Council**:
-- First Indian: **Satyendra Prasad Sinha** (1909) - Law Member
+:::details **4. Indian Member in Viceroy's Executive Council**
+First Indian: **Satyendra Prasad Sinha** (1909) - Law Member
+:::
 
-**5. Discussion Powers**:
+:::details **5. Discussion Powers**
 - Members could discuss budget
 - Ask questions
 - Pass resolutions (non-binding)
 - But no vote on budget
+:::
 
-**6. Functions Separation**:
+:::details **6. Functions Separation**
 - Imperial Council for all-India subjects
 - Provincial Councils for provincial subjects
+:::
 
 ### Evaluation
 
-**Positive**:
+:::details **Positive**
 - First step toward representative government
 - Increased Indian participation
 - Principle of election accepted
+:::
 
-**Negative**:
+:::details **Negative**
 - **Separate electorates** - communal poison
 - No real power (official majority in Imperial Council)
 - Viceroy's veto absolute
 - No responsible government
+:::
 
-**Congress Reaction**:
+:::details **Congress Reaction**
 - Welcomed cautiously
 - Criticized separate electorates vehemently
 - Demanded more reforms
+:::
 
 ---
 
 ## 📰 Press Act (1910)
 
-**1910** - British passed **Press Act**:
+:::details **1910 - Press Act**
 - Local government could demand security from newspapers
 - Forfeit security for "objectionable" material
 - Suppress nationalist press
 - Response to revolutionary writings
+:::
 
 ---
 
 ## 🏛️ Delhi Durbar (1911)
 
-**12 Dec 1911** - **King George V's Delhi Durbar**
+:::details **12 Dec 1911 - King George V's Delhi Durbar**
+Royal visit and major announcements
+:::
 
-**Announcements**:
+:::details **Announcements**
 1. **Partition of Bengal annulled**:
    - Bengal, Bihar, Orissa reunited
    - Orissa made separate province (1912)
@@ -321,64 +374,83 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
    - Completed 1931
 
 3. **Assam made separate province**
+:::
 
-**Significance**:
+:::details **Significance**
 - British acknowledged power of public opinion
 - Concession to Hindu opinion
 - But separate electorates retained (Muslim appeasement)
+:::
 
 ---
 
 ## 🌍 World War I (1914-1918)
 
-**4 Aug 1914** - **India entered WWI** (no consultation)
+:::details **4 Aug 1914 - India Entered WWI**
+India entered WWI without consultation
+:::
 
 ### Indian Contribution
 
-**Military**:
+:::details **Military Contribution**
 - **1.5 million Indian soldiers** served
 - **74,187 Indians killed**
 - Fought in: France, Belgium, East Africa, Middle East, Mesopotamia, Gallipoli
 - 11 Victoria Crosses awarded to Indians
+:::
 
-**Financial**:
+:::details **Financial Contribution**
 - **£146 million** as India's contribution
 - War loans raised in India
 - Taxation increased
+:::
 
-**Material**:
+:::details **Material Contribution**
 - Supplies, raw materials
 - Factories for war production
+:::
 
 ### Home Rule Movement (1916)
 
-#### Background
+:::details **Background**
 - War created expectations of constitutional rewards
 - Moderates-Extremists ready for reunion
 - Opportunity for pressure on Britain
+:::
 
 #### Annie Besant's Home Rule League
 
-**Sept 1916** - **Home Rule League** founded at Madras
+:::details **Sept 1916 - Home Rule League Founded**
+Founded at Madras
+:::
 
-**Leader**: **Annie Besant** (Irish theosophist, settled in India)
+:::details **Leader - Annie Besant**
+Irish theosophist, settled in India
+:::
 
-**Objectives**:
+:::details **Objectives**
 - Self-government for India within British Empire
 - Dominion status like Canada, Australia
+:::
 
-**Methods**:
+:::details **Methods**
 - Public meetings, lectures
 - Propaganda through newspapers (*New India*, *Commonweal*)
 - Student mobilization
+:::
 
-**June 1917**: Besant arrested (caused uproar)
+:::details **June 1917 - Besant Arrested**
+Caused uproar
+:::
 
-**Sept 1917**: Besant released, became Congress President (Calcutta session)
+:::details **Sept 1917 - Besant as Congress President**
+Released, became Congress President (Calcutta session)
+:::
 
 #### Tilak's Home Rule League
 
-**Apr 1916** - **Tilak's League** founded at Pune (after return from Burma exile)
+:::details **Apr 1916 - Tilak's League Founded**
+Founded at Pune (after return from Burma exile)
 
 **Coverage**: Maharashtra, Karnataka, Central Provinces, Berar
 
@@ -388,19 +460,23 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 - Mass awakening
 - Political education
 - Prepared ground for Gandhi's movements
+:::
 
 ---
 
 ## 🤝 Lucknow Pact (1916)
 
-**Dec 1916** - Congress and Muslim League agreement at Lucknow
+:::details **Dec 1916 - Congress-League Agreement**
+Congress and Muslim League agreement at Lucknow
+:::
 
-**Context**:
+:::details **Context**
 - Both opposed to British in WWI
 - Congress wanted League support
 - League wanted Congress to accept separate electorates
+:::
 
-**Terms**:
+:::details **Terms**
 1. **Congress accepted**:
    - Separate electorates for Muslims (major concession)
    - Weightage for Muslims in provinces where they were minority
@@ -410,39 +486,48 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
    - Half of Viceroy's Executive Council to be Indian
    - Provincial autonomy
    - No legislation if 3/4 community opposed
+:::
 
-**Leaders**:
+:::details **Leaders**
 - **Congress**: Tilak (back in Congress after Surat)
 - **Muslim League**: Muhammad Ali Jinnah
+:::
 
-**Significance**:
+:::details **Significance**
 - **Congress-League unity** (short-lived)
 - Congress compromised on separate electorates (Gandhiji later regretted)
 - Strengthened demand for self-government
 - Prepared joint memorandum for constitutional reforms
+:::
 
-**Result**: Influenced Montagu-Chelmsford reforms
+:::details **Result**
+Influenced Montagu-Chelmsford reforms
+:::
 
 ---
 
 ## 📜 Montagu-Chelmsford Reforms (1919)
 
-**Government of India Act, 1919**
+:::details **Government of India Act, 1919**
+Major constitutional reform
+:::
 
-**Reformers**:
+:::details **Reformers**
 - **Edwin Montagu**: Secretary of State
 - **Lord Chelmsford**: Viceroy (1916-1921)
+:::
 
 ### Background
 
-**20 Aug 1917** - **Montagu's Declaration**:
+:::details **20 Aug 1917 - Montagu's Declaration**
 > "The policy of HM Government is that of increasing association of Indians in every branch of the administration and the gradual development of self-governing institutions with a view to the progressive realization of responsible government in India as an integral part of the British Empire."
 
 **First time "responsible government" mentioned**
+:::
 
 ### Provisions
 
-**1. Dyarchy in Provinces**:
+:::details **1. Dyarchy in Provinces**
 - Provincial subjects divided:
   
   **Reserved Subjects** (Governor + Executive Council):
@@ -461,13 +546,15 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 - **Indian Ministers**: Responsible to legislature
 - Could be removed by vote of no-confidence
+:::
 
-**2. Provincial Legislature**:
+:::details **2. Provincial Legislature**
 - Enlarged, 70% elected
 - Direct election introduced
 - Separate electorates continued (extended to Sikhs, Anglo-Indians, Christians)
+:::
 
-**3. Central Legislature**:
+:::details **3. Central Legislature**
 - **Bicameral system** introduced:
   
   **Central Legislative Assembly** (Lower House):
@@ -480,40 +567,47 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 - Could vote on budget (except defense, foreign affairs)
 - Could reject budget (but Governor-General could overrule)
+:::
 
-**4. Executive Council**:
-- 8 members (3 Indians mandatory)
+:::details **4. Executive Council**
+8 members (3 Indians mandatory)
+:::
 
-**5. Franchise**:
+:::details **5. Franchise**
 - Limited to 10% population
 - Property and tax qualifications
 - Women could vote (limited)
+:::
 
-**6. Other**:
+:::details **6. Other Provisions**
 - Public Service Commission for recruitment
 - High Commissioner for India in London
 - Provincial autonomy increased
+:::
 
 ### Evaluation
 
-**Positive**:
+:::details **Positive**
 - **Responsible government principle** accepted (transferred subjects)
 - **Bicameral legislature**
 - Expanded franchise
 - Indians in executive
+:::
 
-**Negative**:
+:::details **Negative**
 - **Dyarchy unworkable**: Reserved subjects vital, Transferred trivial
 - Finance under Governor (ministers powerless)
 - Communal electorates extended
 - No responsible government at center
 - Governor/Governor-General had veto
 - Defense, foreign affairs outside control
+:::
 
-**Congress Reaction**:
+:::details **Congress Reaction**
 - **Initially rejected** (Special session Bombay, Aug 1918)
 - Too little, too late
 - Demanded full responsible government
+:::
 
 ---
 
@@ -521,49 +615,56 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ### Background
 
-**Rowlatt Act (Mar 1919)**:
+:::details **Rowlatt Act (Mar 1919)**
 - Allowed detention without trial
 - In camera trials
 - No appeals
 - Suppress revolutionary activities
 - All Indian members of Imperial Council opposed
 - **Gandhiji called for Satyagraha**
+:::
 
-**6 Apr 1919** - **First All-India Hartal**:
+:::details **6 Apr 1919 - First All-India Hartal**
 - Shops closed
 - Protests nationwide
 - Hindu-Muslim unity
+:::
 
-**Punjab Agitation**:
+:::details **Punjab Agitation**
 - Particularly strong in Punjab
 - Hartals, demonstrations
 - Some violence
+:::
 
-**10 Apr 1919** - **Amritsar Events**:
+:::details **10 Apr 1919 - Amritsar Events**
 - Arrest of Dr. Saifuddin Kitchlew and Dr. Satyapal (leaders)
 - Protesters tried to march to Deputy Commissioner
 - Fired upon, several killed
 - Mob violence: banks, government buildings attacked
 - European manager killed
+:::
 
-**13 Apr**: **General Reginald Dyer** arrived, martial law declared
+:::details **13 Apr - Dyer Arrives**
+**General Reginald Dyer** arrived, martial law declared
+:::
 
 ### The Massacre
 
-**13 Apr 1919** - **JALLIANWALA BAGH TRAGEDY**
-
+:::details **13 Apr 1919 - JALLIANWALA BAGH TRAGEDY**
 **Time**: 4:30 PM - 5:30 PM (approx)
 
 **Place**: Jallianwala Bagh (walled garden with narrow entrance)
+:::
 
-**Gathering**:
+:::details **Gathering Details**
 - **Baisakhi fair** attendees
 - **Protest meeting** against Rowlatt Act
 - Peaceful, unarmed crowd
 - Estimated: 15,000-20,000 people
 - Many unaware of Section 144 (prohibitory orders)
+:::
 
-**Dyer's Action**:
+:::details **Dyer's Action**
 - Entered with 90 troops (50 rifles, 40 Gurkhas)
 - Blocked narrow exit
 - **Without warning**: Ordered firing
@@ -572,21 +673,24 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 - Aimed at densest crowd areas
 - Stopped only when ammunition low
 - Left without providing medical aid
+:::
 
-**Casualties**:
+:::details **Casualties**
 - **Official**: 379 killed, ~1,200 wounded
 - **Unofficial/Congress**: 1,000+ killed, 1,500+ wounded
 - Many died in stampede, jumping into well (120 bodies recovered from well)
+:::
 
-**Other Atrocities**:
+:::details **Other Atrocities**
 - **Crawling Order**: Indians forced to crawl on street where European woman assaulted
 - Public floggings
 - Collective fines on villages
 - Aerial bombardment of some areas
+:::
 
 ### Aftermath
 
-**British Response**:
+:::details **British Response**
 - **Hunter Committee** (1919) investigated
   - Censured Dyer (but mildly)
   - Dyer defended action as necessary to create "moral effect"
@@ -594,27 +698,30 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 - **Dyer relieved** of command (1920)
 - House of Lords supported Dyer
 - British public raised £26,000 for Dyer
+:::
 
-**Indian Response**:
+:::details **Indian Response**
 - **Shock and horror** nationwide
 - Rabindranath Tagore renounced knighthood
 - Gandhi surrendered Kaiser-i-Hind medal
 - **Congress Investigation** (unofficial):
   - Led by Motilal Nehru, C.R. Das, Abbas Tyabji, M.R. Jayakar, Fazlul Haq
   - Estimated 1,000+ deaths
+:::
 
-**Significance**:
+:::details **Significance**
 - **Destroyed faith in British justice**
 - Transformed moderate nationalists to extremists
 - Gandhi launched Non-Cooperation Movement (1920)
 - Marked end of "Moderate Era"
 - Watershed in Indian nationalism
+:::
 
 ---
 
 ## 🔍 Non-Cooperation Movement Prelude (1919-1920)
 
-**Factors for Mass Movement**:
+:::details **Factors for Mass Movement**
 1. **Jallianwala Bagh**: Brutality exposed
 2. **Rowlatt Act**: Repressive legislation
 3. **Khilafat Issue**:
@@ -623,20 +730,25 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
    - Indian Muslims agitated for restoration
    - **Khilafat Committee** formed (1919)
    - Gandhi saw opportunity for Hindu-Muslim unity
+:::
 
-**Sept 1920** - **Congress Calcutta Special Session**:
+:::details **Sept 1920 - Congress Calcutta Special Session**
 - **Non-Cooperation program** adopted
 - Would launch in stages
+:::
 
-**Dec 1920** - **Nagpur Session**:
+:::details **Dec 1920 - Nagpur Session**
 - Confirmed Non-Cooperation
 - Changed Congress Constitution:
   - Goal: "Swaraj by peaceful and legitimate means"
   - Provincial Congress Committees on linguistic basis
   - Membership fee reduced to 4 annas
   - Detailed organization structure
+:::
 
-**1920** - Stage set for Gandhi's mass movements
+:::details **1920 - Gandhi Era Begins**
+Stage set for Gandhi's mass movements
+:::
 
 ---
 
@@ -663,19 +775,33 @@ This turbulent period witnessed the Partition of Bengal (1905) sparking mass pro
 
 ## 🗝️ Important Terms
 
-**Swadeshi**: Use of indigenous goods, boycott of foreign goods
+:::details **Swadeshi**
+Use of indigenous goods, boycott of foreign goods
+:::
 
-**Dyarchy**: Dual government - reserved and transferred subjects
+:::details **Dyarchy**
+Dual government - reserved and transferred subjects
+:::
 
-**Separate Electorates**: Muslims elect Muslim representatives separately
+:::details **Separate Electorates**
+Muslims elect Muslim representatives separately
+:::
 
-**Home Rule**: Self-government within British Empire
+:::details **Home Rule**
+Self-government within British Empire
+:::
 
-**Hartal**: General strike - shops closed, work stopped
+:::details **Hartal**
+General strike - shops closed, work stopped
+:::
 
-**Satyagraha**: Truth-force, non-violent resistance
+:::details **Satyagraha**
+Truth-force, non-violent resistance
+:::
 
-**Lal-Bal-Pal**: Trio of extremist leaders - Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal
+:::details **Lal-Bal-Pal**
+Trio of extremist leaders - Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal
+:::
 
 ---
 
