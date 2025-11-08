@@ -35,26 +35,46 @@ Post-Gupta Period (550 CE - 750 CE)
 
 ### [1. Prehistoric Period](/upsc/gs1/ancient-history/prehistoric)
 
-**Paleolithic Age (Old Stone Age)**
-- Lower, Middle, Upper Paleolithic
-- Stone tools and hunting-gathering lifestyle
-- Important sites: Bhimbetka, Adamgarh
+:::details **Palaeolithic Period (Old Stone Age)**
+- **Lower/Early**: 2.58 million-200,000 BCE
+- **Hand Axes**: Choppers, cleavers used
+- **Middle**: 300,000-30,000 years ago
+- **Scrapers**: Borers, points developed
+- **Upper**: 40,000-10,000 BCE
+- **Parallel-Sided Blades**: Burins, bone tools
+- **Oldowan Tools**: Simplest pebble tools
+- **Acheulean Tools**: Polyhedron spheroids
+- **Nevasan Industry**: Maharashtra Middle Palaeolithic
+:::
 
-**Mesolithic Age (Middle Stone Age)**
-- Microliths
-- Beginning of domestication
-- Rock paintings
+:::details **Mesolithic Period (10,000-4,000 BCE)**
+- **Holocene Era**: Post-Ice Age transition
+- **Settled Communities**: Longer stays
+- **Fire Discovery**: First domestication began
+- **Microliths**: Miniature stone tools
+- **Crypto-Crystalline Silica**: Chalcedony, chert
+- **Important Sites**: Bhimbetka, Adamgarh
+:::
 
-**Neolithic Age (New Stone Age)**
-- Settled agriculture
-- Pottery making
-- Domestication of animals
-- Sites: Mehrgarh, Burzahom
+:::details **Neolithic Period (8000-1000 BCE)**
+- **Northern India**: 8000-6000 BCE
+- **South/East**: As late 1000 BCE
+- **Ragi**: Horse gram cultivated
+- **Sharp Tools**: Polished stone precision
+- **Black Burnished**: Ware pottery
+- **Grey Ware**: Mat-impressed pottery
+- **Sites**: Mehrgarh, Burzahom
+:::
 
-**Chalcolithic Age (Copper-Stone Age)**
-- Use of copper along with stone
-- Proto-urban settlements
-- Sites: Ahar, Malwa, Jorwe
+:::details **Chalcolithic Period (3000-500 BCE)**
+- **Copper**: First metal used
+- **Wheat**: Rice, bajra cultivated
+- **Lentils**: Black gram grown
+- **Animals**: Cows, sheep, goats
+- **Ahar-Banas Culture**: Rajasthan Chalcolithic
+- **Black-and-Red Ware**: Distinctive pottery
+- **Sites**: Ahar, Malwa, Jorwe
+:::
 
 [Explore Prehistoric Period →](/upsc/gs1/ancient-history/prehistoric)
 
@@ -66,10 +86,19 @@ Post-Gupta Period (550 CE - 750 CE)
 
 **Key Features:**
 - **Urban Planning**: Grid pattern, drainage system
-- **Economy**: Agriculture, trade, crafts
-- **Script**: Undeciphered pictographic script
-- **Religion**: Mother Goddess, Pashupati, sacred animals
-- **Art**: Seals, pottery, bronze sculptures
+- **Citadels**: Fortresses on high ground
+- **Gabarbands**: Large old dams
+- **Bronze Age**: 3300-1200 BCE civilization
+- **Meluha**: Name in texts
+- **Trade**: Dilmun (Bahrain), Magan (Oman)
+
+:::details **Script & Technology**
+- **Pictographic**: Logosyllabic undeciphered script
+- **Boustrophedon**: Alternating direction writing
+- **Cire Perdue**: Lost-wax bronze casting
+- **Red Pottery**: Black ware designs
+- **Trees**: Circles decorative motifs
+:::
 
 **Major Sites:**
 - **Harappa** (Punjab, Pakistan) - First discovered
@@ -95,11 +124,24 @@ Post-Gupta Period (550 CE - 750 CE)
 
 **Sources:** Rigveda
 
-**Society:**
-- Patriarchal joint family
-- Tribal organization
-- Varna system emerging
-- Status of women relatively better
+:::details **Sapta Sindhu (Seven Rivers)**
+- **Sindhu**: Main river
+- **Vitasta**: Jhelum river
+- **Asikani**: Chenab river
+- **Vipas**: Beas river
+- **Parushni**: Ravi river
+- **Sutudri**: Sutlej river
+- **Saraswati**: Sacred river
+:::
+
+:::details **Social Organization**
+- **Varnas**: Brahmana, Kshatriya, Vaisya, Shudra
+- **Profession-Based**: Not hereditary initially
+- **Sabha**: Assembly of elders
+- **Samiti**: Broader assembly common
+- **Vidhata**: Early tribal religious
+- **Panis**: Wealthy merchants traders
+:::
 
 **Economy:**
 - Pastoralism dominant
@@ -116,17 +158,36 @@ Post-Gupta Period (550 CE - 750 CE)
 
 **Sources:** Samaveda, Yajurveda, Atharvaveda, Brahmanas, Aranyakas, Upanishads
 
-**Society:**
-- Territorial kingdoms
-- Varna system rigid
-- Emergence of caste system
-- Women's status declined
+:::details **Geographical Expansion**
+- **Aryavarta**: Northern India region
+- **Madhyadesa**: Central India region
+- **Dakshinapatha**: Southern India region
+:::
 
-**Economy:**
-- Agriculture dominant
-- Use of iron tools
-- Trade expansion
-- Coinage beginning
+:::details **Administrative Terms**
+- **Gramani**: Village chiefs
+- **Rajan**: King title
+- **Akshvapa**: Accountant officer
+- **Bhagadugha**: Tax collector
+- **Vrajapati**: Pasture land officer
+- **Jivagribha/Ugra**: Police officers
+:::
+
+:::details **Economic Terms**
+- **Urvara**: Cultivated land
+- **Dhanya**: Grains crop
+- **Gomat**: Wealthy cattle owner
+- **Phala/Langla/Sira**: Plough names
+- **Kusidin**: Money lending
+- **Nishka/Krishna/Satmana**: Gold coins
+:::
+
+:::details **Religious Terms**
+- **Ashwamedh**: Political paramountcy sacrifice
+- **Rajsuya**: Royal consecration sacrifice
+- **Aranyakas**: Forest hermit texts
+- **Upanayan**: Vedic study initiation
+:::
 
 **Religion:**
 - Ritualism increased
@@ -174,18 +235,95 @@ Post-Gupta Period (550 CE - 750 CE)
 ### [5. Religious Movements](/upsc/gs1/ancient-history/religious-movements)
 
 **Buddhism**
-- Founder: Gautama Buddha (563 BCE - 483 BCE)
-- Four Noble Truths
-- Eightfold Path
-- Middle Path
-- Spread across Asia
+
+:::details **Three Jewels (Triratna)**
+- **Buddha**: Enlightened one
+- **Dhamma**: Doctrine teachings
+- **Sangha**: Monastic commune
+:::
+
+:::details **Four Noble Truths**
+- **Dukkha**: Life is sorrow
+- **Cause**: Desire causes sorrow
+- **Cessation**: Sorrow can stop
+- **Path**: Ashtangika Marga way
+:::
+
+:::details **Eightfold Path**
+- **Right Observation**: Samma ditthi
+- **Right Determination**: Samma sankappa
+- **Right Speech**: Samma vaca
+- **Right Action**: Samma kammanta
+- **Right Livelihood**: Samma ajiva
+- **Right Exercise**: Samma vayama
+- **Right Memory**: Samma sati
+- **Right Meditation**: Samma samadhi
+:::
+
+:::details **Five Principles**
+- **No Killing**: Abstain violence
+- **No Stealing**: Abstain theft
+- **No Sexual Misconduct**: Abstain immorality
+- **No Wrong Speech**: Abstain lies
+- **No Intoxicants**: Abstain substances
+:::
+
+:::details **Bodhisattvas**
+- **Vajrapani**: Thunderbolt holder
+- **Avalokitesvara/Padmapani**: Lotus bearer
+- **Manjushri**: Wisdom Buddha
+- **Maitreya**: Future Buddha
+:::
+
+:::details **Buddhist Sects**
+- **Hinayana**: Lesser Vehicle
+  - Original teachings followed
+  - Individual salvation self-discipline
+  - Pali language used
+  - Vaibhasika, Sautantrika sub-sects
+- **Mahayana**: Greater Vehicle
+  - Heavenly Buddha belief
+  - Salvation through grace
+  - Sanskrit language used
+  - Madhyamika/Shunyavada, Yogachar/Vijnanavada sub-sects
+- **Vajrayana**: Magical powers
+  - Salvation through powers
+  - Worship of Taras
+  - Eastern India/Bengal popular
+:::
 
 **Jainism**
-- 24 Tirthankaras
-- Mahavira (599 BCE - 527 BCE)
-- Five Vows
-- Emphasis on non-violence
-- Syadvada (theory of maybe)
+
+:::details **Three Gems (Triratna)**
+- **Samyak Shradha/Viswas**: Right Faith
+- **Samyak Jnan**: Right Knowledge
+- **Samyak Karma**: Right Action
+:::
+
+:::details **Five Vows (Pancha Mahavratas)**
+- **Ahimsa**: Non-injury principle
+- **Satya**: Non-lying truthfulness
+- **Asteya**: Non-stealing honesty
+- **Aparigraha**: Non-possession detachment
+- **Brahmacharya**: Chastity (Mahavira added)
+:::
+
+:::details **Philosophy**
+- **Rejects Vedas**: Vedic rituals
+- **No God**: Doesn't believe
+- **Karma**: Transmigration of soul
+- **Anekantavada**: Theory of plurality
+- **Multi-Sidedness**: Multiple viewpoints
+:::
+
+:::details **Major Sects**
+- **Svetambaras**: White-clad monks
+  - Stayed in Magadha
+  - Famine survivors northern
+- **Digambaras**: Sky-clad/naked
+  - Went to Deccan
+  - Southern India movement
+:::
 
 **Significance:**
 - Reaction against Vedic ritualism
@@ -218,7 +356,21 @@ Post-Gupta Period (550 CE - 750 CE)
 - Buddhist propagation
 - Administrative genius
 
-**Administration:**
+:::details **Mauryan Administration**
+- **Village Level**:
+  - Gramika: Village head
+  - Gramvriddhas: Village elders
+- **Provincial**:
+  - Tirthas: Senior officials
+  - Sthanika: Local administration head
+  - Rajuka: Revenue settlement officer
+- **Specialized Officers**:
+  - Sitadhyaksha: Agriculture supervisor
+  - Panyadhyaksha: Commerce superintendent
+  - Dhammamahamatra: Dhamma promotion officer
+:::
+
+**General Features:**
 - Centralized monarchy
 - Council of Ministers
 - Provinces and districts
@@ -267,6 +419,18 @@ Post-Gupta Period (550 CE - 750 CE)
 - Trade with Rome
 - Prakrit literature
 - Buddhist patrons
+- Gathasatsai: Rural love treaty
+
+:::details **Post-Mauryan Terms**
+- **Ahara**: District division
+- **Amatya**: Ruler/minister title
+- **Devaputra**: Kushana rulers title
+- **Karashpana**: Copper coin
+- **Purana**: Silver Kushana coin
+- **Stridhana**: Women's property
+- **Shrenis/Nigamas**: Economic guilds
+- **Magadhas**: Professional bards chroniclers
+:::
 
 **Art & Architecture:**
 - Gandhara School (Greco-Buddhist)
@@ -314,6 +478,20 @@ Post-Gupta Period (550 CE - 750 CE)
 - Aryabhata (Mathematics, Astronomy)
 - Varahamihira (Astronomy)
 - Sushruta (Medicine)
+
+:::details **Gupta Administration**
+- **Administrative Units**:
+  - Bhukti: Province
+  - Vishaya: District (Vishayapati/Ayukta head)
+  - Gram: Village (Gramika head)
+- **Important Officials**:
+  - Sandhivigrahika: Minister peace/war
+  - Kumar Amatya: Top officials
+  - Mahabaladhikrita: Commander-in-chief
+- **Land Measurement**:
+  - Kulyavāpa: Land one channel
+  - Dronavāpa: Land one drona
+:::
 
 **Art & Architecture:**
 - Ajanta and Ellora Caves
@@ -363,6 +541,20 @@ Post-Gupta Period (550 CE - 750 CE)
 - Pearl fishing
 - Literary patronage
 
+:::details **Imperial Chola Administration (Later)**
+- **Administrative Units**:
+  - Mandalam: Province
+  - Valanadu: Commissionary
+  - Nadu: District
+- **Assemblies**:
+  - Ur: Village assembly
+  - Mahasabha: Brahmana villages
+- **Economic Terms**:
+  - Idangai: Artisanal/trading caste
+  - Valangai: Agricultural caste
+  - Hundi: Negotiable instrument
+:::
+
 **Society & Economy:**
 - Hereditary monarchy
 - Maritime trade
@@ -393,6 +585,16 @@ Post-Gupta Period (550 CE - 750 CE)
 - Kailasa Temple (Ellora)
 - Krishna I
 - Tripartite struggle
+
+:::details **Pala & Pratihara Administration**
+- **Administrative Structure**:
+  - Bhukti: Province
+  - Mandala/Visaya: Districts
+  - Pattala: Smaller unit
+- **Officers**:
+  - Uparika: Governor of Bhukti
+  - Visayapati: Head of Visaya
+:::
 
 **Cholas (Later)**
 - Rajaraja Chola I
@@ -429,6 +631,81 @@ Post-Gupta Period (550 CE - 750 CE)
 - Foreign influences (Greek, Persian)
 - Sanskrit and Prakrit literature
 - Art and architecture fusion
+
+---
+
+## 📚 Important Literary Works
+
+:::details **Vedic Literature**
+- **Rig Veda**: Oldest Veda 1500-1200 BCE
+  - 1,028 hymns to deities
+  - Contains Gayatri mantra
+- **Sama Veda**: Hymns musical form
+  - First book on music
+- **Yajur Veda**: Rituals sacrifices Brahmanas
+- **Atharva Veda**: Charms spells deals
+- **Vedangas**: Six auxiliary disciplines
+  - Shiksha: Phonetics
+  - Kalpa: Rituals
+  - Vyakarana: Grammar
+  - Nirukta: Etymology
+  - Chandas: Metrics
+  - Jyotisha: Astronomy
+:::
+
+:::details **Buddhist Literature**
+- **Sutta Pitaka**: Buddha's sayings
+  - Composed by Ananda
+  - First Buddhist council 483 BCE
+- **Vinaya Pitaka**: Monastic code
+  - Composed by Upali
+  - First council 483 BCE
+- **Abhidhamma Pitaka**: Philosophical sayings
+  - Mogaliputta Tissa composed
+  - Third council 250 BCE
+- **Jatakas**: Buddha's previous births
+- **Milindapanho**: Menander-Nagasena dialogue
+- **Visuddhimagga**: Path to Purity Buddhaghosa
+:::
+
+:::details **Jain Literature**
+- **Angas/Purvas**: Early Jain Prakrit
+  - 14 Purvas lost
+- **Bhagavati Sutra**: Important Jain text
+  - Ardha-Magadhi Prakrit written
+- **Tattvartha-Sutra**: Fundamental tenets encapsulated
+- **Parishishtaparvan**: Hemachandra work
+  - Political history provided
+  - Earliest Jaina teachers
+:::
+
+:::details **Sangam Literature (Tamil)**
+- **Tolkappiyam**: Oldest Tamil grammar
+  - By Tolkappiyar
+- **Ettutogai**: Eight anthologies
+  - Classical poetry 300 BCE-300 CE
+- **Pattuppattu**: Ten idylls
+  - Love, war, nature themes
+- **Silappadikaram**: Love story epic
+  - Kovalan, Madhavi, Kannagi
+  - By Ilango Adigal
+- **Manimekalai**: Buddhist epic sequel
+  - By Seethalai Sathanar
+- **Tirukkural**: Ethical philosophical work
+  - By Tiruvalluvar
+:::
+
+:::details **Gupta Period Literature**
+- **Kalidasa's Works**:
+  - Abhijnanashakuntalam: Based on Mahabharata
+  - Meghadutam: Yaksha message cloud
+  - Raghuvamsa: Raghu dynasty lineage
+  - Kumarasambhava: Kartikeya birth story
+- **Aryabhattiya**: Aryabhatta astronomy work
+  - Solar lunar eclipses
+- **Panch Siddhantika**: Varahmihir work
+  - Five astronomical systems
+:::
 
 ---
 

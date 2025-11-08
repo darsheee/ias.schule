@@ -130,11 +130,26 @@ title: Medieval Indian History | GS Paper I
 - **Firoz**: Tughlaq public works
 :::
 
-:::details **Administration Features**
-- **Iqta**: System land grants
-- **Slave**: System military backbone
-- **Centralized**: Administration attempted always
-- **Token**: Currency Muhammad Tughlaq
+:::details **Delhi Sultanate Administration**
+- **Departments**:
+  - Diwan-i-Arz: Military department
+  - Diwan-i-Wazriyat: Finance department
+  - Diwan-i-Insha: Correspondence department
+- **Officials**:
+  - Wazir: Chief minister
+  - Qazi: Legal officer Sharia
+  - Barid-i-Mumalik: State news agency
+- **Iqta System**:
+  - Iqta: Land revenue assignment
+  - Iqtadar: Assignment holder
+- **Taxes**:
+  - Jizya: Tax on non-Muslims
+  - Kharaj: Land tax
+  - Khams: 1/5th looted property
+  - Zakat: 2½% Muslims income
+- **Military**:
+  - Chehra: Soldiers detailed description
+  - Dagh: Horses branding
 :::
 
 ---
@@ -158,11 +173,21 @@ title: Medieval Indian History | GS Paper I
 - **Abolition**: Jizya tax removed
 :::
 
-:::details **Administration**
-- **Centralized**: Efficient system developed
-- **Mansabdari**: Military, civil combined
-- **Jagir**: Land assignments given
-- **Provinces**: Subas, Sarkars divided
+:::details **Mughal Administration**
+- **Administrative Divisions**:
+  - Suba: Province (Subedar headed)
+  - Sarkar: District (Faujdar/Amalguzar headed)
+  - Pargana: Sub-district (Shiqdar, Qanungo managed)
+- **Central Ministries**:
+  - Mir Bakshi: Military, nobility department
+  - Diwan: Income, expenditure all
+  - Sadr-us-Sudr: Religious advisor, justice
+- **Revenue System**:
+  - Patta: Peasant payment amount
+  - Qabuliyat: Deed of agreement
+  - Shiqdar: District administrative head
+- **Mansabdari**: Rank-based military civil
+- **Jagirdari**: Land revenue system
 :::
 
 :::details **Economy**
@@ -221,10 +246,19 @@ title: Medieval Indian History | GS Paper I
 - **Trade**: Extensive maritime connections
 :::
 
-:::details **Administration**
-- **Nayankara**: System feudal type
-- **Village**: Autonomy considerable freedom
-- **Revenue**: Efficient collection system
+:::details **Vijayanagara Administration**
+- **Administrative Units**:
+  - Gram: Village
+  - Nadu: District
+  - Mandalam: Province
+- **Administration Systems**:
+  - Nayankara: Provincial administration
+  - Ayngar: Village administration
+- **Currency**:
+  - Varahas/Pagodas: Gold coins
+  - Tar: Silver coins
+  - Jital: Copper coins
+  - Fanam: One-tenth perta
 :::
 
 ---
@@ -352,6 +386,22 @@ title: Medieval Indian History | GS Paper I
 - **Rajatarangini**: Kashmir history chronicle
 - **Prithviraj**: Raso epic poem
 - **Hammir**: Mahakavya Chauhan epic
+:::
+
+:::details **Medieval Literature**
+- **Bhakti Movement**:
+  - Ramcharitmanas: Tulsidas Awadhi
+  - Sur Sagar: Surdas Braj Bhasha
+- **Sufi Literature**:
+  - Chandayan: Maulana Daud Awadhi
+- **Mughal Chronicles**:
+  - Akbarnama: Abul Fazl Persian
+  - Ain-i-Akbari: Abul Fazl Persian
+  - Baburnama: Babur Chagatai Turkish
+- **Vijayanagara Literature**:
+  - Amuktamalyada: Krishnadevaraya Telugu
+- **Sikh Scripture**:
+  - Guru Granth Sahib: Guru Arjan Gurmukhi
 :::
 
 ---

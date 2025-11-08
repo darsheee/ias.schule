@@ -56,7 +56,20 @@ const UPSC: DefaultTheme.SidebarItem[] = [
     items: [
       { text: 'Ancient History', link: '/upsc/gs1/ancient-history/' },
       { text: 'Medieval History', link: '/upsc/gs1/medieval-history/' },
-      { text: 'Modern History', link: '/upsc/gs1/modern-history/' },
+      { 
+        text: 'Modern History', 
+        link: '/upsc/gs1/modern-history/',
+        collapsed: true,
+        items: [
+          { text: 'Fall of Mughals', link: '/upsc/gs1/modern-history/fall-of-mughals' },
+          { text: 'Advent of Europeans', link: '/upsc/gs1/modern-history/advent-of-europeans' },
+          { text: 'Company Rule', link: '/upsc/gs1/modern-history/company-rule' },
+          { text: 'British Expansion', link: '/upsc/gs1/modern-history/british-expansion' },
+          { text: 'Economic Policies', link: '/upsc/gs1/modern-history/economic-policies' },
+          { text: 'Reform Movements', link: '/upsc/gs1/modern-history/reform-movements' },
+          { text: 'National Movement (1885-1919)', link: '/upsc/gs1/modern-history/national-movement-1' },
+        ]
+      },
       { text: 'Freedom Struggle', link: '/upsc/gs1/freedom-struggle/' },
       { text: 'Post-Independence', link: '/upsc/gs1/post-independence/' },
       { text: 'World History', link: '/upsc/gs1/world-history/' },
@@ -142,6 +155,7 @@ export default withPwa(defineConfig({
   lang: 'en-US',
   title: 'IAS Schule',
   description: 'Beautiful, Interactive Data Visualizations with Observable Plot & D3.js',
+  ignoreDeadLinks: true,
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: '48x48' }],
