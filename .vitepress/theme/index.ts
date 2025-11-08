@@ -8,6 +8,7 @@ import PieChart from './PieChart.vue'
 
 import './styles/main.css'
 import './styles/vars.css'
+import { botProtection } from './botProtection'
 
 import 'uno.css'
 import 'virtual:group-icons.css'
@@ -25,8 +26,11 @@ export default {
     // Register PieChart component globally
     app.component('PieChart', PieChart)
 
-    // Disable Reader Mode - client-side protection
+    // Initialize Bot Protection & Rate Limiting
     if (typeof window !== 'undefined') {
+      // Start bot protection immediately
+      botProtection.init()
+      
       // Detect Reader Mode attempts
       const detectReaderMode = () => {
         // Check if page is displayed in simplified/reader view
@@ -41,8 +45,9 @@ export default {
         }
       }
 
-      // Monitor for Reader Mode activation
+      // Re-check bot protection and reader mode on every route change
       router.onAfterRouteChange = () => {
+        botProtection.init()
         setTimeout(detectReaderMode, 100)
       }
 

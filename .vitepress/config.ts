@@ -237,10 +237,15 @@ export default withPwa(defineConfig({
       name: 'keywords',
       content: 'UPSC, IAS, Civil Services, GS Paper 1, GS Paper 2, GS Paper 3, GS Paper 4, Essay, Prelims, CSAT, Current Affairs, Indian Polity, History, Geography, Economy',
     }],
-    // Disable Reader Mode / Reading View
-    ['meta', { name: 'robots', content: 'max-snippet:-1, max-image-preview:none, max-video-preview:-1' }],
+    // Disable Reader Mode / Reading View & Bot Protection
+    ['meta', { name: 'robots', content: 'max-snippet:-1, max-image-preview:none, max-video-preview:-1, noarchive, noimageindex' }],
+    ['meta', { name: 'googlebot', content: 'noarchive, max-snippet:-1, max-image-preview:none' }],
     ['meta', { name: 'format-detection', content: 'telephone=no, date=no, email=no, address=no' }],
     ['meta', { property: 'article:content_tier', content: 'locked' }],
+    // AI Bot Protection
+    ['meta', { name: 'ai-content-declaration', content: 'not-for-training' }],
+    ['meta', { name: 'ChatGPT', content: 'noindex, nofollow, noarchive, noscrape' }],
+    ['meta', { name: 'Bingbot', content: 'noindex, nofollow, noarchive' }],
     // Schema.org WebApplication (not Article) to prevent reader mode detection
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       '@context': 'https://schema.org',

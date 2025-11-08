@@ -30,6 +30,11 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Robots-Tag: noarchive, noimageindex, max-snippet:-1, max-image-preview:none, max-video-preview:-1
+  X-AI-Protection: enabled
+  X-Scraping-Protection: enabled
+  Cache-Control: public, max-age=3600, must-revalidate
+  Vary: User-Agent
 
 /assets/*
   cache-control: max-age=31536000
