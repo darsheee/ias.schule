@@ -1,3 +1,14 @@
+---
+title: "\U0001F504 Image Workflow Diagram"
+tags:
+  - simple-3-step-process
+  - detailed-workflow
+  - folder-structure-reference
+  - image-path-reference
+  - file-naming-convention
+readingTime: 5 min
+lastUpdated: '2025-11-09'
+---
 # 🔄 Image Workflow Diagram
 
 ## Simple 3-Step Process

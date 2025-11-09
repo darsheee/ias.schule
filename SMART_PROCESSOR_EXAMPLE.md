@@ -1,3 +1,14 @@
+---
+title: "\U0001F4F8 Smart Processor - Visual Example"
+tags:
+  - "\U0001F3AC-real-world-scenario:-adding-historical-images"
+  - "\U0001F4C2-before-running-script"
+  - india's-first-major-empire
+  - chandragupta-maurya-(322-297-bce)
+  - bindusara-(297-273-bce)
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # 📸 Smart Processor - Visual Example
 
 ## 🎬 Real-World Scenario: Adding Historical Images

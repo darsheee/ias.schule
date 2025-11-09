@@ -1,3 +1,14 @@
+---
+title: 'Best Practices Analysis: Anthony Fu''s Website'
+tags:
+  - "\U0001F4CA-tech-stack-comparison"
+  - "\U0001F3AF-key-best-practices-to-adopt"
+  - "\U0001F680-recommended-implementation-for-ias.schule"
+  - "\U0001F4DD-code-snippets-to-copy"
+  - "\U0001F3A8-design-patterns"
+readingTime: 6 min
+lastUpdated: '2025-11-09'
+---
 # Best Practices Analysis: Anthony Fu's Website
 
 This document analyzes the best practices from [antfu.me](https://github.com/antfu/antfu.me) that can be applied to ias.schule project.

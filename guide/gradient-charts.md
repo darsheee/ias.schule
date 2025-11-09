@@ -1,3 +1,14 @@
+---
+title: Gradient Bar Charts
+tags:
+  - observable-style-gradient-(purple-to-gold)
+  - preset-gradients
+  - custom-gradient
+  - usage-examples
+  - configuration-options
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # Gradient Bar Charts
 
 Create visually striking bar charts with custom SVG gradient fills using Observable Plot's custom mark functions.

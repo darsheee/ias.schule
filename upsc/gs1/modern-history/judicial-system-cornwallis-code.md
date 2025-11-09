@@ -1,3 +1,14 @@
+---
+title: Cornwallis Code Era (1793-1833)
+tags:
+  - overview
+  - "\U0001F4DC-cornwallis-code-(1793)"
+  - "\U0001F3DB️-presidency-courts-development-(1797-1807)"
+  - ⚖️-early-19th-century-reforms-(1811-1827)
+  - "\U0001F4CB-bentinck-era-reforms-(1831-1833)"
+readingTime: 10 min
+lastUpdated: '2025-11-09'
+---
 # Cornwallis Code Era (1793-1833)
 
 ::: warning EXAM FOCUS

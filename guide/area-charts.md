@@ -1,3 +1,14 @@
+---
+title: Area Charts
+tags:
+  - stacked-area-chart
+  - simple-area-chart
+  - stacked-area---sales-data
+  - usage-examples
+  - configuration-options
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # Area Charts
 
 Visualize trends over time and stacked data distributions using Observable Plot's area charts.

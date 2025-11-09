@@ -1,3 +1,14 @@
+---
+title: Grouped Bar Charts
+tags:
+  - grouped-bar-chart---basic-example
+  - faceted-grouped-bar-chart
+  - observable-style-faceted-chart-(sorted)
+  - 'historical-example:-crimean-war-casualties'
+  - stacked-vs-grouped-comparison
+readingTime: 10 min
+lastUpdated: '2025-11-09'
+---
 # Grouped Bar Charts
 
 Reusable, composable grouped bar chart components for comparing multiple data series.

@@ -1,3 +1,14 @@
+---
+title: "\U0001F3A8 Blurhash Guide"
+tags:
+  - what-is-blurhash?
+  - ⚡-quick-answer
+  - 'option-1:-don''t-use-blurhash-(simplest)'
+  - 'option-2:-generate-manually-(for-few-images)'
+  - 'option-3:-generate-automatically-(for-many-images)'
+readingTime: 6 min
+lastUpdated: '2025-11-09'
+---
 # 🎨 Blurhash Guide
 
 ## What is Blurhash?

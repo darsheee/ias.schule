@@ -1,3 +1,14 @@
+---
+title: 'Quick Setup Guide: Image Optimization'
+tags:
+  - ✅-files-created
+  - "\U0001F680-installation-steps"
+  - "\U0001F4DD-usage"
+  - "\U0001F3AF-next-steps"
+  - "\U0001F527-troubleshooting"
+readingTime: 4 min
+lastUpdated: '2025-11-09'
+---
 # Quick Setup Guide: Image Optimization
 
 ## ✅ Files Created

@@ -1,3 +1,14 @@
+---
+title: ⚡ Smart Image Processor - Quick Start
+tags:
+  - "\U0001F3AF-3-step-workflow"
+  - emperor-ashoka
+  - "\U0001F389-what-happens-automatically"
+  - "\U0001F4DD-examples"
+  - "\U0001F4A1-pro-tips"
+readingTime: 3 min
+lastUpdated: '2025-11-09'
+---
 # ⚡ Smart Image Processor - Quick Start
 
 ## 🎯 3-Step Workflow

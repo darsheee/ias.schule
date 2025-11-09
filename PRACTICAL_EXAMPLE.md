@@ -1,3 +1,14 @@
+---
+title: "\U0001F3AF Practical Example: Adding Images to Your Content"
+tags:
+  - 'real-example:-adding-images-to-`british-entry.md`'
+  - "\U0001F4DD-current-file-location"
+  - "\U0001F5BC️-images-you-might-want-to-add"
+  - step-by-step-process
+  - east-india-company-&-early-british-presence-(1599-1765)
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # 🎯 Practical Example: Adding Images to Your Content
 
 ## Real Example: Adding Images to `british-entry.md`

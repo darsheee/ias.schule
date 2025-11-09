@@ -1,3 +1,14 @@
+---
+title: Legal Codification Era (1833-1860)
+tags:
+  - overview
+  - "\U0001F4DA-language-and-jurisdiction-issues-(1836-1845)"
+  - "\U0001F3DB️-court-reforms-(1850-1853)"
+  - "\U0001F393-legal-education-&-codification-(1855-1860)"
+  - "\U0001F511-quick-reference"
+readingTime: 5 min
+lastUpdated: '2025-11-09'
+---
 # Legal Codification Era (1833-1860)
 
 ::: warning EXAM FOCUS

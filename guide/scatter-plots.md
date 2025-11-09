@@ -1,3 +1,14 @@
+---
+title: Scatter Plots with Symbol Channel
+tags:
+  - accessible-scatter-plot-(symbol-+-color)
+  - why-redundant-encoding-matters
+  - product-performance-scatter-plot
+  - bubble-chart-(sized-dots)
+  - usage-examples
+readingTime: 9 min
+lastUpdated: '2025-11-09'
+---
 # Scatter Plots with Symbol Channel
 
 Create accessible scatter plots using both color and shape encoding for better readability, especially for readers with color vision deficiency.

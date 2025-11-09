@@ -1,3 +1,14 @@
+---
+title: High Courts & Modern Era (1860-1947)
+tags:
+  - overview
+  - "\U0001F3DB️-establishment-of-high-courts-(1861)"
+  - "\U0001F4DC-third-law-commission-(1862-1872)"
+  - ⚖️-maine-&-stephen-legislation-(1862-1872)
+  - "\U0001F525-ilbert-bill-controversy-(1879-1882)"
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # High Courts & Modern Era (1860-1947)
 
 ::: warning EXAM FOCUS

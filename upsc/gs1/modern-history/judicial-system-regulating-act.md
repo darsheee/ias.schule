@@ -1,3 +1,14 @@
+---
+title: Regulating Act & Early Reforms (1773-1793)
+tags:
+  - overview
+  - "\U0001F3DB️-regulating-act-of-1773"
+  - ⚖️-the-nandkumar-case-(1775)
+  - "\U0001F4CB-post-nandkumar-reforms-(1775-1781)"
+  - "\U0001F4DC-1781-amending-act"
+readingTime: 9 min
+lastUpdated: '2025-11-09'
+---
 # Regulating Act & Early Reforms (1773-1793)
 
 ::: warning EXAM FOCUS

@@ -36,11 +36,22 @@
     "optimize:images": "tsx scripts/img-compress-cli.ts",
     "generate:blurhash": "tsx scripts/generate-blurhash.ts",
     "smart:optimize": "tsx scripts/smart-image-processor-v2.ts",
+    "smart:auto": "tsx scripts/smart-optimize-auto.ts",
     "create:template": "tsx scripts/productivity/template-generator.ts",
     "csv:table": "tsx scripts/productivity/csv-to-table.ts",
     "stats": "tsx scripts/productivity/stats-dashboard.ts",
     "check:links": "tsx scripts/productivity/link-checker.ts",
-    "frontmatter:auto": "tsx scripts/productivity/frontmatter-autofill.ts"
+    "frontmatter:auto": "tsx scripts/productivity/frontmatter-autofill.ts",
+    "timeline:generate": "tsx scripts/productivity/timeline-generator.ts",
+    "facts:generate": "tsx scripts/productivity/facts-generator.ts",
+    "flashcards:generate": "tsx scripts/productivity/flashcard-generator.ts",
+    "keywords:extract": "tsx scripts/productivity/keyword-extractor.ts",
+    "outline:generate": "tsx scripts/productivity/outline-generator.ts",
+    "links:suggest": "tsx scripts/productivity/link-suggester.ts",
+    "format:md": "tsx scripts/productivity/markdown-formatter.ts",
+    "commit:suggest": "tsx scripts/productivity/commit-generator.ts",
+    "duplicate:content": "tsx scripts/productivity/content-duplicator.ts",
+    "backup:create": "tsx scripts/productivity/backup-system.ts"
   },
   "dependencies": {
     "mermaid": "^11.12.1",

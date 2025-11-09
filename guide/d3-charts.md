@@ -1,3 +1,14 @@
+---
+title: D3 Charts with Observable Plot
+tags:
+  - features
+  - basic-usage
+  - bar-chart-example
+  - line-chart-example
+  - multi-series-chart
+readingTime: 4 min
+lastUpdated: '2025-11-09'
+---
 # D3 Charts with Observable Plot
 
 Interactive data visualizations using Observable Plot - a concise API for exploratory data visualization.

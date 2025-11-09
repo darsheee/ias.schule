@@ -1,3 +1,14 @@
+---
+title: Early Courts and Legal System (1600-1772)
+tags:
+  - overview
+  - "\U0001F4DC-company's-legal-powers-(1600-1668)"
+  - ⚖️-establishment-of-courts-(1670-1698)
+  - "\U0001F3DB️-presidency-courts-(1700-1726)"
+  - "\U0001F4CB-mid-18th-century-reforms-(1753-1772)"
+readingTime: 8 min
+lastUpdated: '2025-11-09'
+---
 # Early Courts and Legal System (1600-1772)
 
 ::: warning EXAM FOCUS

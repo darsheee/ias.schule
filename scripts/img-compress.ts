@@ -10,12 +10,26 @@ export async function compressSharp(image: sharp.Sharp, inBuffer: Buffer, inFile
     throw new Error(`Could not determine format of ${inFile}`)
   if (!width || !height)
     throw new Error(`Could not determine size of ${inFile}`)
-  if (format !== 'jpeg' && format !== 'png' && format !== 'webp')
+  if (format !== 'jpeg' && format !== 'png' && format !== 'webp' && format !== 'avif')
     throw new Error(`Unsupported format ${format} of ${inFile}`)
+
+  // AVIF: Return original file without any processing
+  if (format === 'avif') {
+    return {
+      image,
+      outBuffer: inBuffer, // Use original buffer as-is
+      size: inBuffer.byteLength,
+      outSize: inBuffer.byteLength,
+      percent: 0, // No change in size
+      inFile,
+      outFile,
+    }
+  }
 
   if (width > maxSize || height > maxSize)
     image = image.resize(maxSize)
 
+  // Set compression options for non-AVIF formats
   image = image[format]({
     quality: format === 'png' ? 100 : 80,
     compressionLevel: 9,

@@ -1,3 +1,14 @@
+---
+title: "✨ Image Zoom Feature - ADDED! \U0001F389"
+tags:
+  - what-was-added?
+  - "\U0001F680-try-it-now!"
+  - "\U0001F4CB-what-works-automatically"
+  - "\U0001F3AF-quick-examples"
+  - ⌨️-how-to-use
+readingTime: 3 min
+lastUpdated: '2025-11-09'
+---
 # ✨ Image Zoom Feature - ADDED! 🎉
 
 ## What Was Added?

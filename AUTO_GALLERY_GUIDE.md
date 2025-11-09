@@ -1,3 +1,14 @@
+---
+title: "\U0001F3A8 Auto Gallery Detection - Smart Image Processor v2"
+tags:
+  - '✨-new-feature:-automatic-responsive-galleries!'
+  - "\U0001F3AF-how-it-works"
+  - "\U0001F4DD-real-world-examples"
+  - the-three-great-emperors
+  - the-three-great-emperors
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # 🎨 Auto Gallery Detection - Smart Image Processor v2
 
 ## ✨ NEW Feature: Automatic Responsive Galleries!

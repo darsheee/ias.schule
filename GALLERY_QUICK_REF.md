@@ -1,3 +1,14 @@
+---
+title: "\U0001F3A8 Auto Gallery - Quick Reference"
+tags:
+  - ⚡-how-many-images-=-what-layout?
+  - "\U0001F4DD-input-examples"
+  - "\U0001F4F1-responsive-behavior"
+  - ⚡-command
+  - ✨-features-applied
+readingTime: 2 min
+lastUpdated: '2025-11-09'
+---
 # 🎨 Auto Gallery - Quick Reference
 
 ## ⚡ How Many Images = What Layout?

@@ -1,3 +1,14 @@
+---
+title: "\U0001F50D Image Zoom / Lightbox Feature"
+tags:
+  - ✨-what's-new?
+  - "\U0001F3AF-how-it-works"
+  - "\U0001F680-usage-examples"
+  - "\U0001F3A8-features-in-detail"
+  - "\U0001F527-control-zoom-behavior"
+readingTime: 6 min
+lastUpdated: '2025-11-09'
+---
 # 🔍 Image Zoom / Lightbox Feature
 
 ## ✨ What's New?

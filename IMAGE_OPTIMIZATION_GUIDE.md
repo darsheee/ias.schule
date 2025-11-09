@@ -1,3 +1,14 @@
+---
+title: Image Optimization Implementation Guide
+tags:
+  - "\U0001F3AF-overview"
+  - "\U0001F4E6-installation"
+  - "\U0001F680-usage"
+  - "\U0001F5BC️-using-optimizedimage-component"
+  - "\U0001F4DD-best-practices"
+readingTime: 5 min
+lastUpdated: '2025-11-09'
+---
 # Image Optimization Implementation Guide
 
 ## 🎯 Overview

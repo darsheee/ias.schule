@@ -1,3 +1,14 @@
+---
+title: "\U0001F4F8 Gallery Examples - Visual Guide"
+tags:
+  - "\U0001F3A8-see-what-you-get-with-auto-gallery-detection!"
+  - 'example-1:-single-image-(centered)'
+  - 'example-2:-two-images-(2-column-grid)'
+  - 'example-3:-three-images-(3-column-grid)'
+  - 'example-4:-four-images-(4-column-grid)'
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # 📸 Gallery Examples - Visual Guide
 
 ## 🎨 See What You Get with Auto Gallery Detection!

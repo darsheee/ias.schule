@@ -6,6 +6,8 @@ title: Getting Started | Guide
 
 Welcome to **IAS Schule** - a comprehensive data visualization library built with Observable Plot, D3.js, and modern web technologies. This documentation showcases a wide range of interactive, accessible, and beautiful charts for your data visualization needs.
 
+
+
 ## What is IAS Schule?
 
 IAS Schule is a collection of reusable, modular chart components that make it easy to create stunning visualizations in your Vue.js or VitePress applications. All charts are:
@@ -16,7 +18,7 @@ IAS Schule is a collection of reusable, modular chart components that make it ea
 - **Theme-aware** - Supports light and dark modes
 - **Composable** - Easy to integrate and customize
 
-## Available Chart Types
+
 
 ### Bar Charts
 - **[Grouped Bar Charts](/guide/grouped-bar-charts)** - Compare values across multiple groups
@@ -24,6 +26,7 @@ IAS Schule is a collection of reusable, modular chart components that make it ea
 - **[Faceted Bar Charts](/guide/grouped-bar-charts)** - Multiple charts side-by-side
 - **[Gradient Bar Charts](/guide/gradient-charts)** - Custom SVG gradient fills
 - **[Time-Series Bars](/guide/grouped-bar-charts)** - Florence Nightingale's Crimean War example
+
 
 ### Distribution Charts
 - **[Area Charts](/guide/area-charts)** - Visualize trends over time

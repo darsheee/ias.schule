@@ -1,3 +1,14 @@
+---
+title: Percentogram
+tags:
+  - what-is-a-percentogram?
+  - why-use-a-percentogram?
+  - custom-percentile-divisions
+  - usage-examples
+  - configuration-options
+readingTime: 8 min
+lastUpdated: '2025-11-09'
+---
 # Percentogram
 
 A histogram binned by percentages of the cumulative distribution, rather than using fixed bin widths. This technique, referenced by Andrew Gelman, provides equal representation across the data's distribution.

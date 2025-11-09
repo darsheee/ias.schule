@@ -1,3 +1,14 @@
+---
+title: '⚡ Quick Start: Images in 3 Steps'
+tags:
+  - "\U0001F3AF-the-simplest-way"
+  - "\U0001F4C1-where-to-put-images?"
+  - "\U0001F5BC️-how-to-use-in-markdown?"
+  - "\U0001F680-complete-example"
+  - "\U0001F4A1-image-path-rules"
+readingTime: 3 min
+lastUpdated: '2025-11-09'
+---
 # ⚡ Quick Start: Images in 3 Steps
 
 ## 🎯 The Simplest Way

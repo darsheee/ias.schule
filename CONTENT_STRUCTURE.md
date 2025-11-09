@@ -1,3 +1,14 @@
+---
+title: IAS Schule Content Structure
+tags:
+  - 'revision-focused,-fact-based-learning'
+  - "\U0001F4CB-content-philosophy"
+  - "\U0001F3AF-content-format"
+  - subtitle-(period/dates-if-applicable)
+  - "\U0001F4C5-timeline-(if-applicable)"
+readingTime: 6 min
+lastUpdated: '2025-11-09'
+---
 # IAS Schule Content Structure
 ## Revision-Focused, Fact-Based Learning
 

@@ -28,7 +28,7 @@ interface ImageGroup {
 // Convert filename to human-readable alt text
 function filenameToAltText(filename: string): string {
   return filename
-    .replace(/\.(jpg|jpeg|png|webp)$/i, '')
+    .replace(/\.(jpg|jpeg|png|webp|gif|svg|bmp|tiff|ico|heic|heif|avif)$/i, '')
     .replace(/[-_]/g, ' ')
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -122,15 +122,18 @@ async function findImageGroups(): Promise<Map<string, ImageGroup[]>> {
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim()
       
-      // Check if line contains an image reference
-      const mdImageRegex = /!\[([^\]]*)\]\(([^)]+\.(?:jpg|jpeg|png|webp))\)/i
-      const htmlImageRegex = /<img[^>]+src=["']([^"']+\.(?:jpg|jpeg|png|webp))["']/i
+      // Check if line contains image references
+      // Support: ![alt](image.jpg) and ![alt](<image with spaces.png>)
+      // Use global flag to find ALL images on a line
+      const mdImageRegex = /!\[([^\]]*)\]\(<?([^)>]+\.(?:jpg|jpeg|png|webp|gif|svg|bmp|tiff|ico|heic|heif|avif))>?\)/gi
+      const htmlImageRegex = /<img[^>]+src=["']([^"']+\.(?:jpg|jpeg|png|webp|gif|svg|bmp|tiff|ico|heic|heif|avif))["']/gi
       
-      const mdMatch = mdImageRegex.exec(line)
-      const htmlMatch = htmlImageRegex.exec(line)
+      // Find all markdown images on this line
+      let mdMatch
+      const imagesFound: string[] = []
       
-      if (mdMatch || htmlMatch) {
-        const imagePath = mdMatch ? mdMatch[2] : (htmlMatch ? htmlMatch[1] : '')
+      while ((mdMatch = mdImageRegex.exec(line)) !== null) {
+        const imagePath = mdMatch[2]
         
         // Check if it's a local file
         if (!imagePath.startsWith('http') && !imagePath.startsWith('/')) {
@@ -147,11 +150,44 @@ async function findImageGroups(): Promise<Map<string, ImageGroup[]>> {
               filename: path.basename(imagePath),
               lineNumber: i,
             })
-            currentGroup.lines.push(i)
+            
+            if (!currentGroup.lines.includes(i)) {
+              currentGroup.lines.push(i)
+            }
+            imagesFound.push(imagePath)
           }
         }
       }
-      else if (currentGroup && line.length > 0 && !line.startsWith('#')) {
+      
+      // Also check for HTML images
+      let htmlMatch
+      while ((htmlMatch = htmlImageRegex.exec(line)) !== null) {
+        const imagePath = htmlMatch[1]
+        
+        if (!imagePath.startsWith('http') && !imagePath.startsWith('/')) {
+          const fullImagePath = path.join(path.dirname(mdFile), imagePath)
+          
+          if (existsSync(fullImagePath)) {
+            if (!currentGroup) {
+              currentGroup = { images: [], startLine: i, lines: [] }
+            }
+            
+            currentGroup.images.push({
+              originalPath: fullImagePath,
+              filename: path.basename(imagePath),
+              lineNumber: i,
+            })
+            
+            if (!currentGroup.lines.includes(i)) {
+              currentGroup.lines.push(i)
+            }
+            imagesFound.push(imagePath)
+          }
+        }
+      }
+      
+      // If no images found on this line and we have a current group
+      if (imagesFound.length === 0 && currentGroup && line.length > 0 && !line.startsWith('#')) {
         // If we hit non-empty, non-heading content, finalize current group
         if (currentGroup.images.length > 0) {
           groups.push({
@@ -194,17 +230,45 @@ async function findImageGroups(): Promise<Map<string, ImageGroup[]>> {
   return fileGroups
 }
 
-// Process a single image
-async function processImage(imageInfo: any, markdownFile: string): Promise<ImageInfo> {
+// Get image dimensions
+async function getImageDimensions(imagePath: string): Promise<{ width: number, height: number }> {
+  const metadata = await sharp(imagePath).metadata()
+  return {
+    width: metadata.width || 0,
+    height: metadata.height || 0,
+  }
+}
+
+// Process a single image with optional target dimensions
+async function processImage(
+  imageInfo: any, 
+  markdownFile: string, 
+  targetWidth?: number, 
+  targetHeight?: number,
+): Promise<ImageInfo> {
   const destPath = generateImagePath(markdownFile, imageInfo.filename)
   const destDir = path.dirname(destPath)
   
   // Create directory
   await fs.mkdir(destDir, { recursive: true })
   
-  // Compress image
+  // Read and process image
   const buffer = await fs.readFile(imageInfo.originalPath)
-  const image = sharp(buffer)
+  let image = sharp(buffer)
+  
+  // Check if AVIF format
+  const metadata = await image.metadata()
+  const isAvif = metadata.format === 'avif'
+  
+  // If target dimensions specified and NOT AVIF, resize to match
+  if (targetWidth && targetHeight && !isAvif) {
+    image = image.resize(targetWidth, targetHeight, {
+      fit: 'contain', // Fit inside without cropping
+      background: { r: 245, g: 245, b: 245, alpha: 1 }, // Light gray background (visible padding)
+    })
+  }
+  
+  // Compress image (AVIF will be copied as-is in compressSharp)
   const compressed = await compressSharp(image, buffer, imageInfo.originalPath, destPath)
   
   // Save compressed image
@@ -272,12 +336,45 @@ async function processImageGroup(group: ImageGroup) {
   console.log(c.dim`Lines: ${group.startLine + 1}-${group.endLine + 1}`)
   
   try {
+    // For galleries (2+ images), find maximum dimensions to ensure uniform sizing
+    let targetWidth: number | undefined
+    let targetHeight: number | undefined
+    
+    if (group.count > 1) {
+      console.log(c.yellow`\n  📏 Analyzing dimensions for uniform gallery sizing...`)
+      
+      let maxWidth = 0
+      let maxHeight = 0
+      
+      for (const imgInfo of group.images) {
+        const dims = await getImageDimensions(imgInfo.originalPath)
+        console.log(c.dim`     ${imgInfo.filename}: ${dims.width}x${dims.height}`)
+        
+        if (dims.width > maxWidth) maxWidth = dims.width
+        if (dims.height > maxHeight) maxHeight = dims.height
+      }
+      
+      targetWidth = maxWidth
+      targetHeight = maxHeight
+      
+      console.log(c.green`  ✓ Target dimensions: ${targetWidth}x${targetHeight}`)
+      console.log(c.dim`    All images will be resized (no cropping, light gray padding if needed)\n`)
+    }
+    
     // Process all images in the group
     const processedImages: ImageInfo[] = []
     
     for (const imgInfo of group.images) {
-      console.log(c.dim`  Processing: ${imgInfo.filename}`)
-      const processed = await processImage(imgInfo, group.markdownFile)
+      const isAvif = imgInfo.filename.toLowerCase().endsWith('.avif')
+      
+      if (isAvif) {
+        console.log(c.dim`  Processing: ${imgInfo.filename} ${c.yellow`(AVIF - preserving original)`}`)
+      }
+      else {
+        console.log(c.dim`  Processing: ${imgInfo.filename}`)
+      }
+      
+      const processed = await processImage(imgInfo, group.markdownFile, targetWidth, targetHeight)
       processedImages.push(processed)
       
       console.log(c.green`  ✓ ${imgInfo.filename}`)
@@ -302,6 +399,9 @@ async function processImageGroup(group: ImageGroup) {
     
     console.log(c.green`\n✓ Created ${group.count === 1 ? 'single image' : `${group.count}-image gallery`}`)
     console.log(c.dim`  Gallery classes: ${getGalleryClasses(group.count)}`)
+    if (group.count > 1 && targetWidth && targetHeight) {
+      console.log(c.dim`  Uniform dimensions: ${targetWidth}x${targetHeight}`)
+    }
     console.log(c.dim`  Updated: ${group.markdownFile}`)
     
     return { success: true, count: group.count }
@@ -331,10 +431,10 @@ async function main() {
     console.log(c.green`\n✓ No images to process. All markdown files are using optimized images!`)
     console.log(c.dim`\nTo use this script:`)
     console.log(c.dim`1. Place raw images in same folder as markdown file`)
-    console.log(c.dim`2. Reference them: ![](image1.jpg)`)
-    console.log(c.dim`                   ![](image2.jpg)`)
+    console.log(c.dim`2. Reference them: ![](image.jpg) or ![alt](<file with spaces.png>)`)
     console.log(c.dim`3. Run: pnpm run smart:optimize`)
     console.log(c.dim`4. Automatic gallery created based on image count!`)
+    console.log(c.dim`\nSupported formats: jpg, jpeg, png, webp, gif, svg, bmp, tiff, avif, heic, heif, ico`)
     return
   }
   
@@ -398,8 +498,9 @@ async function main() {
   
   console.log(c.dim`\nFeatures applied:`)
   console.log(c.dim`  • Automatic gallery detection`)
+  console.log(c.dim`  • Uniform image dimensions (galleries, except AVIF)`)
   console.log(c.dim`  • Responsive UnoCSS grid classes`)
-  console.log(c.dim`  • Image compression`)
+  console.log(c.dim`  • Image compression (AVIF preserved at original quality)`)
   console.log(c.dim`  • Blurhash generation`)
   console.log(c.dim`  • Descriptive alt text`)
   console.log(c.dim`  • Click-to-zoom enabled`)

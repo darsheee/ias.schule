@@ -1,3 +1,14 @@
+---
+title: "\U0001F5BC️ Complete Guide: How to Use Images in ias.schule"
+tags:
+  - "\U0001F4C1-where-to-place-images"
+  - "\U0001F680-complete-workflow:-adding-a-new-image"
+  - "\U0001F4DD-usage-examples-in-markdown-files"
+  - "\U0001F3A8-using-optimizedimage-component-(advanced)"
+  - "\U0001F4CB-complete-example:-adding-images-to-a-page"
+readingTime: 7 min
+lastUpdated: '2025-11-09'
+---
 # 🖼️ Complete Guide: How to Use Images in ias.schule
 
 ## 📁 Where to Place Images

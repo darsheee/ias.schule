@@ -1,3 +1,14 @@
+---
+title: Mermaid Diagrams
+tags:
+  - basic-usage
+  - how-to-create-diagrams
+  - encoding-your-diagram
+  - diagram-types-supported
+  - theme-support
+readingTime: 2 min
+lastUpdated: '2025-11-09'
+---
 # Mermaid Diagrams
 
 Mermaid lets you create diagrams and visualizations using text and code.

@@ -1,3 +1,12 @@
+---
+title: Contributing Guide
+tags:
+  - set-up-your-local-development-environment
+  - testing-website-docs-changes
+  - excalidraw-diagram-and-cookbook-page
+readingTime: 2 min
+lastUpdated: '2025-11-09'
+---
 # Contributing Guide
 
 Hi! We are really excited that you are interested in contributing to `vite-pwa-docs`. Before submitting your contribution, please make sure to take a moment and read through the following guide.

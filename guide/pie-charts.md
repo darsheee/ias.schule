@@ -1,3 +1,14 @@
+---
+title: Pie & Donut Charts
+tags:
+  - basic-pie-chart
+  - donut-chart
+  - donut-chart-with-padding
+  - pie-chart-without-values
+  - grouped-small-values
+readingTime: 8 min
+lastUpdated: '2025-11-09'
+---
 # Pie & Donut Charts
 
 Visualize proportions and parts of a whole using D3.js-powered pie and donut charts.
