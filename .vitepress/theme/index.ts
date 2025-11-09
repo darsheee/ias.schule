@@ -6,6 +6,9 @@ import Mermaid from './Mermaid.vue'
 import MermaidDirect from './MermaidDirect.vue'
 import PlotChart from './PlotChart.vue'
 import PieChart from './PieChart.vue'
+import SimpleChart from './components/SimpleChart.vue'
+import ChartBlock from './components/ChartBlock.vue'
+import Chart from './components/Chart.vue'
 
 import './styles/main.css'
 import './styles/vars.css'
@@ -28,6 +31,12 @@ export default {
     app.component('PlotChart', PlotChart)
     // Register PieChart component globally
     app.component('PieChart', PieChart)
+    // Register SimpleChart component (minimal syntax parser)
+    app.component('SimpleChart', SimpleChart)
+    // Register ChartBlock component (wrapper for simple syntax)
+    app.component('ChartBlock', ChartBlock)
+    // Register Chart component (data prop based)
+    app.component('Chart', Chart)
 
     // Initialize Bot Protection & Rate Limiting
     if (typeof window !== 'undefined') {

@@ -9,6 +9,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ChangeLog: typeof import('./theme/components/ChangeLog.md')['default']
+    Chart: typeof import('./theme/components/Chart.vue')['default']
+    ChartBlock: typeof import('./theme/components/ChartBlock.vue')['default']
     CleanupOutdatedCaches: typeof import('./theme/components/CleanupOutdatedCaches.md')['default']
     ExamplesBehaviors: typeof import('./theme/components/ExamplesBehaviors.md')['default']
     ExamplesGenerateSW: typeof import('./theme/components/ExamplesGenerateSW.md')['default']
@@ -29,6 +31,7 @@ declare module 'vue' {
     RunExamples: typeof import('./theme/components/RunExamples.md')['default']
     ScaffoldingPWAProject: typeof import('./theme/components/ScaffoldingPWAProject.md')['default']
     ServiceWorkerClientErrors: typeof import('./theme/components/ServiceWorkerClientErrors.md')['default']
+    SimpleChart: typeof import('./theme/components/SimpleChart.vue')['default']
     SsrSsg: typeof import('./theme/components/SsrSsg.md')['default']
     TeamMembersItem: typeof import('./theme/components/vp/TeamMembersItem.vue')['default']
     TypeScriptError2307: typeof import('./theme/components/TypeScriptError2307.md')['default']

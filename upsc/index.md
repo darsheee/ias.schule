@@ -2,9 +2,61 @@
 title: UPSC Civil Services Examination | IAS Schule
 ---
 
+<script setup>
+// 1. Pie Chart Data
+const pets = [
+  {name: 'Dogs', value: 386},
+  {name: 'Cats', value: 85},
+  {name: 'Rats', value: 15}
+]
+
+// 2. Donut Chart Data
+const browsers = [
+  {name: 'Chrome', value: 65},
+  {name: 'Safari', value: 19},
+  {name: 'Edge', value: 5},
+  {name: 'Firefox', value: 4},
+  {name: 'Others', value: 7}
+]
+
+// 3. Bar Chart Data - Aspirants by State
+const aspirants = [
+  {state: 'UP', count: 12500},
+  {state: 'Bihar', count: 8900},
+  {state: 'Delhi', count: 6700},
+  {state: 'Maharashtra', count: 9200},
+  {state: 'Kerala', count: 5400}
+]
+
+// 4. Area Chart Data - Success Rate Trend
+const successRate = [
+  {year: 2019, rate: 0.23},
+  {year: 2020, rate: 0.27},
+  {year: 2021, rate: 0.31},
+  {year: 2022, rate: 0.35},
+  {year: 2023, rate: 0.38}
+]
+</script>
+
 # UPSC Civil Services Examination
 
 Welcome to your comprehensive preparation platform for the UPSC Civil Services Examination. Our structured approach covers every aspect of the exam with interactive visualizations, mind maps, and systematic content organization.
+
+## Universal Chart Examples
+
+**All chart types with minimal code!** Just define data and use `<Chart>` component.
+
+### Pie Chart
+<Chart type="pie" title="Pets adopted by volunteers" :data="pets" />
+
+### Donut Chart  
+<Chart type="donut" title="Browser Market Share" :data="browsers" />
+
+### Bar Chart
+<Chart type="bar" title="UPSC Aspirants by State" :data="aspirants" xKey="state" yKey="count" />
+
+### Area Chart
+<Chart type="area" title="UPSC Success Rate Trend" :data="successRate" xKey="year" yKey="rate" />
 
 ## Examination Structure
 
