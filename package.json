@@ -2,7 +2,7 @@
   "name": "ias-schule",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "bun@1.3.2",
   "description": "Beautiful, Interactive Data Visualizations with Observable Plot & D3.js",
   "author": "IAS Schule",
   "license": "MIT",
@@ -93,22 +93,5 @@
     "vitepress": "^2.0.0-alpha.12",
     "vitepress-plugin-group-icons": "^1.6.4",
     "workbox-window": "^7.3.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "oxc-minify": "^0.95.0",
-      "vite": "npm:rolldown-vite@latest",
-      "workbox-build": "^7.3.0",
-      "workbox-window": "^7.3.0"
-    },
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    },
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
   }
 }
