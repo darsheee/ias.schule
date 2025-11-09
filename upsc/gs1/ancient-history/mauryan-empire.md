@@ -24,7 +24,44 @@ title: Mauryan Empire | Ancient History
 - **Later Rulers**: Weak successors
 :::
 
----
+## 🌳 Mauryan Dynasty Genealogy
+
+<MermaidDirect 
+  id="mauryan-genealogy" 
+  code="flowchart TD
+    A[Chandragupta Priyadarsana] -->|Son| B(Bindusara Amitraghata)
+    B --> C[Asokavardhana Priyadarsin]
+    C -->|One| D[Mahendra]
+    C -->|Two| E[Sanghamitra]
+    C -->|Three| F[Charumati]
+    C --> G[Kunala]
+    C --> H[Jalauka]
+    C --> I[Tivara]
+    G --> J[Bandhupalita / Dasaratha]
+    G --> K[Samprati]" 
+/>
+
+ hello india
+ 
+# india 
+
+
+
+
+<MermaidDirect 
+  id="mauryan-genealogy2" 
+  code="flowchart TD
+    A[Chandragupta Priyadarsana] -->|Son| B(Bindusara Amitraghata)
+    B --> C[Asokavardhana Priyadarsin]
+    C -->|One| D[Mahendra]
+    C -->|Two| E[Sanghamitra]
+    C -->|Three| F[Charumati]
+    C --> G[Kunala]
+    C --> H[Jalauka]
+    C --> I[Tivara]
+    G --> J[Bandhupalita / Dasaratha]
+    G --> K[Samprati]" 
+/>
 
 ## 👑 Chandragupta Maurya (321-297 BCE)
 

@@ -3,6 +3,7 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, onMounted, provide } from 'vue'
 import HomePage from './components/HomePage.vue'
+import ImageLightbox from './components/ImageLightbox.vue'
 
 const { isDark } = useData()
 
@@ -56,4 +57,5 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       <HomePage />
     </template>
   </DefaultTheme.Layout>
+  <ImageLightbox />
 </template>

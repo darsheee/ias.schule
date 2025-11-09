@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import PwaLayout from './PwaLayout.vue'
 import Mermaid from './Mermaid.vue'
+import MermaidDirect from './MermaidDirect.vue'
 import PlotChart from './PlotChart.vue'
 import PieChart from './PieChart.vue'
 
@@ -21,6 +22,8 @@ export default {
   enhanceApp({ app, router }) {
     // Register Mermaid component globally
     app.component('Mermaid', Mermaid)
+    // Register MermaidDirect component globally (accepts plain syntax)
+    app.component('MermaidDirect', MermaidDirect)
     // Register PlotChart component globally
     app.component('PlotChart', PlotChart)
     // Register PieChart component globally
